@@ -147,8 +147,8 @@ if __name__ == '__main__':
 
     def handle_query(query):
         """Handle the query."""
-        if len(query) > 200:
-            response = "Sorry, your query is too long. Please try again with a shorter query."
+        if (10 > len(query) > 200) or len(query.split()) < 3:
+            response = "Sorry, your query is either too long or too short. Please try again."
             return response
         try:
             response = query_engine.query(query)
