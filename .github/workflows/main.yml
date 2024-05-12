@@ -1,8 +1,6 @@
 name: Refresh data
 
 on:
-  schedule:
-    - cron: '0 5 * * *' # Runs at 5 AM UTC (midnight EST) every day.
   workflow_dispatch:
 
 jobs:
