@@ -1,2 +1,3 @@
 # .dockerignore content
 data_prep/
+.github/

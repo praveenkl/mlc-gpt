@@ -5,9 +5,8 @@ a question answering system for major league cricket data.
 import sys
 import os
 import logging
-import json
 
-from llama_index import ServiceContext, StorageContext, SQLDatabase, VectorStoreIndex, schema
+from llama_index import ServiceContext, SQLDatabase, VectorStoreIndex
 from llama_index.indices.struct_store import SQLTableRetrieverQueryEngine
 from llama_index.objects import SQLTableNodeMapping, ObjectIndex, SQLTableSchema
 from llama_index.tools.query_engine import QueryEngineTool
@@ -88,37 +87,12 @@ def get_index():
     )
     return index
 
-def build_index():
-    """Build a vector store index for the chroma database."""
-    with open("data/full-articles.json", encoding="utf-8") as f:
-        articles = json.load(f)
-
-    documents = []
-    num_empty_articles = 0
-    for article in articles:
-        b = article['body']
-        if len(b) > 0:
-            d = schema.Document(text=b)
-            documents.append(d)
-        else:
-            num_empty_articles += 1
-    print(f"Number of empty articles: {num_empty_articles}")
-
-    chroma_client = chromadb.PersistentClient(path="./chroma_db")
-    chroma_collection = chroma_client.create_collection("mlc_articles")
-    vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
-    storage_context = StorageContext.from_defaults(vector_store=vector_store)
-    index = VectorStoreIndex.from_documents(
-        documents, storage_context=storage_context, service_context=service_context
-    )
-    return index
-
 def get_vector_tool():
     """Get a tool for translating natural language queries into vector queries."""
     index = get_index()
     if index is None:
-        print("Building index...")
-        index = build_index()
+        print("Chroma collection not found. Please index documents and try again.")
+        sys.exit(1)
 
     vector_store_info = VectorStoreInfo(
       content_info="articles about major league cricket or MLC",
@@ -147,8 +121,8 @@ if __name__ == '__main__':
 
     def handle_query(query):
         """Handle the query."""
-        if (10 > len(query) > 200) or len(query.split()) < 3:
-            response = "Sorry, your query is either too long or too short. Please try again."
+        if len(query) > 200:
+            response = "Sorry, your query is too long. Please try again with a shorter query."
             return response
         try:
             response = query_engine.query(query)
@@ -164,11 +138,11 @@ if __name__ == '__main__':
         title="MLC Guru",
         description="Ask questions about Major League Cricket (MLC)",
         examples=[
-        ["How many teams are in MLC and what are they?"],
+        ["What are the dates for MLC in 2024 and who is the title sponsor?"],
         ["What is the name of the player with the best batting strike rate and what is that value?"],
         ["Which Australian states are taking part in Major League Cricket and what are they doing?"],
         ["Who is the owner of Major league cricket and how much does it cost to run the league?"],
-        ["What are the names of teams that won matches played in Morrisville?"]
+        ["When and where is the first match of MLC scheduled to be played in 2024?"]
         ],
         cache_examples=True,
     )
@@ -183,6 +157,6 @@ if __name__ == '__main__':
     #     q = input("Enter query (or quit): ")
     #     if q.lower() == "quit":
     #         break
-    #     response = query_engine.query(q)
+    #     response = handle_query(q)
     #     print(response)
     #     print(response.metadata)
