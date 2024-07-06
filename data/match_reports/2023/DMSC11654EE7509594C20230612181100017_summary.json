@@ -1,0 +1,195 @@
+{
+    "MatchResult": {
+        "TeamAName": "WSH",
+        "TeamBName": "MI NY",
+        "Venue": "GRAND PRAIRIE STADIUM, GRAND PRAIRIE, TX",
+        "City": "DALLAS",
+        "TossInfo": "WSH - OPTED TO FIELD",
+        "WinTeamName": "MI NY",
+        "MatchResult": "MI NY - WON BY 16 RUNS",
+        "ManOfTheMatch": "DEWALD BREVIS",
+        "MOMBattingScore": "57/41",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "141/7(20.0 OV)",
+        "InningsTwoSummary": "125/9(20.0 OV)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "DEWALD BREVIS",
+            "PlayerTeamName": "MI NY",
+            "Runs": 57,
+            "Balls": 41,
+            "RunText": "57 (41)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "SHAYAN JAHANGIR",
+            "PlayerTeamName": "MI NY",
+            "Runs": 25,
+            "Balls": 27,
+            "RunText": "25 (27)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "TIM DAVID",
+            "PlayerTeamName": "MI NY",
+            "Runs": 23,
+            "Balls": 12,
+            "RunText": "23 (12)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "STEVEN TAYLOR *",
+            "PlayerTeamName": "MI NY",
+            "Runs": 15,
+            "Balls": 12,
+            "RunText": "15 (12)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MARCO JANSEN",
+            "PlayerTeamName": "WSH",
+            "Runs": 28,
+            "Balls": 18,
+            "RunText": "28 (18)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "ANDRIES GOUS",
+            "PlayerTeamName": "WSH",
+            "Runs": 24,
+            "Balls": 25,
+            "RunText": "24 (25)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "GLENN PHILLIPS",
+            "PlayerTeamName": "WSH",
+            "Runs": 20,
+            "Balls": 19,
+            "RunText": "20 (19)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MUKHTAR AHMED",
+            "PlayerTeamName": "WSH",
+            "Runs": 19,
+            "Balls": 19,
+            "RunText": "19 (19)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "SAURABH NETRAVALKAR",
+            "PlayerTeamName": "WSH",
+            "Overs": "4.0",
+            "RunsGiven": 25,
+            "Wickets": 2,
+            "WicketText": "2/25 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MARCO JANSEN",
+            "PlayerTeamName": "WSH",
+            "Overs": "4.0",
+            "RunsGiven": 12,
+            "Wickets": 1,
+            "WicketText": "1/12 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "AKEAL HOSEIN",
+            "PlayerTeamName": "WSH",
+            "Overs": "3.0",
+            "RunsGiven": 24,
+            "Wickets": 1,
+            "WicketText": "1/24 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "JUSTIN DILL",
+            "PlayerTeamName": "WSH",
+            "Overs": "4.0",
+            "RunsGiven": 25,
+            "Wickets": 1,
+            "WicketText": "1/25 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "TRENT BOULT",
+            "PlayerTeamName": "MI NY",
+            "Overs": "4.0",
+            "RunsGiven": 20,
+            "Wickets": 4,
+            "WicketText": "4/20 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "NOSTHUSH KENJIGE",
+            "PlayerTeamName": "MI NY",
+            "Overs": "4.0",
+            "RunsGiven": 19,
+            "Wickets": 2,
+            "WicketText": "2/19 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DAVID WIESE",
+            "PlayerTeamName": "MI NY",
+            "Overs": "4.0",
+            "RunsGiven": 25,
+            "Wickets": 1,
+            "WicketText": "1/25 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "RASHID KHAN",
+            "PlayerTeamName": "MI NY",
+            "Overs": "4.0",
+            "RunsGiven": 28,
+            "Wickets": 0,
+            "WicketText": "0/28 (4.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 18,
+            "BallNumber": 1,
+            "OverValue": 17.1,
+            "TeamMilestone": "WSH: 100/6 IN 17.1 OVERS (103 BALLS), EXTRAS 1",
+            "CommentryText": "Ehsan Adil to Marco Jansen, 1 Run 132 KPH  Yorker Pitched on Outside off stump Driven on the  Front Foot Goes to Long Off"
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 2,
+            "OverValue": 8.2,
+            "TeamMilestone": "WSH: 51/2 IN 8.2 OVERS (50 BALLS), EXTRAS 0",
+            "CommentryText": "Rashid Khan to Glenn Phillips, 2 Runs 95 KPH  Leg Spin Delivery Length Ball Pitched on Outside off stump Played the Cut on the Back Foot Goes to Third Man - Square"
+        },
+        {
+            "OverNumber": 15,
+            "BallNumber": 6,
+            "OverValue": 14.6,
+            "TeamMilestone": "MI NY: 103/3 IN 15.0 OVERS (90 BALLS), EXTRAS 4",
+            "CommentryText": "Anrich Nortje to Tim David, FOUR 138 KPH  Straight Ball Fuller Length Pitched on Wider Lines Lofted on the  Front Foot Goes to Long Off"
+        },
+        {
+            "OverNumber": 11,
+            "BallNumber": 4,
+            "OverValue": 10.4,
+            "TeamMilestone": "MI NY: 50/3 IN 10.4 OVERS (64 BALLS), EXTRAS 3",
+            "CommentryText": "Anrich Nortje to Dewald Brevis, 1 Run 138 KPH  Nipping Back Fuller Length Pitched on Outside off stump Pushed on the  Front Foot Goes to Long Off.Direct Hit !! By MOISES HENRIQUES"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 15,
+            "BallNumber": 4,
+            "OverValue": 14.4,
+            "PlayerMilestone": "DEWALD BREVIS: 53 OFF 35 BALLS (4X 4) (3X 6)",
+            "CommentryText": "Anrich Nortje to Dewald Brevis, SIX 142 KPH  Nipping Back Short Length Pitched on Wider Lines Pulled on the Back Foot Goes to Deep Mid Wicket"
+        }
+    ]
+}

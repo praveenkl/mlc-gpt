@@ -1,0 +1,195 @@
+{
+    "MatchResult": {
+        "TeamAName": "SEA",
+        "TeamBName": "TSK",
+        "Venue": "CHURCH STREET PARK, MORRISVILLE, NC",
+        "City": "MORRISVILLE",
+        "TossInfo": "SEA - OPTED TO FIELD",
+        "WinTeamName": "SEA",
+        "MatchResult": "SEA - WON BY 8 WICKETS",
+        "ManOfTheMatch": "WAYNE PARNELL",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "20/5",
+        "InningsOneSummary": "127/10(20.0 OV)",
+        "InningsTwoSummary": "128/2(16.0 OV)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "QUINTON DE KOCK",
+            "PlayerTeamName": "SEA",
+            "Runs": 53,
+            "Balls": 36,
+            "RunText": "53 (36)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HEINRICH KLAASEN *",
+            "PlayerTeamName": "SEA",
+            "Runs": 42,
+            "Balls": 21,
+            "RunText": "42 (21)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "NAUMAN ANWAR",
+            "PlayerTeamName": "SEA",
+            "Runs": 19,
+            "Balls": 32,
+            "RunText": "19 (32)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DASUN SHANAKA *",
+            "PlayerTeamName": "SEA",
+            "Runs": 10,
+            "Balls": 7,
+            "RunText": "10 (7)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DWAYNE BRAVO",
+            "PlayerTeamName": "TSK",
+            "Runs": 39,
+            "Balls": 39,
+            "RunText": "39 (39)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "DANIEL SAMS",
+            "PlayerTeamName": "TSK",
+            "Runs": 26,
+            "Balls": 19,
+            "RunText": "26 (19)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "CODY CHETTY",
+            "PlayerTeamName": "TSK",
+            "Runs": 22,
+            "Balls": 18,
+            "RunText": "22 (18)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "FAF DU PLESSIS",
+            "PlayerTeamName": "TSK",
+            "Runs": 13,
+            "Balls": 10,
+            "RunText": "13 (10)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "MITCHELL SANTNER",
+            "PlayerTeamName": "TSK",
+            "Overs": "3.0",
+            "RunsGiven": 15,
+            "Wickets": 1,
+            "WicketText": "1/15 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MOHAMMAD MOHSIN",
+            "PlayerTeamName": "TSK",
+            "Overs": "3.0",
+            "RunsGiven": 45,
+            "Wickets": 1,
+            "WicketText": "1/45 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DWAYNE BRAVO",
+            "PlayerTeamName": "TSK",
+            "Overs": "1.0",
+            "RunsGiven": 11,
+            "Wickets": 0,
+            "WicketText": "0/11 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DANIEL SAMS",
+            "PlayerTeamName": "TSK",
+            "Overs": "3.0",
+            "RunsGiven": 15,
+            "Wickets": 0,
+            "WicketText": "0/15 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "WAYNE PARNELL",
+            "PlayerTeamName": "SEA",
+            "Overs": "4.0",
+            "RunsGiven": 20,
+            "Wickets": 5,
+            "WicketText": "5/20 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ANDREW TYE",
+            "PlayerTeamName": "SEA",
+            "Overs": "4.0",
+            "RunsGiven": 15,
+            "Wickets": 2,
+            "WicketText": "2/15 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "IMAD WASIM",
+            "PlayerTeamName": "SEA",
+            "Overs": "4.0",
+            "RunsGiven": 25,
+            "Wickets": 1,
+            "WicketText": "1/25 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "CAMERON GANNON",
+            "PlayerTeamName": "SEA",
+            "Overs": "4.0",
+            "RunsGiven": 30,
+            "Wickets": 1,
+            "WicketText": "1/30 (4.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 15,
+            "BallNumber": 2,
+            "OverValue": 14.2,
+            "TeamMilestone": "SEA: 103/2 IN 14.2 OVERS (86 BALLS), EXTRAS 4",
+            "CommentryText": "Mohammad Mohsin to Heinrich Klaasen, FOUR 91 KPH  Leg Spin Delivery Length Ball Pitched on Outside off stump Lofted on the Back Foot Goes to Extra Cover"
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 1,
+            "OverValue": 9.1,
+            "TeamMilestone": "SEA: 50/0 IN 9.1 OVERS (55 BALLS), EXTRAS 3",
+            "CommentryText": "Dwayne Bravo to Quinton De Kock, 1 Run 91 KPH  Off Cutter Fuller Length Pitched on Outside off stump Flicked on the  Front Foot Goes to Mid Wicket"
+        },
+        {
+            "OverNumber": 16,
+            "BallNumber": 2,
+            "OverValue": 15.2,
+            "TeamMilestone": "TSK: 100/6 IN 15.2 OVERS (93 BALLS), EXTRAS 4",
+            "CommentryText": "Harmeet Singh to Dwayne Bravo, SIX 91 KPH  Arm Ball Fuller Length Pitched on Outside off stump Lofted Straight by Stepping Down Goes to Straight"
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 2,
+            "OverValue": 9.2,
+            "TeamMilestone": "TSK: 50/6 IN 9.2 OVERS (57 BALLS), EXTRAS 2",
+            "CommentryText": "Harmeet Singh to Daniel Sams, Leg Byes,1 Run 84 KPH  Arm Ball Length Ball Pitched on Outside off stump Paddle Swept on the  Front Foot Goes to  Wicket Keeper"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 12,
+            "BallNumber": 6,
+            "OverValue": 11.6,
+            "PlayerMilestone": "QUINTON DE KOCK: 53 OFF 34 BALLS (3X 4) (3X 6)",
+            "CommentryText": "Zia Ul-Haq to Quinton De Kock, SIX 128 KPH  Straight Ball Short Length Pitched on Wider Lines Pulled on the Back FootUncomfortable Shot To"
+        }
+    ]
+}

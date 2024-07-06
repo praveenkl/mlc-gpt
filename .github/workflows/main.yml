@@ -1,6 +1,8 @@
-name: Refresh data
+name: Update File
 
 on:
+  schedule:
+    - cron: '0 9 * * *' # Runs at 9 AM UTC (4 AM EST) every day.
   workflow_dispatch:
 
 jobs:
@@ -18,13 +20,18 @@ jobs:
     - name: Refresh data
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       run: |
-        cd data_prep/news
-        python refresh.py
+        cd data_prep
+        python refresh-news.py
+        python refresh-stats.py
+        python refresh-match-reports.py
+        cd ..
+        rm -rf gradio_cached_examples
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "Refreshed data" || echo "No changes to commit"
+        git commit -m "Updated data" || echo "No changes to commit"
         git push

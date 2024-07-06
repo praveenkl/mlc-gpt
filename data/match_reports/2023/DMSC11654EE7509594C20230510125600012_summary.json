@@ -1,0 +1,187 @@
+{
+    "MatchResult": {
+        "TeamAName": "WSH",
+        "TeamBName": "SF",
+        "Venue": "CHURCH STREET PARK, MORRISVILLE, NC",
+        "City": "MORRISVILLE",
+        "TossInfo": "SF - OPTED TO FIELD",
+        "WinTeamName": "WSH",
+        "MatchResult": "WSH - WON BY 30 RUNS",
+        "ManOfTheMatch": "SAURABH NETRAVALKAR",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "9/6",
+        "InningsOneSummary": "133/8(20.0 OV)",
+        "InningsTwoSummary": "103/10(19.5 OV)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "COREY ANDERSON",
+            "PlayerTeamName": "SF",
+            "Runs": 34,
+            "Balls": 34,
+            "RunText": "34 (34)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "CHAITANYA BISHNOI",
+            "PlayerTeamName": "SF",
+            "Runs": 16,
+            "Balls": 16,
+            "RunText": "16 (16)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "AARON FINCH",
+            "PlayerTeamName": "SF",
+            "Runs": 14,
+            "Balls": 28,
+            "RunText": "14 (28)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "FINN ALLEN",
+            "PlayerTeamName": "SF",
+            "Runs": 13,
+            "Balls": 9,
+            "RunText": "13 (9)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MOISES HENRIQUES",
+            "PlayerTeamName": "WSH",
+            "Runs": 30,
+            "Balls": 27,
+            "RunText": "30 (27)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "OBUS PIENAAR",
+            "PlayerTeamName": "WSH",
+            "Runs": 29,
+            "Balls": 28,
+            "RunText": "29 (28)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ANDRIES GOUS",
+            "PlayerTeamName": "WSH",
+            "Runs": 23,
+            "Balls": 16,
+            "RunText": "23 (16)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MARCO JANSEN *",
+            "PlayerTeamName": "WSH",
+            "Runs": 19,
+            "Balls": 15,
+            "RunText": "19 (15)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "SAURABH NETRAVALKAR",
+            "PlayerTeamName": "WSH",
+            "Overs": "3.5",
+            "RunsGiven": 9,
+            "Wickets": 6,
+            "WicketText": "6/9 (3.5)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DANE PIEDT",
+            "PlayerTeamName": "WSH",
+            "Overs": "2.0",
+            "RunsGiven": 6,
+            "Wickets": 1,
+            "WicketText": "1/6 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "AKEAL HOSEIN",
+            "PlayerTeamName": "WSH",
+            "Overs": "3.0",
+            "RunsGiven": 14,
+            "Wickets": 1,
+            "WicketText": "1/14 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "ANRICH NORTJE",
+            "PlayerTeamName": "WSH",
+            "Overs": "4.0",
+            "RunsGiven": 24,
+            "Wickets": 1,
+            "WicketText": "1/24 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HARIS RAUF",
+            "PlayerTeamName": "SF",
+            "Overs": "4.0",
+            "RunsGiven": 20,
+            "Wickets": 3,
+            "WicketText": "3/20 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "LIAM PLUNKETT",
+            "PlayerTeamName": "SF",
+            "Overs": "4.0",
+            "RunsGiven": 24,
+            "Wickets": 2,
+            "WicketText": "2/24 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MARCUS STOINIS",
+            "PlayerTeamName": "SF",
+            "Overs": "4.0",
+            "RunsGiven": 23,
+            "Wickets": 1,
+            "WicketText": "1/23 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "COREY ANDERSON",
+            "PlayerTeamName": "SF",
+            "Overs": "1.0",
+            "RunsGiven": 10,
+            "Wickets": 0,
+            "WicketText": "0/10 (1.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 19,
+            "BallNumber": 5,
+            "OverValue": 18.5,
+            "TeamMilestone": "SF: 101/7 IN 18.5 OVERS (113 BALLS), EXTRAS 8",
+            "CommentryText": "Anrich Nortje to Chaitanya Bishnoi, SIX 142 KPH  Angling In Length Ball Pitched on Stump line  on the  Front Foot Goes to Deep Square Leg"
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 2,
+            "OverValue": 9.2,
+            "TeamMilestone": "SF: 51/4 IN 9.2 OVERS (56 BALLS), EXTRAS 5",
+            "CommentryText": "Anrich Nortje to Corey Anderson, FOUR 138 KPH  Angling In Length Ball Pitched on Wider Lines  on the Back Foot Goes to Third Man - Deep"
+        },
+        {
+            "OverNumber": 16,
+            "BallNumber": 3,
+            "OverValue": 15.3,
+            "TeamMilestone": "WSH: 100/6 IN 15.3 OVERS (93 BALLS), EXTRAS 4",
+            "CommentryText": "Haris Rauf to Marco Jansen, 1 Run 143 KPH  Angling In Fuller Length Pitched on Wider Lines Driven on the  Front Foot Goes to Covers"
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 5,
+            "OverValue": 7.5,
+            "TeamMilestone": "WSH: 50/4 IN 7.5 OVERS (47 BALLS), EXTRAS 2",
+            "CommentryText": "Shadab Khan to Moises Henriques, 2 Runs 87 KPH  Leg Spin Delivery Fuller Length Pitched on Outside off stump Flicked on the  Front Foot Goes to Mid Wicket"
+        }
+    ],
+    "PlayerMilestones": []
+}
