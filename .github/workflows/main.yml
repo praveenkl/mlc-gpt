@@ -1,4 +1,4 @@
-name: Update File
+name: Update Data
 
 on:
   schedule:

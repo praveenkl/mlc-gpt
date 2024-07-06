@@ -23,8 +23,8 @@ from llama_index.core.selectors import LLMSingleSelector
 import chromadb
 import openai
 
-# logging.basicConfig(stream=sys.stdout, level=logging.INFO)
-# logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 openai.api_key = os.environ["OPENAI_API_KEY"]
 Settings.llm = OpenAI(model="gpt-4-turbo")
 Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-small")
