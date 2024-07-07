@@ -2,6 +2,7 @@ import os, sys
 import json
 import logging
 import gradio as gr
+from gradio.themes.utils import colors
 
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
@@ -141,6 +142,14 @@ def get_match_report(match_id):
         report = f.read()
     return report
 
+def get_city(ground):
+    """Get the city based on the ground."""
+    if ground == "Church Street Park":
+        city = "Morrisville"
+    else:
+        city = "Dallas"
+    return city
+
 if __name__ == '__main__':
     # my_theme = gr.themes.Base()
     my_theme = gr.themes.Soft(spacing_size=gr.themes.sizes.spacing_sm, text_size=gr.themes.sizes.text_sm)
@@ -180,8 +189,8 @@ if __name__ == '__main__':
 
     demo1 = gr.Interface(
         fn=handle_query,
-        inputs=gr.Textbox(lines=2, placeholder="Enter query here..."),
-        outputs=gr.Textbox(),
+        inputs=gr.Textbox(lines=2, placeholder="Enter query here...", show_label=False),
+        outputs=gr.Textbox(show_label=False),
         examples=[
         ["Who is the owner of Major league cricket and how much does it cost to run the league?"],
         ["What's different about this years edition of MLC?"],
@@ -191,12 +200,14 @@ if __name__ == '__main__':
         ],
         cache_examples=True,
         theme=my_theme,
+        allow_flagging="never"
     )
 
     with gr.Blocks(theme=my_theme) as demo2:
         match_info = get_completed_matches()
         for id, details in match_info.items():
-            [match_num, teams, date, city, result] = details
+            [match_num, teams, date, ground, result] = details
+            city = get_city(ground)
             report = ""
             if len(result) > 0:
                 report = get_match_report(id)
@@ -205,16 +216,16 @@ if __name__ == '__main__':
                 b = gr.Button(value="Show Report", scale=1, size="sm")
             t = gr.Textbox(lines=7, value=report, interactive=False, show_copy_button=True, visible=False, label="Match Report")
             b.click(fn=handle_click, inputs=[l, b], outputs=[b,t])
-
-    with gr.Blocks(theme=my_theme) as demo3:
+        gr.HTML("<hr style='border: 2px solid #808080;'>")
         match_info = get_schedule()
         for id, details in match_info.items():
-            [match_num, teams, date, city, result] = details
+            [match_num, teams, date, ground, result] = details
+            city = get_city(ground)
             with gr.Row(variant="compact"):
                 l = gr.Label(value=teams, label=f'Match {match_num} | {date} | {city}', container=True)
 
-    demo = gr.TabbedInterface([demo1, demo2, demo3],
-                              tab_names=["Ask Questions", "Read Reports", "View Schedule"],
+    demo = gr.TabbedInterface([demo1, demo2],
+                              tab_names=["Ask Questions", "Read Reports"],
                               title="MLC Guru",
                               analytics_enabled=False,
                               theme=my_theme,)
