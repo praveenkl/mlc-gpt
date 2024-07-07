@@ -1,5 +1,6 @@
-- When a SQL error happens, rely on vector tool to answer the original question instead of asking it to fix the SQL.
-- Make the answers more concise and consistent.
-- Fine tune vector store settings like the chunck size, max_k, embedding model etc.
-- Introduce metadata in vector store documents and see if that improves accuracy.
+- When a SQL error happens, rely on vector tool to answer the original question gracefully.
+- Make the match reports less "flowery".
+- Limit the sources for news articles and eliminate duplicate content.
 - Cache response for similar questions
+- Transform the app from being Q&A based to conversation based.
+- Index match reports so that they can also be used to answer questions.
