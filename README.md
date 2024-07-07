@@ -1,8 +1,10 @@
 # mlc-gpt
-MLC-GPT is a simple RAG (Retrieval Augmented Generation) app created using LlamaIndex and GPT-4.
-It can be used to answer questions about the Major League Cricket (MLC) tournament held in the
-United States during summer 2023. It uses LlamaIndex's AutoVectorQueryEngine to dynamically decide
-the best combination of relational and vector databases to use for answering a given question.
+MLC-GPT is a simple RAG (Retrieval Augmented Generation) and summarization app created using
+LlamaIndex, OpenAI and Groq. It can be used to answer questions and generate match reports related
+to the Major League Cricket (MLC) seasons held in the United States. It uses LlamaIndex's
+RouterQueryEngine and SQLAutoVectorQueryEngine to dynamically decide the best combination of
+relational and vector databases to use for answering a given question. It uses the llama3-70b-8192
+and gpt-4o models for summarizing news articles and match scorecards. 
 
 **Try it**: https://www.mlcguru.com
 
@@ -29,6 +31,6 @@ Steps to run your own version of the app:
 
 ## Data Preparation
 
-The app uses contents of the data and chorma_db folders. This data is already prepared and ready for the app to consume. It was collected from the Major League Cricket's website and Google News.
+The app uses contents of the data folder. This data is collected, prepared and updated every night. Sources include the Major League Cricket's website and Google News.
 
 For more details about the data collection and preparation process, see the code in the data_prep folder.

@@ -182,9 +182,6 @@ def index_articles(articles):
     add_to_year_index(2024, documents_2024)
     print(f"Number of documents indexed: {len(documents_2023) + len(documents_2024)}")
 
-    # with open('raw/bootstrap/summaries.json', 'w') as f:
-    #     json.dump([{'uri': d.doc_id, 'text': d.text} for d in documents_2023 + documents_2024], f, ensure_ascii=False, indent=4)
-
     # Write the id and text (summary) of the documents to a file
     timestamp = time.strftime('%Y%m%d%H%M%S')
     year = time.strftime('%Y')
@@ -207,9 +204,14 @@ if __name__ == '__main__':
     except FileNotFoundError:
         print('Article list not found. Collecting full set of articles.')
         new_article_urls = collect_articles(full_refresh=True)
+    except Exception as e:
+        print(f'Error: {e}')
     
-    articles = crawl_and_save_articles(new_article_urls)
-    index_articles(articles)
+    try:
+        articles = crawl_and_save_articles(new_article_urls)
+        index_articles(articles)
+    except Exception as e:
+        print(f'Error: {e}')
    
     # Read all the files starting with "articles" in the raw folder and index them
     # articles = []

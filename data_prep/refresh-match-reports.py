@@ -143,13 +143,16 @@ Generate your report in a narrative style and do not divide it into sections.
     return completion.choices[0].message.content
 
 if __name__ == "__main__":
-    match_summary_objects = get_match_summary_objects()
-    print("Match summary objects created successfully")
-    for match_id, match_summary_json in match_summary_objects.items():
-        match_report = generate_match_report(match_summary_json)
-        with open(f'{match_reports_dir}/{match_id}_report.txt', 'w') as f:
-            f.write(match_report)
-        print(f"Match report for match {match_id} created successfully")
+    try:
+        match_summary_objects = get_match_summary_objects()
+        print("Match summary objects created successfully")
+        for match_id, match_summary_json in match_summary_objects.items():
+            match_report = generate_match_report(match_summary_json)
+            with open(f'{match_reports_dir}/{match_id}_report.txt', 'w') as f:
+                f.write(match_report)
+            print(f"Match report for match {match_id} created successfully")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
     # Update the schedule.json file by removing the completed matches
     with open(f'{match_reports_dir}/schedule.json') as f:

@@ -2,7 +2,6 @@ import os, sys
 import json
 import logging
 import gradio as gr
-from gradio.themes.utils import colors
 
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
@@ -151,7 +150,6 @@ def get_city(ground):
     return city
 
 if __name__ == '__main__':
-    # my_theme = gr.themes.Base()
     my_theme = gr.themes.Soft(spacing_size=gr.themes.sizes.spacing_sm, text_size=gr.themes.sizes.text_sm)
 
     qe_tool_2023 = get_query_engine_tool(2023)
