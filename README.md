@@ -31,6 +31,6 @@ Steps to run your own version of the app:
 
 ## Data Preparation
 
-The app uses contents of the data folder. This data is collected, prepared and updated every night. Sources include the Major League Cricket's website and Google News.
+The app uses contents of the data folder. This data is automatically collected, prepared and updated every night. Sources include the Major League Cricket's website and Google News.
 
 For more details about the data collection and preparation process, see the code in the data_prep folder.
