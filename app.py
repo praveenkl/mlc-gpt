@@ -56,6 +56,8 @@ def get_sql_tool(year):
     sql_database,
     obj_index.as_retriever(similarity_top_k=1),
     )
+    # Disable handling of SQL errors to prevent asking the LLM to fix them
+    sql_query_engine._sql_retriever._handle_sql_errors = False
     st = QueryEngineTool.from_defaults(
         query_engine=sql_query_engine,
         description=(
