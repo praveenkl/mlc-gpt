@@ -6,7 +6,7 @@ import gradio as gr
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
-from llama_index.core import Settings, SQLDatabase, VectorStoreIndex
+from llama_index.core import Settings, SQLDatabase, VectorStoreIndex, PromptTemplate
 from llama_index.core.indices.struct_store import SQLTableRetrieverQueryEngine
 from llama_index.core.objects import SQLTableNodeMapping, ObjectIndex, SQLTableSchema
 from llama_index.core.tools import QueryEngineTool
@@ -58,6 +58,16 @@ def get_sql_tool(year):
     )
     # Disable handling of SQL errors to prevent asking the LLM to fix them
     sql_query_engine._sql_retriever._handle_sql_errors = False
+
+    # Add year context to the default text-to-SQL prompt
+    prompts = sql_query_engine.get_prompts()
+    current_text_to_sql_prompt = prompts["sql_retriever:text_to_sql_prompt"]
+    current_text_to_sql_prompt_str = current_text_to_sql_prompt.get_template()
+    prompt_prefix = f'Current year is {year}.\n\n'
+    new_text_to_sql_prompt_str = prompt_prefix + current_text_to_sql_prompt_str
+    new_text_to_sql_prompt = PromptTemplate(new_text_to_sql_prompt_str)
+    sql_query_engine.update_prompts({"sql_retriever:text_to_sql_prompt": new_text_to_sql_prompt})
+
     st = QueryEngineTool.from_defaults(
         query_engine=sql_query_engine,
         description=(

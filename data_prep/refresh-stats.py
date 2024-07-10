@@ -2,6 +2,7 @@ import json
 import os
 import requests
 import sys
+from datetime import datetime
 from sqlalchemy import create_engine, Column, Integer, String, Float
 from sqlalchemy import text
 from sqlalchemy.orm import declarative_base
@@ -84,6 +85,13 @@ class Team(Base):
 
 def to_title_case(s):
     return ' '.join([word.capitalize() for word in s.split()])
+
+def to_iso_datetime(s):
+    original_format = "%d %b %Y %H:%M"
+    datetime_obj = datetime.strptime(s, original_format)
+    desired_format = "%Y-%m-%d %H:%M"
+    converted_datetime_str = datetime_obj.strftime(desired_format)
+    return converted_datetime_str
 
 def download_data():
     url_dict = {
@@ -201,10 +209,11 @@ with open("./raw/match.json") as f:
 matches = []
 completed_match_info = {}
 for m in match_data['CompetitionDeatails']:
+    mtime = to_iso_datetime(m['MatchDateTime'])
     match = Match(
         TeamAName=m['TeamAName'],
         TeamBName=m['TeamBName'],
-        DateTime=m['MatchDateTime'],
+        DateTime=mtime,
         GroundName=to_title_case(m['GroundName'].split(",")[0]),
         City=to_title_case(m['City']),
         TossInfo=m['TossInfo'],
