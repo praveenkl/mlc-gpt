@@ -1,0 +1,187 @@
+{
+    "MatchResult": {
+        "TeamAName": "San Francisco Unicorns",
+        "TeamBName": "Texas Super Kings",
+        "Venue": "Church Street Park",
+        "City": "",
+        "TossInfo": "Texas Super Kings - OPTED TO FIELD",
+        "WinTeamName": "Texas Super Kings",
+        "MatchResult": "TEXAS SUPER KINGS - WON BY 7 WICKETS",
+        "ManOfTheMatch": "M MOHSIN",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "13/4",
+        "InningsOneSummary": "127/10(17.5 Ov)",
+        "InningsTwoSummary": "131/3(12.5 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "M SHORT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 33,
+            "Balls": 15,
+            "RunText": "33 (15)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 19,
+            "Balls": 22,
+            "RunText": "19 (22)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S KRISHNAMURTHI",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 17,
+            "Balls": 12,
+            "RunText": "17 (12)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "H RAUF",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 13,
+            "Balls": 20,
+            "RunText": "13 (20)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "FAF DU PLESSIS",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 34,
+            "Balls": 17,
+            "RunText": "34 (17)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A HARDIE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 34,
+            "Balls": 23,
+            "RunText": "34 (23)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "D CONWAY",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 32,
+            "Balls": 19,
+            "RunText": "32 (19)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "M SANTNER",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 12,
+            "Balls": 4,
+            "RunText": "12 (4)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "M MOHSIN",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "3.5",
+            "RunsGiven": 13,
+            "Wickets": 4,
+            "WicketText": "4/13 (3.5)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "D BRAVO",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "3.0",
+            "RunsGiven": 20,
+            "Wickets": 2,
+            "WicketText": "2/20 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ZIA-UL-HAQ",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "3.0",
+            "RunsGiven": 41,
+            "Wickets": 2,
+            "WicketText": "2/41 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M SANTNER",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "3.0",
+            "RunsGiven": 15,
+            "Wickets": 1,
+            "WicketText": "1/15 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 16,
+            "Wickets": 2,
+            "WicketText": "2/16 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "L PLUNKETT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 35,
+            "Wickets": 1,
+            "WicketText": "1/35 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "B COUCH",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 25,
+            "Wickets": 0,
+            "WicketText": "0/25 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "ABRAR A",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "3.0",
+            "RunsGiven": 26,
+            "Wickets": 0,
+            "WicketText": "0/26 (3.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 10,
+            "BallNumber": 6,
+            "OverValue": 9.6,
+            "TeamMilestone": "Texas Super Kings: 100/2 IN 10.0 OVERS (60 BALLS), EXTRAS 6",
+            "CommentryText": "Hassan Khan to Joshua Tromp, 1 Run 93.3 KPH  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 2,
+            "OverValue": 4.2,
+            "TeamMilestone": "Texas Super Kings: 55/0 IN 4.2 OVERS (26 BALLS), EXTRAS 2",
+            "CommentryText": "Liam Plunkett to Faf Du Plessis, SIX  "
+        },
+        {
+            "OverNumber": 13,
+            "BallNumber": 2,
+            "OverValue": 12.2,
+            "TeamMilestone": "San Francisco Unicorns: 103/7 IN 12.2 OVERS (74 BALLS), EXTRAS 6",
+            "CommentryText": "Aaron Hardie to Haris Rauf, FOUR  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 1,
+            "OverValue": 4.1,
+            "TeamMilestone": "San Francisco Unicorns: 51/2 IN 4.1 OVERS (25 BALLS), EXTRAS 3",
+            "CommentryText": "Zia-Ul-Haq to Matthew Short, SIX  "
+        }
+    ],
+    "PlayerMilestones": []
+}
