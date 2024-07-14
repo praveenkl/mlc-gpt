@@ -1,0 +1,20 @@
+{
+    "MatchResult": {
+        "TeamAName": "Los Angeles Knight Riders",
+        "TeamBName": "San Francisco Unicorns",
+        "Venue": "Church Street Park",
+        "City": "",
+        "TossInfo": "",
+        "WinTeamName": "",
+        "MatchResult": "MATCH ABANDONED (DUE TO RAIN)",
+        "ManOfTheMatch": "",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "",
+        "InningsTwoSummary": ""
+    },
+    "BattingHighlights": [],
+    "BowlingHighlights": [],
+    "TeamMilestones": [],
+    "PlayerMilestones": []
+}
