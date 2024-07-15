@@ -116,7 +116,7 @@ download_data()
 team_full_name_dict = {
     "SO": "Seattle Orcas",
     "TSK": "Texas Super Kings",
-    "WTF": "Washington Freedom",
+    "WF": "Washington Freedom",
     "MINY": "Mumbai Indians New York",
     "SFU": "San Francisco Unicorns",
     "LAKR": "Los Angeles Knight Riders"
