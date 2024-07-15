@@ -1,4 +1,3 @@
-- When a SQL error happens, rely on vector tool to answer the original question gracefully.
 - Make the match reports less "flowery".
 - Limit the sources for news articles and eliminate duplicate content.
 - Cache response for similar questions
