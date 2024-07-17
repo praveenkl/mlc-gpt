@@ -1,0 +1,202 @@
+{
+    "MatchResult": {
+        "TeamAName": "MI New York",
+        "TeamBName": "Washington Freedom",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "MI New York - OPTED TO FIELD",
+        "WinTeamName": "Washington Freedom",
+        "MatchResult": "WASHINGTON FREEDOM - WON BY 94 RUNS",
+        "ManOfTheMatch": "J SINGH",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "14/3",
+        "InningsOneSummary": "182/5(20.0 Ov)",
+        "InningsTwoSummary": "88/10(13.3 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "R SHEPHERD",
+            "PlayerTeamName": "MI New York",
+            "Runs": 25,
+            "Balls": 14,
+            "RunText": "25 (14)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "T BOULT",
+            "PlayerTeamName": "MI New York",
+            "Runs": 16,
+            "Balls": 13,
+            "RunText": "16 (13)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "N KENJIGE",
+            "PlayerTeamName": "MI New York",
+            "Runs": 9,
+            "Balls": 9,
+            "RunText": "9 (9)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R KHAN",
+            "PlayerTeamName": "MI New York",
+            "Runs": 7,
+            "Balls": 6,
+            "RunText": "7 (6)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A GOUS",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 59,
+            "Balls": 48,
+            "RunText": "59 (48)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "T HEAD",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 54,
+            "Balls": 33,
+            "RunText": "54 (33)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "R RAVINDRA",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 31,
+            "Balls": 14,
+            "RunText": "31 (14)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "G MAXWELL",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 15,
+            "Balls": 14,
+            "RunText": "15 (14)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "J SINGH",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.0",
+            "RunsGiven": 14,
+            "Wickets": 3,
+            "WicketText": "3/14 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "L FERGUSON",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "2.0",
+            "RunsGiven": 16,
+            "Wickets": 2,
+            "WicketText": "2/16 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "M JANSEN",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 18,
+            "Wickets": 2,
+            "WicketText": "2/18 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "G MAXWELL",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "2.3",
+            "RunsGiven": 20,
+            "Wickets": 2,
+            "WicketText": "2/20 (2.3)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "K POLLARD",
+            "PlayerTeamName": "MI New York",
+            "Overs": "2.0",
+            "RunsGiven": 14,
+            "Wickets": 2,
+            "WicketText": "2/14 (2.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "R KHAN",
+            "PlayerTeamName": "MI New York",
+            "Overs": "4.0",
+            "RunsGiven": 39,
+            "Wickets": 2,
+            "WicketText": "2/39 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "R SHEPHERD",
+            "PlayerTeamName": "MI New York",
+            "Overs": "4.0",
+            "RunsGiven": 31,
+            "Wickets": 1,
+            "WicketText": "1/31 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "E ADIL",
+            "PlayerTeamName": "MI New York",
+            "Overs": "2.0",
+            "RunsGiven": 24,
+            "Wickets": 0,
+            "WicketText": "0/24 (2.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 9,
+            "BallNumber": 4,
+            "OverValue": 8.4,
+            "TeamMilestone": "MI New York: 52/7 IN 8.4 OVERS (53 BALLS), EXTRAS 14",
+            "CommentryText": "Lockie Ferguson to Romario Shepherd, SIX  "
+        },
+        {
+            "OverNumber": 19,
+            "BallNumber": 1,
+            "OverValue": 18.1,
+            "TeamMilestone": "Washington Freedom: 150/3 IN 18.1 OVERS (109 BALLS), EXTRAS 12",
+            "CommentryText": "Trent Boult to Andries Gous, 1 Run  "
+        },
+        {
+            "OverNumber": 11,
+            "BallNumber": 4,
+            "OverValue": 10.4,
+            "TeamMilestone": "Washington Freedom: 100/1 IN 10.4 OVERS (64 BALLS), EXTRAS 7",
+            "CommentryText": "Rashid Khan to Andries Gous, SIX 95 KPH  "
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 3,
+            "OverValue": 7.3,
+            "TeamMilestone": "Washington Freedom: 52/1 IN 7.3 OVERS (45 BALLS), EXTRAS 6",
+            "CommentryText": "Romario Shepherd to Andries Gous, FOUR 116 KPH,  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 19,
+            "BallNumber": 1,
+            "OverValue": 18.1,
+            "PlayerMilestone": "A GOUS: 50 OFF 44 BALLS (3X 4) (3X 6)",
+            "CommentryText": "Trent Boult to Andries Gous, 1 Run  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 4,
+            "OverValue": 9.4,
+            "PlayerMilestone": "T HEAD: 51 OFF 29 BALLS (9X 4) (2X 6)",
+            "CommentryText": "Ehsan Adil to Travis Head, FOUR  "
+        }
+    ]
+}
