@@ -1,0 +1,223 @@
+{
+    "MatchResult": {
+        "TeamAName": "San Francisco Unicorns",
+        "TeamBName": "Washington Freedom",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "San Francisco Unicorns - OPTED TO FIELD",
+        "WinTeamName": "San Francisco Unicorns",
+        "MatchResult": "SAN FRANCISCO UNICORNS - WON BY 6 WICKETS",
+        "ManOfTheMatch": "S KRISHNAMURTHI",
+        "MOMBattingScore": "79/42",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "174/3(15.3 Ov)",
+        "InningsTwoSummary": "177/4(13.4 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "S KRISHNAMURTHI",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 79,
+            "Balls": 42,
+            "RunText": "79 (42)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J INGLIS",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 45,
+            "Balls": 17,
+            "RunText": "45 (17)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 32,
+            "Balls": 11,
+            "RunText": "32 (11)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J MCGURK",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 18,
+            "Balls": 9,
+            "RunText": "18 (9)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S SMITH",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 56,
+            "Balls": 31,
+            "RunText": "56 (31)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "T HEAD",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 56,
+            "Balls": 36,
+            "RunText": "56 (36)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "A GOUS",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 29,
+            "Balls": 20,
+            "RunText": "29 (20)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "R RAVINDRA",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 16,
+            "Balls": 6,
+            "RunText": "16 (6)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "ANDREW TYE",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.0",
+            "RunsGiven": 41,
+            "Wickets": 3,
+            "WicketText": "3/41 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A HOSEIN",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.0",
+            "RunsGiven": 39,
+            "Wickets": 1,
+            "WicketText": "1/39 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R RAVINDRA",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "1.4",
+            "RunsGiven": 11,
+            "Wickets": 0,
+            "WicketText": "0/11 (1.4)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J DILL",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "1.0",
+            "RunsGiven": 13,
+            "Wickets": 0,
+            "WicketText": "0/13 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 20,
+            "Wickets": 2,
+            "WicketText": "2/20 (2.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "H RAUF",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 20,
+            "Wickets": 0,
+            "WicketText": "0/20 (2.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "T SINGH",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 26,
+            "Wickets": 0,
+            "WicketText": "0/26 (2.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 27,
+            "Wickets": 0,
+            "WicketText": "0/27 (4.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 12,
+            "BallNumber": 5,
+            "OverValue": 11.5,
+            "TeamMilestone": "San Francisco Unicorns: 154/4 IN 11.5 OVERS (71 BALLS), EXTRAS 2",
+            "CommentryText": "Andrew Tye to Sanjay Krishnamurthi, SIX  "
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 4,
+            "OverValue": 8.4,
+            "TeamMilestone": "San Francisco Unicorns: 103/2 IN 8.4 OVERS (52 BALLS), EXTRAS 0",
+            "CommentryText": "Jack Edwards to Josh Inglis, SIX 114 KPH  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 6,
+            "OverValue": 4.6,
+            "TeamMilestone": "San Francisco Unicorns: 50/2 IN 5.0 OVERS (30 BALLS), EXTRAS 0",
+            "CommentryText": "Andrew Tye to Sanjay Krishnamurthi, FOUR  "
+        },
+        {
+            "OverNumber": 14,
+            "BallNumber": 3,
+            "OverValue": 13.3,
+            "TeamMilestone": "Washington Freedom: 154/2 IN 13.3 OVERS (85 BALLS), EXTRAS 8",
+            "CommentryText": "Juanoy Drysdale to Rachin Ravindra, SIX 126 KPH  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 3,
+            "OverValue": 9.3,
+            "TeamMilestone": "Washington Freedom: 100/0 IN 9.3 OVERS (59 BALLS), EXTRAS 5",
+            "CommentryText": "Corey Anderson to Travis Head, 1 Run 112 KPH  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 2,
+            "OverValue": 4.2,
+            "TeamMilestone": "Washington Freedom: 50/0 IN 4.2 OVERS (28 BALLS), EXTRAS 3",
+            "CommentryText": "Matt Henry to Travis Head, FOUR 119 KPH  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 8,
+            "BallNumber": 5,
+            "OverValue": 7.5,
+            "PlayerMilestone": "S KRISHNAMURTHI: 50 OFF 28 BALLS (4X 4) (3X 6)",
+            "CommentryText": "Akeal Hosein to Sanjay Krishnamurthi, 2 Runs  "
+        },
+        {
+            "OverNumber": 12,
+            "BallNumber": 2,
+            "OverValue": 11.2,
+            "PlayerMilestone": "T HEAD: 52 OFF 34 BALLS (4X 4) (3X 6)",
+            "CommentryText": "Corey Anderson to Travis Head, SIX  "
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 3,
+            "OverValue": 7.3,
+            "PlayerMilestone": "S SMITH: 51 OFF 25 BALLS (5X 4) (4X 6)",
+            "CommentryText": "Juanoy Drysdale to Steven Smith, SIX  "
+        }
+    ]
+}
