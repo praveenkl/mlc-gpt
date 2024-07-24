@@ -1,0 +1,194 @@
+{
+    "MatchResult": {
+        "TeamAName": "Texas Super Kings",
+        "TeamBName": "Seattle Orcas",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "Seattle Orcas - OPTED TO FIELD",
+        "WinTeamName": "Texas Super Kings",
+        "MatchResult": "TEXAS SUPER KINGS - WON BY 37 RUNS",
+        "ManOfTheMatch": "C SAVAGE",
+        "MOMBattingScore": "45/27",
+        "MOMBowlingScore": "23/2",
+        "InningsOneSummary": "177/8(20.0 Ov)",
+        "InningsTwoSummary": "140/9(20.0 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "Q DE KOCK",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 26,
+            "Balls": 19,
+            "RunText": "26 (19)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "K PAUL",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 25,
+            "Balls": 17,
+            "RunText": "25 (17)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S JAYASURIYA",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 24,
+            "Balls": 27,
+            "RunText": "24 (27)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S RANJANE",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 16,
+            "Balls": 18,
+            "RunText": "16 (18)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C SAVAGE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 45,
+            "Balls": 27,
+            "RunText": "45 (27)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "FAF DU PLESSIS",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 39,
+            "Balls": 17,
+            "RunText": "39 (17)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MILIND K",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 29,
+            "Balls": 28,
+            "RunText": "29 (28)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "C STEVENSON",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 17,
+            "Balls": 11,
+            "RunText": "17 (11)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "O BAARTMAN",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 20,
+            "Wickets": 3,
+            "WicketText": "3/20 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "N AHMAD",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 19,
+            "Wickets": 2,
+            "WicketText": "2/19 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C SAVAGE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "3.0",
+            "RunsGiven": 23,
+            "Wickets": 2,
+            "WicketText": "2/23 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "M SANTNER",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "3.0",
+            "RunsGiven": 27,
+            "Wickets": 1,
+            "WicketText": "1/27 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "K PAUL",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "3.0",
+            "RunsGiven": 18,
+            "Wickets": 2,
+            "WicketText": "2/18 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "A DESAI",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 30,
+            "Wickets": 2,
+            "WicketText": "2/30 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M BRACEWELL",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "3.0",
+            "RunsGiven": 25,
+            "Wickets": 1,
+            "WicketText": "1/25 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "C GANNON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "3.0",
+            "RunsGiven": 29,
+            "Wickets": 1,
+            "WicketText": "1/29 (3.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 15,
+            "BallNumber": 5,
+            "OverValue": 14.5,
+            "TeamMilestone": "Seattle Orcas: 100/5 IN 14.5 OVERS (89 BALLS), EXTRAS 8",
+            "CommentryText": "Mitchell Santner to Shubham Ranjane, FOUR 80 KPH,  "
+        },
+        {
+            "OverNumber": 7,
+            "BallNumber": 2,
+            "OverValue": 6.2,
+            "TeamMilestone": "Seattle Orcas: 50/1 IN 6.2 OVERS (38 BALLS), EXTRAS 7",
+            "CommentryText": "Calvin Savage to Quinton De Kock, 1 Run 115 KPH,  "
+        },
+        {
+            "OverNumber": 18,
+            "BallNumber": 3,
+            "OverValue": 17.3,
+            "TeamMilestone": "Texas Super Kings: 150/6 IN 17.3 OVERS (106 BALLS), EXTRAS 6",
+            "CommentryText": "Nandre Burger to Calvin Savage, 1 Run  "
+        },
+        {
+            "OverNumber": 13,
+            "BallNumber": 1,
+            "OverValue": 12.1,
+            "TeamMilestone": "Texas Super Kings: 100/5 IN 12.1 OVERS (73 BALLS), EXTRAS 3",
+            "CommentryText": "Nandre Burger to Milind Kumar, 1 Run 138 KPH  "
+        },
+        {
+            "OverNumber": 6,
+            "BallNumber": 2,
+            "OverValue": 5.2,
+            "TeamMilestone": "Texas Super Kings: 50/3 IN 5.2 OVERS (32 BALLS), EXTRAS 2",
+            "CommentryText": "Keemo Paul to Marcus Stoinis, Leg Byes,1 Run 132 KPH  "
+        }
+    ],
+    "PlayerMilestones": []
+}
