@@ -24,8 +24,6 @@ jobs:
       run: |
         cd data_prep
         python refresh-news.py
-        python refresh-stats.py
-        python refresh-match-reports.py
         cd ..
         rm -rf gradio_cached_examples
     - name: Commit changes
