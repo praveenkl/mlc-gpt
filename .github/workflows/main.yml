@@ -25,7 +25,6 @@ jobs:
         cd data_prep
         python refresh-news.py
         cd ..
-        rm -rf gradio_cached_examples
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
