@@ -12,7 +12,7 @@ def create_minhash(text):
         minhash.update(d.encode('utf-8'))
     return minhash
 
-def find_near_duplicates_in_directory(directory_path, threshold=0.5, num_perm=128):
+def find_near_duplicates_in_directory(directory_path, threshold=0.9, num_perm=128):
     """Find near-duplicate text files within a directory."""
     text_files = [f for f in os.listdir(directory_path) if f.endswith('.txt')]
     minhashes = {}
@@ -57,7 +57,7 @@ def generate_report(main_directory):
             print(f'No near-duplicates found in {sub_dir}')
 
 # Specify the path to your main directory
-main_dir = 'queries'
+main_dir = 'temp'
 
 # Generate the report
 generate_report(main_dir)
