@@ -1,0 +1,83 @@
+Directory: queries/8f87a003-a4d5-42c2-a2b5-6ec60b88d9cc
+Number of files with near-duplicates: 3
+  File: 5.txt
+  Similar files:
+    - 5.txt
+    - 3.txt
+    - 2.txt
+    - 3.txt
+  File: 2.txt
+  Similar files:
+    - 2.txt
+  File: 3.txt
+  Similar files:
+    - 3.txt
+    - 3.txt
+    - 1.txt
+    - 5.txt
+
+Directory: queries/c334499a-dcb0-45a2-a7e3-63eb50fcce72
+Number of files with near-duplicates: 6
+  File: 0.txt
+  Similar files:
+    - 0.txt
+  File: 1.txt
+  Similar files:
+    - 5.txt
+    - 3.txt
+    - 2.txt
+    - 3.txt
+  File: 9.txt
+  Similar files:
+    - 2.txt
+  File: 7.txt
+  Similar files:
+    - 5.txt
+    - 7.txt
+  File: 2.txt
+  Similar files:
+    - 3.txt
+    - 3.txt
+    - 1.txt
+    - 5.txt
+  File: 3.txt
+  Similar files:
+    - 1.txt
+    - 5.txt
+    - 2.txt
+    - 3.txt
+
+Directory: queries/a913a2c7-4464-4b05-a6ad-0382ed5e5d00
+Number of files with near-duplicates: 5
+  File: 8.txt
+  Similar files:
+    - 8.txt
+  File: 5.txt
+  Similar files:
+    - 5.txt
+    - 7.txt
+  File: 4.txt
+  Similar files:
+    - 4.txt
+  File: 7.txt
+  Similar files:
+    - 0.txt
+  File: 3.txt
+  Similar files:
+    - 3.txt
+
+Directory: queries/dfe36a10-4fe1-4a6b-96f7-3598def91127
+Number of files with near-duplicates: 4
+  File: 8.txt
+  Similar files:
+    - 5.txt
+    - 7.txt
+  File: 1.txt
+  Similar files:
+    - 8.txt
+  File: 4.txt
+  Similar files:
+    - 4.txt
+  File: 7.txt
+  Similar files:
+    - 3.txt
