@@ -107,7 +107,7 @@ def main():
     articles, article_ids = read_articles_and_summaries(root_dir)
 
     # Create MinHashLSH index for detecting duplicates
-    lsh_duplicates = MinHashLSH(threshold=0.8, num_perm=128)
+    lsh_duplicates = MinHashLSH(threshold=0.5, num_perm=128)
 
     # Keep track of MinHashes
     minhash_dict = {}
@@ -193,15 +193,15 @@ def main():
         print(f"Batch {batch_number} written to {output_filename}")
 
     # Create MinHashLSH index for unique articles
-    lsh_unique = MinHashLSH(threshold=0.8, num_perm=128)
+    lsh_unique = MinHashLSH(threshold=0.5, num_perm=128)
     unique_minhash_dict = {}
 
     for idx, article in enumerate(unique_articles):
         text = article.get('body', '').lower()
         shingles = get_shingles(text)
         m = create_minhash(shingles)
-        lsh_unique.insert(idx, m)
-        unique_minhash_dict[idx] = m
+        lsh_unique.insert(article['uri'], m)
+        unique_minhash_dict[article['uri']] = m
 
     # Save the MinHashLSH index and MinHashes to disk
     with open('lsh_unique.pickle', 'wb') as f:
