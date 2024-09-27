@@ -7,6 +7,9 @@ import time
 import os
 import sys
 import logging
+import pickle
+from datasketch import MinHash, MinHashLSH
+from nltk.tokenize import word_tokenize
 
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
@@ -27,10 +30,28 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 openai.api_key = os.environ["OPENAI_API_KEY"]
 Settings.llm = OpenAI(model="gpt-4o")
-Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-small")
+Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-large")
 
 db = chromadb.PersistentClient(path="../data/news/chroma_db")
 index_storage_dir = "../data/news/storage"
+
+def get_shingles(text, k=5):
+    tokens = word_tokenize(text.lower())
+    shingles = set()
+    for i in range(len(tokens) - k + 1):
+        shingle = ' '.join(tokens[i:i+k])
+        shingles.add(shingle)
+    return shingles
+
+def create_minhash(shingles, num_perm=128):
+    m = MinHash(num_perm=num_perm)
+    for shingle in shingles:
+        m.update(shingle.encode('utf8'))
+    return m
+
+def get_minhash(text):
+    shingles = get_shingles(text)
+    return create_minhash(shingles)
 
 def google_news(seed_url):
     response = requests.get(seed_url)
@@ -65,7 +86,7 @@ def collect_articles(full_refresh=False):
     print(f'Total urls collected: {len(full_article_list)}')
     return full_article_list
 
-def crawl_and_save_articles(new_article_urls):
+def crawl_articles(new_article_urls):
     articles = []
     for url in new_article_urls:
         try:
@@ -79,6 +100,12 @@ def crawl_and_save_articles(new_article_urls):
             continue
         b = article.text
         if len(b) > 0 and "major league cricket" in b[:500].lower():
+            mh = get_minhash(b.lower())
+            dup_list = lsh_unique.query(mh)
+            if len(dup_list) > 0:
+                print(f'Skipping duplicate article: {url}')
+                continue
+            lsh_unique.insert(url.rstrip(), mh)
             articles.append({'uri': url.rstrip(), 'title': article.title, 'date': date, 'body': article.text})
         else:
             # print(f'Skipping article: {url}')
@@ -87,16 +114,6 @@ def crawl_and_save_articles(new_article_urls):
             print(f'Crawled {len(articles)} articles')
         time.sleep(1)
     print(f'Total articles crawled: {len(articles)}')
-
-    if len(articles) > 0:
-        timestamp = time.strftime('%Y%m%d%H%M%S')
-        year = time.strftime('%Y')
-        month = time.strftime('%m')
-        output_folder = f'raw/{year}/{month}'
-        os.makedirs(output_folder, exist_ok=True)
-        article_output_filename = f'{output_folder}/articles_{timestamp}.json'
-        with open(article_output_filename, 'w') as f:
-            json.dump(articles, f, ensure_ascii=False, indent=4)
 
     if len(new_article_urls) > 0:
         with open('raw/article_list.txt', 'a') as f:
@@ -162,13 +179,21 @@ def index_articles(articles):
         date = article['date']
         if len(date) > 0 and len(b) > 0 and "major league cricket" in b[:500].lower():
             try:
-                summary = summarize(b)
-                # print(summary)
-                time.sleep(5)
+                # check if the article already has a summary field. If it does, skip summarizing it
+                if "summary" in article and len(article["summary"]) > 0:
+                    summary = article["summary"]
+                else:
+                   print(f'Summarizing article: {id}')
+                   summary = summarize(b)
+                   article["summary"] = summary
+                   time.sleep(5)                
             except Exception as e:
                 print(f'Error summarizing article {id}: {e}')
                 continue
             d = schema.Document(doc_id=id, text=summary)
+            d.metadata = {"title": article['title'], "date": date, "uri": id}
+            d.excluded_embed_metadata_keys = ["uri", "date", "title"]
+            d.excluded_llm_metadata_keys = ["uri", "date", "title"] 
             year = int(date.split()[-1])
             if year <= 2023:
                 documents_2023.append(d)
@@ -181,16 +206,7 @@ def index_articles(articles):
     add_to_year_index(2023, documents_2023)
     add_to_year_index(2024, documents_2024)
     print(f"Number of documents indexed: {len(documents_2023) + len(documents_2024)}")
-
-    # Write the id and text (summary) of the documents to a file
-    timestamp = time.strftime('%Y%m%d%H%M%S')
-    year = time.strftime('%Y')
-    month = time.strftime('%m')
-    output_folder = f'raw/{year}/{month}'
-    os.makedirs(output_folder, exist_ok=True)
-    summary_output_filename = f'{output_folder}/summaries_{timestamp}.json'
-    with open(summary_output_filename, 'w') as f:
-        json.dump([{'uri': d.doc_id, 'text': d.text} for d in documents_2023 + documents_2024], f, ensure_ascii=False, indent=4)
+    return articles
 
 if __name__ == '__main__':
     new_article_urls = []
@@ -206,17 +222,46 @@ if __name__ == '__main__':
         new_article_urls = collect_articles(full_refresh=True)
     except Exception as e:
         print(f'Error: {e}')
+        sys.exit(1)
     
+    # Check to see if lsh_unique.pickle and minhashes_unique.pickle exist in the current directory and load them
+    if os.path.exists('raw/lsh_unique.pickle'):
+        print('Loading MinHashLSH index from disk')
+        with open('raw/lsh_unique.pickle', 'rb') as f:
+            lsh_unique = pickle.load(f)
+    else:
+        print('Creating new MinHashLSH index')
+        # Initialize MinHashLSH index
+        lsh_unique = MinHashLSH(threshold=0.5, num_perm=128)
+
     try:
-        articles = crawl_and_save_articles(new_article_urls)
+        articles = crawl_articles(new_article_urls)
+        if len(new_article_urls) > 0:
+          with open('raw/article_list.txt', 'a') as f:
+                f.write('\n'.join(new_article_urls) + '\n')
+        print('Article list updated')
         index_articles(articles)
+        if len(articles) > 0:
+            timestamp = time.strftime('%Y%m%d%H%M%S')
+            year = time.strftime('%Y')
+            month = time.strftime('%m')
+            output_folder = f'raw/articles/{year}/{month}'
+            os.makedirs(output_folder, exist_ok=True)
+            article_output_filename = f'{output_folder}/articles_{timestamp}.json'
+            with open(article_output_filename, 'w') as f:
+                json.dump(articles, f, ensure_ascii=False, indent=4)
+        # Save the MinHashLSH index to disk
+        with open('raw/lsh_unique.pickle', 'wb') as f:
+            print('Saving MinHashLSH index to disk')
+            pickle.dump(lsh_unique, f)
     except Exception as e:
         print(f'Error: {e}')
    
-    # Read all the files starting with "articles" in the raw folder and index them
+    # Create index from previously saved articles
     # articles = []
-    # for root, dirs, files in os.walk('raw'):
+    # for root, dirs, files in os.walk('raw/articles/bootstrap'):
     #     for file in files:
-    #         if file.startswith('articles'):
-    #             with open(os.path.join(root, file)) as f:
-    #                 articles.extend(json.load(f))
+    #         with open(os.path.join(root, file), 'r') as f:
+    #             articles.extend(json.load(f))
+    # print(f'Total number of articles read from files: {len(articles)}')
+    # index_articles(articles)

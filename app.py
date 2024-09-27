@@ -20,6 +20,7 @@ from llama_index.llms.openai import OpenAI
 from sqlalchemy import create_engine, MetaData
 from llama_index.core.vector_stores.types import VectorStoreQueryMode
 from llama_index.core.selectors import LLMSingleSelector
+from llama_index.core.postprocessor import LLMRerank
 import chromadb
 import openai
 
@@ -27,7 +28,7 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 openai.api_key = os.environ["OPENAI_API_KEY"]
 Settings.llm = OpenAI(model="gpt-4-turbo")
-Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-small")
+Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-large")
 
 def get_table_names(engine):
     """Get all table names from a database."""
@@ -108,9 +109,10 @@ def get_vector_tool(year):
     vector_auto_retriever = VectorIndexAutoRetriever(
         index, vector_store_info=vector_store_info,
         vector_store_query_mode=VectorStoreQueryMode.DEFAULT,
-        similarity_top_k=4,
+        similarity_top_k=20,
     )
-    retriever_query_engine = RetrieverQueryEngine.from_args(vector_auto_retriever)
+    pp = LLMRerank(top_n=4, choice_batch_size=20)
+    retriever_query_engine = RetrieverQueryEngine.from_args(vector_auto_retriever, node_postprocessors=[pp])
 
     vt = QueryEngineTool.from_defaults(
        query_engine=retriever_query_engine,
