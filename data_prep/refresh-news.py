@@ -10,6 +10,10 @@ import logging
 import pickle
 from datasketch import MinHash, MinHashLSH
 from nltk.tokenize import word_tokenize
+import nltk
+
+# Ensure the required NLTK data files are downloaded
+nltk.download('punkt', quiet=True)
 
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
