@@ -13,7 +13,7 @@ from llama_index.core.tools import QueryEngineTool
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core.vector_stores import VectorStoreInfo
-from llama_index.core.retrievers import VectorIndexAutoRetriever
+from llama_index.core.retrievers import VectorIndexAutoRetriever, VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine, RouterQueryEngine
 from llama_index.core.query_engine import SQLAutoVectorQueryEngine
 from llama_index.llms.openai import OpenAI
@@ -39,8 +39,7 @@ def get_table_names(engine):
         table_names.append(table.name)
     return table_names
 
-def get_sql_tool(year):
-    """Get a tool for translating natural language queries into SQL queries."""
+def get_sql_query_engine(year):
     engine = create_engine(f'sqlite:///data/stats/mlc_stats_{year}.db')
     sql_database = SQLDatabase(engine=engine)
     table_node_mapping = SQLTableNodeMapping(sql_database)
@@ -69,6 +68,11 @@ def get_sql_tool(year):
     new_text_to_sql_prompt = PromptTemplate(new_text_to_sql_prompt_str)
     sql_query_engine.update_prompts({"sql_retriever:text_to_sql_prompt": new_text_to_sql_prompt})
 
+    return sql_query_engine
+
+def get_sql_tool(year, include_year_context=False):
+    """Get a tool for translating natural language queries into SQL queries."""
+    sql_query_engine = get_sql_query_engine(year)
     st = QueryEngineTool.from_defaults(
         query_engine=sql_query_engine,
         description=(
@@ -80,6 +84,10 @@ def get_sql_tool(year):
             " team, and match_details table contains information about each match." 
         ),
     )
+    if include_year_context:
+        qe_description = get_year_context(year)
+        updated_description = qe_description + "\n\n" + st.metadata.description
+        st.metadata.description = updated_description
     return st
 
 def get_index(year):
@@ -94,8 +102,7 @@ def get_index(year):
     index = VectorStoreIndex.from_vector_store(vector_store)
     return index
 
-def get_vector_tool(year):
-    """Get a tool for translating natural language queries into vector queries."""
+def get_vector_query_engine(year, auto_retriever):
     index = get_index(year)
     if index is None:
         print("Chroma collection not found. Please index documents and try again.")
@@ -106,36 +113,55 @@ def get_vector_tool(year):
         metadata_info=[]
     )
     
-    vector_auto_retriever = VectorIndexAutoRetriever(
-        index, vector_store_info=vector_store_info,
-        vector_store_query_mode=VectorStoreQueryMode.DEFAULT,
-        similarity_top_k=20,
-    )
+    if auto_retriever:
+        vector_retriever = VectorIndexAutoRetriever(
+            index, vector_store_info=vector_store_info,
+            vector_store_query_mode=VectorStoreQueryMode.DEFAULT,
+            similarity_top_k=20)
+    else:
+        vector_retriever = VectorIndexRetriever(
+            index, vector_store_info=vector_store_info,
+            vector_store_query_mode=VectorStoreQueryMode.DEFAULT,
+            similarity_top_k=20)
+    
     pp = LLMRerank(top_n=4, choice_batch_size=20)
-    retriever_query_engine = RetrieverQueryEngine.from_args(vector_auto_retriever, node_postprocessors=[pp])
+    retriever_query_engine = RetrieverQueryEngine.from_args(vector_retriever, node_postprocessors=[pp])
+    
+    return retriever_query_engine
 
+def get_vector_tool(year, include_year_context=False, auto_retriever=True):
+    """Get a tool for translating natural language queries into vector queries."""
+    retriever_query_engine = get_vector_query_engine(year, auto_retriever)
     vt = QueryEngineTool.from_defaults(
        query_engine=retriever_query_engine,
         description=(
         "Useful for answering semantic questions about major league cricket or MLC"
         ),
     )
+    if include_year_context:
+        qe_description = get_year_context(year)
+        updated_description = qe_description + "\n\n" + vt.metadata.description
+        vt.metadata.description = updated_description
     return vt
 
-def get_query_engine_tool(year):
+def get_dynamic_query_engine_tool(year):
     """Get a query engine tool for answering questions about major league cricket."""
     sql_tool = get_sql_tool(year)
     vector_tool = get_vector_tool(year)
     qe = SQLAutoVectorQueryEngine(sql_tool, vector_tool)
-
-    qe_description = f'Current year is 2024. Useful for answering questions about the {year} edition of the Major League Cricket (MLC) tournament.'
-    if year == 2024:
-        qe_description += ' Also useful for answering questions about Major League Cricket when the year cannot be determined from the question.'
+    qe_description = get_year_context(year)
     qe_tool = QueryEngineTool.from_defaults(
         query_engine=qe,
         description=qe_description,
     )
     return qe_tool
+
+def get_year_context(year):
+    """Get the year context for the query engine tool."""
+    qe_description = f'Current year is 2024. Useful for answering questions about the {year} edition of the Major League Cricket (MLC) tournament.'
+    if year == 2024:
+        qe_description += ' Also useful for answering questions about Major League Cricket when the year cannot be determined from the question.'
+    return qe_description
 
 def get_completed_matches():
     """Get the completed matches."""
@@ -166,23 +192,49 @@ def get_city(ground):
 if __name__ == '__main__':
     my_theme = gr.themes.Soft(spacing_size=gr.themes.sizes.spacing_sm, text_size=gr.themes.sizes.text_sm)
 
-    qe_tool_2023 = get_query_engine_tool(2023)
-    qe_tool_2024 = get_query_engine_tool(2024)    
-    query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
+    # Intialize the hybrid query engine
+    dynamic_tool_2023 = get_dynamic_query_engine_tool(2023)
+    dynamic_tool_2024 = get_dynamic_query_engine_tool(2024)
+    dynamic_query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
         query_engine_tools=[
-            qe_tool_2023,
-            qe_tool_2024,
+            dynamic_tool_2023,
+            dynamic_tool_2024,
         ],
     )
 
-    def handle_query(query):
+    # Initialize the stats query engine
+    stats_tool_2023 = get_sql_tool(2023, include_year_context=True)
+    stats_tool_2024 = get_sql_tool(2024, include_year_context=True)
+    stats_query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
+        query_engine_tools=[
+            stats_tool_2023,
+            stats_tool_2024,
+        ],
+    )
+
+    # Initialize the news query engine
+    news_tool_2023 = get_vector_tool(2023, auto_retriever=False, include_year_context=True) 
+    news_tool_2024 = get_vector_tool(2024, auto_retriever=False, include_year_context=True)
+    news_query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
+        query_engine_tools=[
+            news_tool_2023,
+            news_tool_2024,
+        ],
+    )
+
+    def handle_query(query, type="hybrid"):
         """Handle the query."""
         if len(query) > 200:
             response = "Sorry, your query is too long. Please try again with a shorter query."
             return response
         try:
             print(f"Question: {query}")
-            response = query_engine.query(query)
+            if type == "stats":
+                response = stats_query_engine.query(query)
+            elif type == "news":
+                response = news_query_engine.query(query)
+            else:
+                response = dynamic_query_engine.query(query)
         except Exception as e: # pylint: disable=broad-exception-caught
             print(e)
             response = "Sorry, an error ocurred while answering the query. Please try again later."
@@ -201,7 +253,10 @@ if __name__ == '__main__':
 
     demo1 = gr.Interface(
         fn=handle_query,
-        inputs=gr.Textbox(lines=2, placeholder="Enter query here...", show_label=False),
+        inputs=[
+            gr.Textbox(lines=2, placeholder="Enter query here...", show_label=False),
+            gr.Radio(choices=["stats", "news", "dynamic"], value="dynamic", show_label=False, container=True)
+        ],
         outputs=gr.Textbox(show_label=False),
         examples=[
         ["Who is the owner of Major league cricket and how much does it cost to run the league?"],
