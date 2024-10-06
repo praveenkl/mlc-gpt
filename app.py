@@ -59,11 +59,13 @@ def get_sql_query_engine(year):
     # Disable handling of SQL errors to prevent asking the LLM to fix them
     sql_query_engine._sql_retriever._handle_sql_errors = False
 
+    sql_query_engine._sql_retriever._verbose = True
+
     # Add year context to the default text-to-SQL prompt
     prompts = sql_query_engine.get_prompts()
     current_text_to_sql_prompt = prompts["sql_retriever:text_to_sql_prompt"]
     current_text_to_sql_prompt_str = current_text_to_sql_prompt.get_template()
-    prompt_prefix = f'Current year is {year}.\n\n'
+    prompt_prefix = f'Current year is 2024.\n\n'
     new_text_to_sql_prompt_str = prompt_prefix + current_text_to_sql_prompt_str
     new_text_to_sql_prompt = PromptTemplate(new_text_to_sql_prompt_str)
     sql_query_engine.update_prompts({"sql_retriever:text_to_sql_prompt": new_text_to_sql_prompt})
@@ -235,6 +237,10 @@ if __name__ == '__main__':
                 response = news_query_engine.query(query)
             else:
                 response = dynamic_query_engine.query(query)
+        # catch list index out of range error
+        except IndexError as e:
+            print(e)
+            response = "The provided context does not contain enough information to answer the question."
         except Exception as e: # pylint: disable=broad-exception-caught
             print(e)
             response = "Sorry, an error ocurred while answering the query. Please try again later."

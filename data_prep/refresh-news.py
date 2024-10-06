@@ -28,7 +28,7 @@ import openai
 from groq import Groq
 
 seen_urls = set()
-excluded_domains = ['youtube.com', 'facebook.com', 'twitter.com', 'instagram.com', 'linkedin.com']
+excluded_domains = ['youtube.com', 'facebook.com', 'twitter.com', 'instagram.com', 'linkedin.com', 'isportindia.com', 'en.wikipedia.org', 'www.expressvpn.com']
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
