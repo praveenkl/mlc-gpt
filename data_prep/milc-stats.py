@@ -2,7 +2,7 @@ import csv
 import os
 import sys
 from datetime import datetime
-from sqlalchemy import create_engine, Column, Integer, String, Float
+from sqlalchemy import create_engine, Column, Integer, String, Float, text
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 
@@ -85,15 +85,15 @@ def to_title_case(s):
     return ' '.join([word.capitalize() for word in s.split()])
 
 # Database setup
-if os.path.exists("./milc_stats_2024.db"):
-    os.rename("./milc_stats_2024.db", "./milc_stats_2024.db.bak")
-engine = create_engine("sqlite:///./milc_stats_2024.db")
+if os.path.exists("./milc_stats_2023.db"):
+    os.rename("./milc_stats_2023.db", "./milc_stats_2023.db.bak")
+engine = create_engine("sqlite:///./milc_stats_2023.db")
 Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 
 # Load and process batting statistics
-with open("./milc_raw/batting.csv", newline='', encoding='utf-8') as csvfile:
+with open("./milc_raw/2023/batting.csv", newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     batting_players = []
     for row in reader:
@@ -123,7 +123,7 @@ session.bulk_save_objects(batting_players)
 session.commit()
 
 # Load and process bowling statistics
-with open("./milc_raw/bowling.csv", newline='', encoding='utf-8') as csvfile:
+with open("./milc_raw/2023/bowling.csv", newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     bowling_players = []
     for row in reader:
@@ -162,7 +162,7 @@ session.bulk_save_objects(bowling_players)
 session.commit()
 
 # Load and process match data
-with open("./milc_raw/match.csv", newline='', encoding='utf-8') as csvfile:
+with open("./milc_raw/2023/match.csv", newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     matches = []
     for row in reader:
@@ -204,7 +204,7 @@ session.bulk_save_objects(matches)
 session.commit()
 
 # Load and process team statistics
-with open("./milc_raw/team.csv", newline='', encoding='utf-8') as csvfile:
+with open("./milc_raw/2023/team.csv", newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     teams = []
     for row in reader:
@@ -233,6 +233,12 @@ if player:
     print(player.Name)
 else:
     print("Player not found.")
+
+# Run a raw sql query
+raw_sql_query = "SELECT Name FROM bowling_statistics WHERE Wickets >= 5"
+result = session.execute(text(raw_sql_query))
+for row in result:
+    print(row)
 
 target_team_name = "East Bay Blazers"
 team = session.query(Team).filter(Team.Name == target_team_name).first()
