@@ -1,0 +1,201 @@
+#,Player,Team,Mat,Inns,Overs,Runs,Wkts,BBF,Mdns,dots,Econ,Avg,SR,Hat-trick,4w,5w,Wides,Nb
+1,Gayan Fernando,San Diego Surf Riders,10,10,36.5,221,25, 21/ 4,1,106,6.00,8.84,8.8,0,2,0,8,2
+2,Corne Dry,Atlanta Fire,13,13,47.3,302,25, 18/ 5,3,172,6.36,12.08,11.4,0,0,1,13,1
+3,Kevin Stoute,Ft. Lauderdale Lions,10,10,33,231,22, 16/ 5,0,75,7.00,10.50,9,0,1,1,41,1
+4,Srinivas Raghavan,Silicon Valley Strikers,13,13,51.1,296,21, 32/ 4,1,155,5.79,14.10,14.6,0,1,0,7,0
+5,Phani Simhadri,Atlanta Lightning,11,11,39.5,213,19, 19/ 4,0,114,5.35,11.21,12.6,0,1,0,10,0
+6,Junaid Nadir Mahsood,New Jersey Somerset Cavaliers,12,12,33.4,208,19, 22/ 4,2,116,6.18,10.95,10.6,0,1,0,20,5
+7,Sanjay Krishnamurthi,East Bay Blazers,12,12,45,293,19, 16/ 3,0,134,6.51,15.42,14.2,0,0,0,10,0
+8,Nosthush Kenjige,Dallas Mustangs,14,14,48.3,321,19, 16/ 4,1,122,6.62,16.89,15.3,0,1,0,4,0
+9,Saurabh Netravalkar,Silicon Valley Strikers,13,13,51.2,281,18, 11/ 4,3,161,5.47,15.61,17.1,1,1,0,10,1
+10,Vatsal Vaghela,Golden State Grizzlies,11,11,38,249,18, 15/ 3,1,94,6.55,13.83,12.7,0,0,0,2,1
+11,SARBJEET LADDA,Baltimore Royals,9,9,32,187,17, 8/ 5,1,97,5.84,11.00,11.3,1,1,1,6,0
+12,Shubham Ranjane,Lone Star Athletics,12,12,47,328,17, 14/ 3,1,118,6.98,19.29,16.6,0,0,0,4,0
+13,Sumit Sehrawat,Orlando Galaxy,9,9,31,238,17, 20/ 5,0,88,7.68,14.00,10.9,0,1,1,19,0
+14,Rushil Ugarkar,Dallas Mustangs,10,9,29.2,259,17, 27/ 5,0,70,8.83,15.24,10.4,0,0,1,2,1
+15,Amila Aponso,Atlanta Fire,13,12,46,219,16, 9/ 4,5,165,4.76,13.69,17.2,0,1,0,5,0
+16,Sunny Patel,New Jersey Somerset Cavaliers,14,14,46.5,272,16, 25/ 4,1,147,5.81,17.00,17.6,0,1,0,8,0
+17,Pawan Suyal,Lone Star Athletics,9,9,31.4,224,16, 15/ 4,0,93,7.07,14.00,11.9,0,1,0,27,6
+18,Gajanand Singh,New Jersey Somerset Cavaliers,13,12,25,128,15, 14/ 4,3,90,5.12,8.53,10,0,1,0,9,3
+19,Pranay Suri,Silicon Valley Strikers,13,13,44,297,15, 15/ 3,0,105,6.75,19.80,17.6,0,0,0,5,0
+20,Zia Muhammad Shahzad,Golden State Grizzlies,11,11,37.2,276,15, 18/ 5,1,86,7.39,18.40,14.9,0,0,1,3,1
+21,Saad Bin Zafar,New Jersey Somerset Cavaliers,9,9,33,126,14, 4/ 3,4,127,3.82,9.00,14.1,0,0,0,5,0
+22,Stephen Wiig,New Jersey Stallions,11,11,36,186,14, 10/ 3,2,122,5.17,13.29,15.4,0,0,0,15,0
+23,Deveshwari Prashad,The Philadelphians,10,8,25.5,138,14, 21/ 5,0,71,5.34,9.86,11.1,0,1,1,4,0
+24,Rumman Raees,Dallas Mustangs,12,12,37,204,14, 4/ 3,1,127,5.51,14.57,15.9,0,0,0,14,0
+25,Ayan Desai,Los Angeles Lashings,10,10,37,213,14, 12/ 2,0,108,5.76,15.21,15.9,0,0,0,8,0
+26,Zeeshan Maqsood,Michigan Cricket Stars,10,10,29.4,176,14, 10/ 5,1,84,5.93,12.57,12.7,0,0,1,5,1
+27,Rahul Nama,Seattle Thunderbolts,10,10,31.4,189,14, 20/ 4,1,87,5.97,13.50,13.6,0,1,0,6,0
+28,Karima Gore,New Jersey Somerset Cavaliers,9,9,31.1,116,13, 10/ 4,3,122,3.72,8.92,14.4,0,1,0,10,0
+29,Raj Nannan,The Philadelphians,10,10,34,146,13, 3/ 3,4,132,4.29,11.23,15.7,0,0,0,10,0
+30,Neive Mcnally,Atlanta Lightning,8,8,28,156,13, 6/ 3,2,91,5.57,12.00,12.9,0,0,0,6,0
+31,Vinit Tagarse,Ft. Lauderdale Lions,9,9,26,182,13, 23/ 5,1,88,7.00,14.00,12,0,0,1,32,4
+32,Muhammad Kamal,Michigan Cricket Stars,10,10,30.3,228,13, 24/ 4,0,86,7.48,17.54,14.1,0,1,0,8,0
+33,Pankaj Kumar Rao,Atlanta Lightning,13,13,42,328,13, 15/ 2,0,124,7.81,25.23,19.4,0,0,0,28,0
+34,Hammad Azam,Dallas Mustangs,14,10,31,154,12, 3/ 2,2,105,4.97,12.83,15.5,0,0,0,3,1
+35,Derone Davis,New Jersey Stallions,10,8,25.5,143,12, 12/ 3,3,84,5.54,11.92,12.9,0,0,0,8,0
+36,Hussain Talat,Atlanta Lightning,8,8,27,161,12, 23/ 4,2,95,5.96,13.42,13.5,0,1,0,19,2
+37,Angelo Perera,East Bay Blazers,9,9,31,187,12, 13/ 3,0,79,6.03,15.58,15.5,0,0,0,6,0
+38,Harish Kakani,Golden State Grizzlies,11,11,40.4,273,12, 15/ 3,1,93,6.71,22.75,20.3,0,0,0,16,0
+39,Gourav Grover,New England Eagles,8,8,28,96,11, 16/ 4,4,112,3.43,8.73,15.3,0,1,0,4,2
+40,Sachin Mylavarapu,New Jersey Stallions,11,11,38,178,11, 9/ 2,0,134,4.68,16.18,20.7,0,0,0,7,0
+41,Manoj Acharya,Manhattan Yorkers,9,9,33.2,157,11, 10/ 2,3,124,4.71,14.27,18.2,0,0,0,6,2
+42,Hassan Khan,Chicago Kingsmen,7,7,28,137,11, 30/ 3,2,92,4.89,12.45,15.3,0,0,0,1,0
+43,Javon Searles,Empire State Titans,7,7,24.2,125,11, 16/ 3,2,75,5.14,11.36,13.3,0,0,0,6,0
+44,Neeraj Goel,Golden State Grizzlies,10,10,40,214,11, 18/ 3,1,122,5.35,19.45,21.8,0,0,0,15,0
+45,Siva Kumar Duvvarapu,Seattle Thunderbolts,9,9,28.4,161,11, 18/ 4,1,95,5.62,14.64,15.6,0,1,0,4,1
+46,Carmi Le Roux,East Bay Blazers,5,5,20,114,11, 13/ 4,0,63,5.70,10.36,10.9,0,1,0,13,1
+47,Shan Tennakoon,Empire State Titans,7,6,22,132,11, 11/ 3,0,70,6.00,12.00,12,0,0,0,5,0
+48,Ehsan Adil,Dallas Mustangs,11,10,35.5,215,11, 12/ 2,2,127,6.00,19.55,19.5,0,0,0,19,1
+49,Harmeet Singh,Dallas Xforia Giants,11,10,39,244,11, 13/ 3,0,90,6.26,22.18,21.3,0,0,0,5,2
+50,Jeremy Gordon,Atlanta Fire,9,9,31,196,11, 22/ 3,0,105,6.32,17.82,16.9,0,0,0,14,3
+51,Usman Rafiq,Houston Hurricanes,10,10,32.5,236,11, 22/ 4,0,80,7.19,21.45,17.9,0,1,0,5,0
+52,Rusty Theron,East Bay Blazers,10,10,39.5,288,11, 22/ 2,0,105,7.23,26.18,21.7,0,0,0,10,2
+53,Elmore Hutchinson,Los Angeles Lashings,10,10,35,277,11, 28/ 3,0,88,7.91,25.18,19.1,0,0,0,13,0
+54,Nisarg Desai,Manhattan Yorkers,9,9,30,139,10, 10/ 3,1,111,4.63,13.90,18,0,0,0,1,0
+55,Md Nasir Hossain,Atlanta Fire,13,11,34,175,10, 14/ 3,2,116,5.15,17.50,20.4,0,0,0,5,0
+56,Junaid Siddiqui,Atlanta Lightning,11,11,38.1,203,10, 19/ 3,0,104,5.32,20.30,22.9,0,0,0,0,0
+57,Mir Hamza,Chicago Kingsmen,3,3,12,64,10, 15/ 4,0,41,5.33,6.40,7.2,0,2,0,3,1
+58,Nikhil Dutta,San Diego Surf Riders,9,9,32.5,181,10, 19/ 4,0,86,5.51,18.10,19.7,0,1,0,3,0
+59,Jasdeep Singh,New Jersey Stallions,11,11,37.5,216,10, 24/ 3,0,124,5.71,21.60,22.7,0,0,0,15,1
+60,Haseeb Azam,Chicago Kingsmen,4,4,16,93,10, 33/ 4,1,55,5.81,9.30,9.6,0,1,0,12,0
+61,Usman Shinwari,Houston Hurricanes,8,8,30,191,10, 24/ 3,0,86,6.37,19.10,18,0,0,0,10,0
+62,Calvin Savage,Chicago Tigers,7,6,23,148,10, 26/ 3,0,63,6.43,14.80,13.8,0,0,0,19,0
+63,Praveen Kumar,Michigan Cricket Stars,5,4,14,96,10, 17/ 4,0,43,6.86,9.60,8.4,0,1,0,0,0
+64,Hassan Rashid,Houston Hurricanes,7,7,25,177,10, 42/ 3,0,79,7.08,17.70,15,0,0,0,13,0
+65,Mohammad Katawazai,East Bay Blazers,7,6,22,163,10, 24/ 3,0,62,7.41,16.30,13.2,0,0,0,3,2
+66,Shadley Van Schalkwyk,Seattle Thunderbolts,10,10,33.5,255,10, 21/ 3,1,90,7.54,25.50,20.3,0,0,0,16,0
+67,Apurva Maheshram,New England Eagles,8,8,19.2,149,10, 18/ 4,1,64,7.71,14.90,11.6,0,1,0,16,0
+68,Ali Sheikh,Dallas Mustangs,14,13,35.4,278,10, 14/ 2,0,77,7.79,27.80,21.4,0,0,0,8,0
+69,Abhishek Paradkar,East Bay Blazers,9,9,24.3,197,10, 26/ 3,0,57,8.04,19.70,14.7,0,0,0,11,0
+70,Sam Das,St. Louis Americans,8,7,24.2,212,10, 31/ 2,0,60,8.71,21.20,14.6,0,0,0,16,0
+71,Shehan Jayasuriya,Silicon Valley Strikers,11,8,23,115,9, 11/ 3,2,61,5.00,12.78,15.3,0,0,0,3,0
+72,Shamy Ghotra,Baltimore Royals,6,6,16,93,9, 10/ 3,1,57,5.81,10.33,10.7,0,0,0,13,0
+73,Yasir Mohammad,New Jersey Somerset Cavaliers,14,6,15,89,9, 11/ 3,0,41,5.93,9.89,10,0,0,0,2,1
+74,Ruchir Joshi,Manhattan Yorkers,5,4,14.5,89,9, 17/ 4,0,45,6.00,9.89,9.9,0,1,0,16,1
+75,Karthik Gattepalli,Houston Hurricanes,10,10,33,209,9, 11/ 1,0,87,6.33,23.22,22,0,0,0,5,0
+76,Milind Kumar,Lone Star Athletics,14,14,48,368,9, 25/ 2,0,120,7.67,40.89,32,0,0,0,9,0
+77,Mehdi Hasan,Seattle Thunderbolts,10,10,29,233,9, 8/ 2,0,72,8.03,25.89,19.3,0,0,0,15,0
+78,Ateendra Subramanian,Atlanta Fire,9,9,29.1,235,9, 29/ 2,0,71,8.06,26.11,19.4,0,0,0,11,1
+79,Jaskaran Singh Buttar,Dallas Xforia Giants,8,8,28,275,9, 41/ 3,0,62,9.82,30.56,18.7,0,0,0,20,9
+80,Jonathan Foo,The Philadelphians,10,5,15.4,64,8, 1/ 4,2,52,4.09,8.00,11.8,0,1,0,2,0
+81,Jaskaran Malhotra,Baltimore Royals,9,7,18,80,8, 14/ 3,3,68,4.44,10.00,13.5,0,0,0,5,0
+82,Adil Bhatti,New Jersey Somerset Cavaliers,10,10,25,123,8, 2/ 2,4,93,4.92,15.38,18.8,0,0,0,2,1
+83,Samarth Tiwari,New England Eagles,8,5,14,76,8, 5/ 6,0,52,5.43,9.50,10.5,0,0,1,8,0
+84,Hemendra Ramdihal,New England Eagles,6,6,18.5,110,8, 10/ 5,0,56,5.84,13.75,14.1,0,0,1,4,0
+85,Isaiah Rajah,Ft. Lauderdale Lions,10,10,30.1,177,8, 17/ 2,0,62,5.87,22.12,22.6,0,0,0,2,0
+86,Derval Green,Baltimore Royals,9,9,30.1,188,8, 3/ 2,3,96,6.23,23.50,22.6,0,0,0,21,1
+87,Soripul Islam,The Philadelphians,6,6,13.2,84,8, 4/ 3,2,43,6.30,10.50,10,0,0,0,7,0
+88,Chaitanya Bishnoi,Dallas Xforia Giants,11,8,27.3,194,8, 17/ 3,1,61,7.05,24.25,20.6,0,0,0,2,0
+89,Justin Dill,St. Louis Americans,10,9,31,229,8, 8/ 3,0,86,7.39,28.62,23.2,0,0,0,8,2
+90,Dev Thadani,Silicon Valley Strikers,10,9,29,222,8, 15/ 2,1,76,7.66,27.75,21.8,0,0,0,4,0
+91,Abdul Jabbar Mohammed,The Philadelphians,8,8,25.2,119,7, 11/ 2,2,80,4.70,17.00,21.7,0,0,0,0,0
+92,Syed Najaf Shah,New Jersey Somerset Cavaliers,7,7,22,113,7, 9/ 2,2,71,5.14,16.14,18.9,0,0,0,3,0
+93,Nauman Anwar,Dallas Mustangs,14,4,8.3,45,7, 10/ 2,0,26,5.29,6.43,7.3,0,0,0,1,0
+94,Angad Singh,St. Louis Americans,10,7,22,130,7, 18/ 4,0,62,5.91,18.57,18.9,0,1,0,1,0
+95,Jacobus Pienaar,Atlanta Fire,10,8,23,142,7, 15/ 2,0,61,6.17,20.29,19.7,0,0,0,8,0
+96,Zia Ul Haq,Chicago Kingsmen,6,6,24,160,7, 12/ 3,0,73,6.67,22.86,20.6,1,0,0,16,1
+97,Danesh Patel,Manhattan Yorkers,9,8,16,108,7, 3/ 2,1,47,6.75,15.43,13.7,0,0,0,2,0
+98,Abhinay Reddy Vanipally,San Diego Surf Riders,10,7,23.3,167,7, 23/ 2,0,53,7.11,23.86,20.1,0,0,0,6,0
+99,Evroy Dyer,Morrisville Raptors,6,5,17,127,7, 21/ 2,2,52,7.47,18.14,14.6,0,0,0,9,1
+100,Amir Hamza,Lone Star Athletics,7,7,24,194,7, 13/ 2,0,57,8.08,27.71,20.6,0,0,0,6,0
+101,Mrunal Patel,Los Angeles Lashings,10,10,29.1,245,7, 23/ 2,0,63,8.40,35.00,25,0,0,0,0,0
+102,Venukalyan Madireddy,Atlanta Fire,3,3,10,87,7, 32/ 4,0,29,8.70,12.43,8.6,0,1,0,2,1
+103,Hamza Bangash,Houston Hurricanes,10,8,24,213,7, 16/ 3,0,43,8.88,30.43,20.6,0,0,0,19,0
+104,Sanchit Sandhu,Los Angeles Lashings,9,9,31,151,6, 16/ 2,0,105,4.87,25.17,31,0,0,0,7,0
+105,Harsh Thaker,Seattle Thunderbolts,5,5,15,74,6, 14/ 3,1,45,4.93,12.33,15,0,0,0,1,0
+106,Heer Patel,Atlanta Lightning,8,6,17,94,6, 12/ 3,0,52,5.53,15.67,17,0,0,0,3,0
+107,Yannick Elliott,Empire State Titans,4,4,13,73,6, 17/ 3,0,40,5.62,12.17,13,0,0,0,2,1
+108,Ishwarjot Sohi,Silicon Valley Strikers,3,3,11.2,68,6, 23/ 3,0,40,6.00,11.33,11.3,0,0,0,8,1
+109,Christopher Barnwell,New England Eagles,4,4,14,85,6, 23/ 3,0,51,6.07,14.17,14,0,0,0,20,0
+110,Juanoy Drysdale,The Philadelphians,5,5,15.3,97,6, 21/ 2,1,44,6.26,16.17,15.5,0,0,0,6,1
+111,Mohammad Mohsin,Michigan Cricket Stars,10,9,32,212,6, 16/ 3,0,69,6.62,35.33,32,0,0,0,1,0
+112,Siddantham Praneeth Raj,Dallas Xforia Giants,5,5,16,109,6, 16/ 2,0,47,6.81,18.17,16,0,0,0,9,0
+113,Abul Hasan Raju,Michigan Cricket Stars,10,10,27,186,6, 6/ 2,0,65,6.89,31.00,27,0,0,0,8,2
+114,Cinci Siegertsz,Seattle Thunderbolts,6,6,17,119,6, 17/ 2,0,34,7.00,19.83,17,0,0,0,7,0
+115,Rubal Raina,Los Angeles Lashings,9,7,22,155,6, 39/ 2,1,56,7.05,25.83,22,0,0,0,1,1
+116,Aman Patel,Empire State Titans,7,6,16,116,6, 18/ 3,0,35,7.25,19.33,16,0,0,0,2,3
+117,Vedant Jain,San Diego Surf Riders,8,8,23,167,6, 28/ 2,0,52,7.26,27.83,23,0,0,0,1,0
+118,Nisarg Patel,San Diego Surf Riders,7,7,26,192,6, 25/ 2,0,58,7.38,32.00,26,0,0,0,5,0
+119,Dimitri Adams,Orlando Galaxy,10,8,20,149,6, 25/ 2,0,52,7.45,24.83,20,0,0,0,5,0
+120,Laksh Parikh,Lone Star Athletics,9,7,18,143,6, 31/ 2,0,38,7.94,23.83,18,0,0,0,12,1
+121,Hamza Khalid,Lone Star Athletics,9,9,26,213,6, 31/ 2,0,59,8.19,35.50,26,0,0,0,6,1
+122,Shiv Shani,Chicago Tigers,5,5,16,145,6, 23/ 2,0,33,9.06,24.17,16,0,0,0,7,0
+123,Ferhan Ali,Chicago Tigers,5,5,18,164,6, 26/ 2,0,40,9.11,27.33,18,0,0,0,13,3
+124,Aditya Padala,Morrisville Raptors,6,5,13.4,126,6, 30/ 2,0,23,9.22,21.00,13.7,0,0,0,0,0
+125,Ashley Nurse,Ft. Lauderdale Lions,4,4,16,82,5, 16/ 3,0,46,5.12,16.40,19.2,0,0,0,3,0
+126,Burhan Saeed,New England Eagles,7,6,20,106,5, 19/ 2,0,60,5.30,21.20,24,0,0,0,7,1
+127,Kishaun Balgobin,Orlando Galaxy,5,5,15.5,86,5, 12/ 2,0,42,5.43,17.20,19,0,0,0,2,1
+128,Sidhesh Pathare,Lone Star Athletics,14,4,10,57,5, 21/ 2,0,25,5.70,11.40,12,0,0,0,0,0
+129,Neil Narvekar,Baltimore Royals,8,5,15,86,5, 12/ 2,0,43,5.73,17.20,18,0,0,0,1,0
+130,Bhaskar Yadram,New Jersey Stallions,10,7,22,130,5, 8/ 1,0,61,5.91,26.00,26.4,0,0,0,4,2
+131,Salman Nazar,New England Eagles,6,6,15.2,91,5, 25/ 2,1,49,5.93,18.20,18.4,0,0,0,4,0
+132,Siddarth Matani,New Jersey Stallions,5,5,14,84,5, 9/ 2,0,50,6.00,16.80,16.8,0,0,0,10,0
+133,Bipul Sharma,Baltimore Royals,6,5,13.5,90,5, 5/ 3,0,40,6.51,18.00,16.6,0,0,0,3,1
+134,Imran Khan Jr.,Lone Star Athletics,6,6,21,144,5, 26/ 2,1,59,6.86,28.80,25.2,0,0,0,3,1
+135,Bhaskaradipan Gnanasakthi,Orlando Galaxy,6,6,14,98,5, 13/ 3,0,33,7.00,19.60,16.8,0,0,0,3,0
+136,Achilles Browne,Ft. Lauderdale Lions,10,6,13,91,5, 8/ 2,0,43,7.00,18.20,15.6,0,0,0,4,0
+137,Bryan Gayle,Ft. Lauderdale Lions,9,7,19.5,141,5, 38/ 2,0,47,7.11,28.20,23.8,0,0,0,0,0
+138,Dexter Sween,Atlanta Lightning,3,3,10.5,78,5, 24/ 2,0,34,7.20,15.60,13,0,0,0,7,0
+139,Hardik Desai,Orlando Galaxy,8,6,16,119,5, 17/ 3,0,45,7.44,23.80,19.2,0,0,0,15,0
+140,Adnan Haroon,Dallas Mustangs,7,4,9,68,5, 4/ 2,1,21,7.56,13.60,10.8,0,0,0,0,0
+141,Adam Khan,Ft. Lauderdale Lions,8,4,12,92,5, 37/ 3,0,31,7.67,18.40,14.4,0,0,0,4,0
+142,Manav Patel,Orlando Galaxy,6,6,15.3,119,5, 25/ 2,0,34,7.68,23.80,18.6,0,0,0,4,0
+143,Abdullah Ghazi,New Jersey Somerset Cavaliers,4,4,14.2,111,5, 23/ 2,1,37,7.74,22.20,17.2,0,0,0,6,1
+144,Marty Kain,San Diego Surf Riders,8,7,16,128,5, 44/ 3,0,31,8.00,25.60,19.2,0,0,0,5,0
+145,Akhilesh Bodugum,Dallas Xforia Giants,10,9,26,211,5, 29/ 2,0,56,8.12,42.20,31.2,0,0,0,4,0
+146,Colin Archibald,Silicon Valley Strikers,6,6,19.3,159,5, 15/ 3,0,56,8.15,31.80,23.4,0,0,0,12,7
+147,Prasad Prakash Patil,Dallas Xforia Giants,9,8,28.4,234,5, 24/ 2,2,78,8.16,46.80,34.4,0,0,0,1,2
+148,Abhimanyu Rajp,Los Angeles Lashings,9,8,19,161,5, 24/ 4,0,38,8.47,32.20,22.8,0,1,0,8,0
+149,Akhil Kumar,Michigan Cricket Stars,6,5,12,104,5, 16/ 3,0,29,8.67,20.80,14.4,0,0,0,9,0
+150,Udaybirsingh Walia,Dallas Xforia Giants,11,9,17,153,5, 23/ 2,0,36,9.00,30.60,20.4,0,0,0,9,0
+151,Tirth Patel,Chicago Tigers,5,5,16,146,5, 24/ 2,0,40,9.12,29.20,19.2,0,0,0,13,1
+152,Matthew Tromp,Houston Hurricanes,10,6,13,134,5, 25/ 2,0,25,10.31,26.80,15.6,0,0,0,13,3
+153,Dhruv Pawar,Manhattan Yorkers,3,3,9,37,4, 6/ 2,1,39,4.11,9.25,13.5,0,0,0,2,0
+154,Deep Joshi,Manhattan Yorkers,7,4,10,43,4, 13/ 2,0,32,4.30,10.75,15,0,0,0,5,0
+155,Nahid Sarkar,Empire State Titans,2,2,4.1,18,4, 1/ 2,0,15,4.32,4.50,6.2,0,0,0,3,0
+156,Abir Chippa,New Jersey Somerset Cavaliers,2,2,4.2,23,4, 16/ 3,0,14,5.31,5.75,6.5,0,0,0,3,0
+157,Dane Piedt,Morrisville Raptors,7,6,21,112,4, 21/ 2,0,58,5.33,28.00,31.5,0,0,0,0,0
+158,Abhayjit Khangura,Manhattan Yorkers,6,6,16,93,4, 12/ 1,1,59,5.81,23.25,24,0,0,0,7,1
+159,Sadaf Hussain,Golden State Grizzlies,6,6,22,131,4, 18/ 2,1,64,5.95,32.75,33,0,0,0,4,1
+160,Steven Taylor,Atlanta Fire,4,3,9,56,4, 30/ 2,1,31,6.22,14.00,13.5,0,0,0,3,0
+161,Preet Shah,Manhattan Yorkers,4,4,13,82,4, 27/ 2,0,37,6.31,20.50,19.5,0,0,0,4,0
+162,Adnesh Tondale,San Diego Surf Riders,5,5,15.2,104,4, 16/ 2,0,40,6.78,26.00,23,0,0,0,3,0
+163,Musaddiq Ahmed,East Bay Blazers,4,2,7,48,4, 11/ 3,0,20,6.86,12.00,10.5,0,0,0,1,0
+164,Brody Couch,East Bay Blazers,3,3,12,83,4, 32/ 2,0,35,6.92,20.75,18,0,0,0,8,1
+165,Aaryan Batra,Baltimore Royals,5,5,12,87,4, 28/ 2,0,26,7.25,21.75,18,0,0,0,8,0
+166,Pruthvish Patel,Chicago Tigers,7,7,16.4,121,4, 12/ 1,0,38,7.26,30.25,25,0,0,0,6,1
+167,Rohan Posanipally,Seattle Thunderbolts,6,5,10,83,4, 21/ 2,0,25,8.30,20.75,15,0,0,0,8,2
+168,Zahid Zakhil,St. Louis Americans,8,7,15.1,130,4, 7/ 1,0,29,8.57,32.50,22.8,0,0,0,1,0
+169,Raymond Ramrattan,New Jersey Stallions,8,4,8,71,4, 23/ 3,0,18,8.88,17.75,12,0,0,0,1,0
+170,Ravi Bopara,Chicago Kingsmen,4,4,15.3,138,4, 24/ 2,0,30,8.90,34.50,23.2,0,0,0,4,1
+171,Arsh Buch,Silicon Valley Strikers,9,4,7.3,67,4, 9/ 2,0,14,8.93,16.75,11.2,0,0,0,9,0
+172,Arjun Vajjalla,New Jersey Stallions,9,2,5,20,3, 13/ 2,0,16,4.00,6.67,10,0,0,0,1,0
+173,Dhruv Pawar,Manhattan Yorkers,2,2,6,25,3, 13/ 3,0,22,4.17,8.33,12,0,0,0,0,0
+174,Anish Patel,Empire State Titans,4,3,9,40,3, 13/ 2,1,31,4.44,13.33,18,0,0,0,1,1
+175,Chintan Patel,Manhattan Yorkers,3,3,12,57,3, 18/ 3,1,40,4.75,19.00,24,0,0,0,1,0
+176,Liam Plunkett,The Philadelphians,7,7,21,110,3, 29/ 2,0,67,5.24,36.67,42,0,0,0,8,2
+177,Imran Khan Jr,Lone Star Athletics,2,2,8,45,3, 17/ 2,0,19,5.62,15.00,16,0,0,0,0,0
+178,Raza Ali Dar,Michigan Cricket Stars,6,5,14,80,3, 8/ 2,1,37,5.71,26.67,28,0,0,0,2,0
+179,Gerhard Erasmus,St. Louis Americans,4,3,9,52,3, 17/ 3,0,23,5.78,17.33,18,0,0,0,2,0
+180,Harikrishnan Nair,East Bay Blazers,9,8,19,112,3, 8/ 2,1,46,5.89,37.33,38,0,0,0,0,0
+181,Kulvinder Singh,Golden State Grizzlies,4,4,13,82,3, 15/ 1,0,37,6.31,27.33,26,0,0,0,4,0
+182,Waqas Saleem,Michigan Cricket Stars,7,5,10,65,3, 10/ 1,0,26,6.50,21.67,20,0,0,0,3,0
+183,Sivaram Swarna,The Philadelphians,3,3,8.1,54,3, 24/ 2,0,23,6.61,18.00,16.3,0,0,0,4,1
+184,Trevon Griffith,Morrisville Raptors,7,3,7,49,3, 13/ 2,0,22,7.00,16.33,14,0,0,0,10,0
+185,Karthikeya Jagadish,Morrisville Raptors,5,4,14,103,3, 23/ 2,0,35,7.36,34.33,28,0,0,0,2,0
+186,Rasesh Behera,Morrisville Raptors,3,2,7,52,3, 32/ 2,0,23,7.43,17.33,14,0,0,0,6,0
+187,Siddhant Shah,St. Louis Americans,7,5,14.1,107,3, 17/ 2,0,30,7.55,35.67,28.3,0,0,0,0,0
+188,Mohit Patel,Chicago Tigers,7,5,10.3,82,3, 15/ 2,0,21,7.81,27.33,21,0,0,0,3,0
+189,Rohan Phadke,Morrisville Raptors,6,2,7,56,3, 27/ 2,0,12,8.00,18.67,14,0,0,0,0,1
+190,Sandeep Vilayanur Sivaram,St. Louis Americans,5,4,8,65,3, 12/ 1,0,19,8.12,21.67,16,0,0,0,1,0
+191,Tajinder Singh,Chicago Kingsmen,7,6,11.3,95,3, 28/ 2,0,31,8.26,31.67,23,0,0,0,0,0
+192,Ujjwal Vinnakota,St. Louis Americans,10,6,14,117,3, 11/ 1,0,28,8.36,39.00,28,0,0,0,0,0
+193,Sankirth Batthula,Dallas Xforia Giants,4,4,10,84,3, 28/ 2,0,29,8.40,28.00,20,0,0,0,9,0
+194,Mittansh Nithiyanandam,Chicago Tigers,9,4,7.5,71,3, 17/ 2,0,16,9.06,23.67,15.7,0,0,0,6,0
+195,Salman Irshad,Dallas Mustangs,2,2,8,73,3, 31/ 2,0,15,9.12,24.33,16,0,0,0,3,0
+196,Praveen Borra,Orlando Galaxy,4,2,4,37,3, 26/ 3,0,7,9.25,12.33,8,0,0,0,0,0
+197,Cassius Burton,Atlanta Lightning,8,2,5,24,2, 9/ 1,0,11,4.80,12.00,15,0,0,0,2,0
+198,Abhimanyu Lamba,St. Louis Americans,2,2,6,33,2, 23/ 2,0,17,5.50,16.50,18,0,0,0,1,1
+199,Ravi Inder Singh Mehra,Baltimore Royals,9,4,5.4,32,2, 1/ 1,0,16,5.65,16.00,17,0,0,0,2,0
+200,Hoyito Leslie,Orlando Galaxy,7,5,12,68,2, 18/ 1,1,32,5.67,34.00,36,0,0,0,1,0
