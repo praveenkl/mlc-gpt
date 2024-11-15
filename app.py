@@ -257,62 +257,81 @@ if __name__ == '__main__':
             b = gr.Button(value="Show Report")
         return b, t
 
-    demo1 = gr.Interface(
-        fn=handle_query,
-        inputs=[
-            gr.Textbox(lines=2, placeholder="Enter query here...", show_label=False),
-            gr.Radio(choices=["stats", "news", "dynamic"], value="dynamic", show_label=False, container=True)
-        ],
-        outputs=gr.Textbox(show_label=False),
-        examples=[
-        ["Who is the owner of Major league cricket and how much does it cost to run the league?"],
-        ["What's different about this years edition of MLC?"],
-        ["How many total sixes were scored by the batsmen in the tournament and which team scored the most?"],
-        ["How many batsmen scored centuries and what are their names?"],
-        ["What are the names of teams that won matches played in Church Street Park ground?"]
-        ],
-        cache_examples=True,
-        theme=my_theme,
-        allow_flagging="never"
+    # Define "Ask Questions" block for League One
+    def create_ask_questions_block():
+        return gr.Interface(
+            fn=handle_query,
+            inputs=[
+                gr.Textbox(lines=2, placeholder="Enter query here...", show_label=False),
+                gr.Radio(choices=["stats", "news", "dynamic"], value="dynamic", show_label=False, container=True),
+            ],
+            outputs=gr.Textbox(show_label=False),
+            examples=[
+                ["Who is the owner of Major league cricket and how much does it cost to run the league?"],
+                ["What's different about this years edition of MLC?"],
+                ["How many total sixes were scored by the batsmen in the tournament and which team scored the most?"],
+                ["How many batsmen scored centuries and what are their names?"],
+                ["What are the names of teams that won matches played in Church Street Park ground?"],
+            ],
+            cache_examples=False,
+            allow_flagging="never",
+        )
+
+
+    # Define "Read Reports" block
+    def create_read_reports_block():
+        with gr.Blocks() as read_reports:
+            match_info = get_completed_matches()
+            for id, details in match_info.items():
+                [match_num, teams, date, ground, result] = details
+                city = get_city(ground)
+                report = ""
+                if len(result) > 0:
+                    report = get_match_report(id)
+                with gr.Row(variant="compact"):
+                    l = gr.Label(value=teams, label=f"Match {match_num} | {date} | {city}", container=True, scale=16)
+                    b = gr.Button(value="Show Report", scale=1, size="sm")
+                t = gr.Textbox(
+                    lines=7,
+                    value=report,
+                    interactive=False,
+                    show_copy_button=True,
+                    visible=False,
+                    label="Match Report",
+                )
+                b.click(fn=handle_click, inputs=[l, b], outputs=[b, t])
+            gr.HTML("<hr style='border: 2px solid #808080;'>")
+            match_info = get_schedule()
+            for id, details in match_info.items():
+                [match_num, teams, date, ground, result] = details
+                city = get_city(ground)
+                with gr.Row(variant="compact"):
+                    gr.Label(value=teams, label=f"Match {match_num} | {date} | {city}", container=True)
+        return read_reports
+
+
+    # Create League One Tabs
+    league_one_tabs = gr.TabbedInterface(
+        [create_ask_questions_block(), create_read_reports_block()],
+        tab_names=["Ask Questions", "Read Reports"],
     )
 
-    with gr.Blocks(theme=my_theme) as demo2:
-        match_info = get_completed_matches()
-        for id, details in match_info.items():
-            [match_num, teams, date, ground, result] = details
-            city = get_city(ground)
-            report = ""
-            if len(result) > 0:
-                report = get_match_report(id)
-            with gr.Row(variant="compact"):
-                l = gr.Label(value=teams, label=f'Match {match_num} | {date} | {city}', container=True, scale=16)
-                b = gr.Button(value="Show Report", scale=1, size="sm")
-            t = gr.Textbox(lines=7, value=report, interactive=False, show_copy_button=True, visible=False, label="Match Report")
-            b.click(fn=handle_click, inputs=[l, b], outputs=[b,t])
-        gr.HTML("<hr style='border: 2px solid #808080;'>")
-        match_info = get_schedule()
-        for id, details in match_info.items():
-            [match_num, teams, date, ground, result] = details
-            city = get_city(ground)
-            with gr.Row(variant="compact"):
-                l = gr.Label(value=teams, label=f'Match {match_num} | {date} | {city}', container=True)
+    # Create League Two Tabs (New Instances)
+    league_two_tabs = gr.TabbedInterface(
+        [create_ask_questions_block(), create_read_reports_block()],
+        tab_names=["Ask Questions", "Read Reports"],
+    )
 
-    demo = gr.TabbedInterface([demo1, demo2],
-                              tab_names=["Ask Questions", "Read Reports"],
-                              title="MLC Guru",
-                              analytics_enabled=False,
-                              theme=my_theme,)
+    # Combine into Top-Level Tabbed Interface
+    top_level_interface = gr.TabbedInterface(
+        [league_one_tabs, league_two_tabs],
+        tab_names=["League One", "League Two"],
+    )
 
+    # Launch the App
     if "PORT" in os.environ:
         port = int(os.environ["PORT"])
-        demo.launch(share=False, server_name="0.0.0.0", server_port=port)
+        top_level_interface.launch(share=False, server_name="0.0.0.0", server_port=port)
     else:
-        demo.launch(share=False)
-    
-    # while True:
-    #     q = input("Enter query (or quit): ")
-    #     if q.lower() == "quit":
-    #         break
-    #     response = handle_query(q)
-    #     print(response)
-        # print(response.metadata)
+        top_level_interface.launch(share=False)
+
