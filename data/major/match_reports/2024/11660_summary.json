@@ -1,0 +1,209 @@
+{
+    "MatchResult": {
+        "TeamAName": "Seattle Orcas",
+        "TeamBName": "San Francisco Unicorns",
+        "Venue": "Church Street Park",
+        "City": "",
+        "TossInfo": "Seattle Orcas - OPTED TO FIELD",
+        "WinTeamName": "San Francisco Unicorns",
+        "MatchResult": "SAN FRANCISCO UNICORNS - WON BY 23 RUNS",
+        "ManOfTheMatch": "L PLUNKETT",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "26/3",
+        "InningsOneSummary": "165/7(20.0 Ov)",
+        "InningsTwoSummary": "142/6(20.0 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "M SHORT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 56,
+            "Balls": 32,
+            "RunText": "56 (32)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "F ALLEN",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 34,
+            "Balls": 18,
+            "RunText": "34 (18)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S KRISHNAMURTHI",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 30,
+            "Balls": 21,
+            "RunText": "30 (21)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "J MCGURK",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 11,
+            "Balls": 10,
+            "RunText": "11 (10)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S JAYASURIYA",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 54,
+            "Balls": 37,
+            "RunText": "54 (37)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R RICKELTON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 29,
+            "Balls": 21,
+            "RunText": "29 (21)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "H AZAMIM",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 16,
+            "Balls": 14,
+            "RunText": "16 (14)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HARMEET S",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 15,
+            "Balls": 18,
+            "RunText": "15 (18)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "C GANNON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 26,
+            "Wickets": 3,
+            "WicketText": "3/26 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "I WASIM",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 28,
+            "Wickets": 2,
+            "WicketText": "2/28 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "HARMEET S",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 34,
+            "Wickets": 1,
+            "WicketText": "1/34 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "Z KHAN",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 39,
+            "Wickets": 1,
+            "WicketText": "1/39 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "L PLUNKETT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 26,
+            "Wickets": 3,
+            "WicketText": "3/26 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "M SHORT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "3.0",
+            "RunsGiven": 15,
+            "Wickets": 1,
+            "WicketText": "1/15 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "3.2",
+            "RunsGiven": 21,
+            "Wickets": 1,
+            "WicketText": "1/21 (3.2)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "P CUMMINS",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 35,
+            "Wickets": 1,
+            "WicketText": "1/35 (4.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 14,
+            "BallNumber": 5,
+            "OverValue": 13.5,
+            "TeamMilestone": "Seattle Orcas: 101/5 IN 13.5 OVERS (83 BALLS), EXTRAS 1",
+            "CommentryText": "Corey Anderson to Harmeet Singh, 2 Runs  "
+        },
+        {
+            "OverNumber": 6,
+            "BallNumber": 5,
+            "OverValue": 5.5,
+            "TeamMilestone": "Seattle Orcas: 50/0 IN 5.5 OVERS (35 BALLS), EXTRAS 0",
+            "CommentryText": "Haris Rauf to Shehan Jayasuriya, SIX 132 KPH  "
+        },
+        {
+            "OverNumber": 18,
+            "BallNumber": 2,
+            "OverValue": 17.2,
+            "TeamMilestone": "San Francisco Unicorns: 150/5 IN 17.2 OVERS (105 BALLS), EXTRAS 5",
+            "CommentryText": "Cameron Gannon to Hassan Khan, FOUR 112 KPH,  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 3,
+            "OverValue": 9.3,
+            "TeamMilestone": "San Francisco Unicorns: 103/2 IN 9.3 OVERS (58 BALLS), EXTRAS 3",
+            "CommentryText": "Harmeet Singh to Matthew Short, SIX  "
+        },
+        {
+            "OverNumber": 6,
+            "BallNumber": 3,
+            "OverValue": 5.3,
+            "TeamMilestone": "San Francisco Unicorns: 50/1 IN 5.3 OVERS (33 BALLS), EXTRAS 2",
+            "CommentryText": "Zaman Khan to Finn Allen, 1 Run 135 KPH,  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 11,
+            "BallNumber": 3,
+            "OverValue": 10.3,
+            "PlayerMilestone": "S JAYASURIYA: 50 OFF 35 BALLS (6X 4) (2X 6)",
+            "CommentryText": "Pat Cummins to Shehan Jayasuriya, 1 Run  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 3,
+            "OverValue": 9.3,
+            "PlayerMilestone": "M SHORT: 54 OFF 29 BALLS (4X 4) (4X 6)",
+            "CommentryText": "Harmeet Singh to Matthew Short, SIX  "
+        }
+    ]
+}

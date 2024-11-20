@@ -1,0 +1,202 @@
+{
+    "MatchResult": {
+        "TeamAName": "MI New York",
+        "TeamBName": "San Francisco Unicorns",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "San Francisco Unicorns - OPTED TO BAT",
+        "WinTeamName": "San Francisco Unicorns",
+        "MatchResult": "SAN FRANCISCO UNICORNS - WON BY 3 RUNS",
+        "ManOfTheMatch": "C ANDERSON",
+        "MOMBattingScore": "59/37",
+        "MOMBowlingScore": "4/0",
+        "InningsOneSummary": "148/7(20.0 Ov)",
+        "InningsTwoSummary": "145/6(20.0 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "D BREVIS",
+            "PlayerTeamName": "MI New York",
+            "Runs": 56,
+            "Balls": 36,
+            "RunText": "56 (36)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "N POORAN",
+            "PlayerTeamName": "MI New York",
+            "Runs": 26,
+            "Balls": 30,
+            "RunText": "26 (30)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "H RICHARDS",
+            "PlayerTeamName": "MI New York",
+            "Runs": 24,
+            "Balls": 13,
+            "RunText": "24 (13)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R KHAN",
+            "PlayerTeamName": "MI New York",
+            "Runs": 14,
+            "Balls": 12,
+            "RunText": "14 (12)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 59,
+            "Balls": 37,
+            "RunText": "59 (37)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 44,
+            "Balls": 35,
+            "RunText": "44 (35)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S RUTHERFORD",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 14,
+            "Balls": 15,
+            "RunText": "14 (15)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "P CUMMINS",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 13,
+            "Balls": 12,
+            "RunText": "13 (12)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "M SHORT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 27,
+            "Wickets": 3,
+            "WicketText": "3/27 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "B COUCH",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 27,
+            "Wickets": 2,
+            "WicketText": "2/27 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 9,
+            "Wickets": 1,
+            "WicketText": "1/9 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "0.1",
+            "RunsGiven": 4,
+            "Wickets": 0,
+            "WicketText": "0/4 (0.1)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "N KENJIGE",
+            "PlayerTeamName": "MI New York",
+            "Overs": "4.0",
+            "RunsGiven": 13,
+            "Wickets": 2,
+            "WicketText": "2/13 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "T BOULT",
+            "PlayerTeamName": "MI New York",
+            "Overs": "4.0",
+            "RunsGiven": 35,
+            "Wickets": 2,
+            "WicketText": "2/35 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "R KHAN",
+            "PlayerTeamName": "MI New York",
+            "Overs": "4.0",
+            "RunsGiven": 26,
+            "Wickets": 1,
+            "WicketText": "1/26 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "R SHEPHERD",
+            "PlayerTeamName": "MI New York",
+            "Overs": "4.0",
+            "RunsGiven": 31,
+            "Wickets": 1,
+            "WicketText": "1/31 (4.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 16,
+            "BallNumber": 3,
+            "OverValue": 15.3,
+            "TeamMilestone": "MI New York: 104/4 IN 15.3 OVERS (94 BALLS), EXTRAS 6",
+            "CommentryText": "M SHORT OFF STUMP,GOOD LENGTH, TO R SHEPHERD, SLOG SHOT SHOT, DEEP MID WICKET (SWEEPER) for !!! SIX !!!"
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 5,
+            "OverValue": 7.5,
+            "TeamMilestone": "MI New York: 50/1 IN 7.5 OVERS (46 BALLS), EXTRAS 1",
+            "CommentryText": "H RAUF WISE OUTSIDE OFF STUMP,BOUNCER, TO D BREVIS, LEFT ALONE SHOT, 1(WD)"
+        },
+        {
+            "OverNumber": 15,
+            "BallNumber": 6,
+            "OverValue": 14.6,
+            "TeamMilestone": "San Francisco Unicorns: 100/5 IN 15.0 OVERS (89 BALLS), EXTRAS 7",
+            "CommentryText": "SUNNY PATEL OUTSIDE LEG STUMP,GOOD LENGTH, TO C ANDERSON, WORKED SHOT, 1(WD)"
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 6,
+            "OverValue": 9.6,
+            "TeamMilestone": "San Francisco Unicorns: 50/5 IN 10.0 OVERS (60 BALLS), EXTRAS 3",
+            "CommentryText": "K POLLARD WISE OUTSIDE OFF STUMP,SHORT LENGTH, TO HASSAN K, CUT SHOT, DEEP POINT for 1 Run(s) "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 9,
+            "BallNumber": 6,
+            "OverValue": 8.6,
+            "PlayerMilestone": "D BREVIS: 51 OFF 32 BALLS (4X 4) (3X 6)",
+            "CommentryText": "P CUMMINS LEG STUMP,FULL LENGTH, TO D BREVIS, FLICK SHOT, DEEP SQUARE LEG for !!! FOUR !!!"
+        },
+        {
+            "OverNumber": 19,
+            "BallNumber": 3,
+            "OverValue": 18.3,
+            "PlayerMilestone": "C ANDERSON: 54 OFF 33 BALLS (4X 4) (2X 6)",
+            "CommentryText": "R KHAN MIDDLE STUMP,GOOD LENGTH, TO C ANDERSON, PULL SHOT, DEEP MID WICKET (SWEEPER) for !!! SIX !!!"
+        }
+    ]
+}

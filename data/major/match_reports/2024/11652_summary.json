@@ -1,0 +1,184 @@
+{
+    "MatchResult": {
+        "TeamAName": "Washington Freedom",
+        "TeamBName": "Texas Super Kings",
+        "Venue": "Church Street Park",
+        "City": "",
+        "TossInfo": "Washington Freedom - OPTED TO FIELD",
+        "WinTeamName": "",
+        "MatchResult": "DUE TO RAIN",
+        "ManOfTheMatch": "",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "203/5(20.0 Ov)",
+        "InningsTwoSummary": "62/0(4.0 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "FAF DU PLESSIS",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 100,
+            "Balls": 58,
+            "RunText": "100 (58)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "D CONWAY",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 39,
+            "Balls": 26,
+            "RunText": "39 (26)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M STONIS",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 29,
+            "Balls": 18,
+            "RunText": "29 (18)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MILIND K",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 11,
+            "Balls": 9,
+            "RunText": "11 (9)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "T HEAD",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 32,
+            "Balls": 12,
+            "RunText": "32 (12)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S SMITH",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 26,
+            "Balls": 13,
+            "RunText": "26 (13)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "S NETRAVALKAR",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 33,
+            "Wickets": 2,
+            "WicketText": "2/33 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "A HOSEIN",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.0",
+            "RunsGiven": 32,
+            "Wickets": 1,
+            "WicketText": "1/32 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "J DILL",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.0",
+            "RunsGiven": 35,
+            "Wickets": 1,
+            "WicketText": "1/35 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M JANSEN",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 47,
+            "Wickets": 1,
+            "WicketText": "1/47 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "N MURID",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "1.0",
+            "RunsGiven": 18,
+            "Wickets": 0,
+            "WicketText": "0/18 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "ZIA-UL-HAQ",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "2.0",
+            "RunsGiven": 19,
+            "Wickets": 0,
+            "WicketText": "0/19 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A HARDIE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "1.0",
+            "RunsGiven": 24,
+            "Wickets": 0,
+            "WicketText": "0/24 (1.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 4,
+            "BallNumber": 4,
+            "OverValue": 3.4,
+            "TeamMilestone": "Washington Freedom: 53/0 IN 3.4 OVERS (22 BALLS), EXTRAS 3",
+            "CommentryText": "Aaron Hardie to Travis Head, FOUR  "
+        },
+        {
+            "OverNumber": 20,
+            "BallNumber": 6,
+            "OverValue": 19.6,
+            "TeamMilestone": "Texas Super Kings: 203/5 IN 20.0 OVERS (120 BALLS), EXTRAS 16",
+            "CommentryText": "Marco Jansen to Dwayne Bravo, FOUR  "
+        },
+        {
+            "OverNumber": 16,
+            "BallNumber": 5,
+            "OverValue": 15.5,
+            "TeamMilestone": "Texas Super Kings: 153/2 IN 15.5 OVERS (95 BALLS), EXTRAS 10",
+            "CommentryText": "Marco Jansen to Faf Du Plessis, FOUR 133.6 KPH  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 6,
+            "OverValue": 9.6,
+            "TeamMilestone": "Texas Super Kings: 103/0 IN 10.0 OVERS (60 BALLS), EXTRAS 10",
+            "CommentryText": "Justin Dill to Faf Du Plessis, FOUR  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 5,
+            "OverValue": 4.5,
+            "TeamMilestone": "Texas Super Kings: 51/0 IN 4.5 OVERS (29 BALLS), EXTRAS 5",
+            "CommentryText": "Akeal Hosein to Faf Du Plessis, FOUR 95.0 KPH,  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 18,
+            "BallNumber": 6,
+            "OverValue": 17.6,
+            "PlayerMilestone": "FAF DU PLESSIS: 100 OFF 56 BALLS (12X 4) (5X 6)",
+            "CommentryText": "Lockie Ferguson to Faf Du Plessis, FOUR 119.1 KPH,  "
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 4,
+            "OverValue": 8.4,
+            "PlayerMilestone": "FAF DU PLESSIS: 53 OFF 32 BALLS (8X 4) (2X 6)",
+            "CommentryText": "Glenn Maxwell to Faf Du Plessis, FOUR 93.3 KPH,  "
+        }
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "MatchResult": {
+        "TeamAName": "Seattle Orcas",
+        "TeamBName": "Washington Freedom",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "Washington Freedom - OPTED TO FIELD",
+        "WinTeamName": "Washington Freedom",
+        "MatchResult": "WASHINGTON FREEDOM - WON BY 5 WICKETS",
+        "ManOfTheMatch": "L FERGUSON",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "26/4",
+        "InningsOneSummary": "124/10(19.4 Ov)",
+        "InningsTwoSummary": "127/5(18.2 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "H KLAASEN",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 51,
+            "Balls": 30,
+            "RunText": "51 (30)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "Q DE KOCK",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 24,
+            "Balls": 19,
+            "RunText": "24 (19)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S RANJANE",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 12,
+            "Balls": 17,
+            "RunText": "12 (17)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "C GANNON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 8,
+            "Balls": 5,
+            "RunText": "8 (5)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "L MILANTHA",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 33,
+            "Balls": 30,
+            "RunText": "33 (30)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J PIENAAR",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 31,
+            "Balls": 30,
+            "RunText": "31 (30)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R RAVINDRA",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 26,
+            "Balls": 16,
+            "RunText": "26 (16)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S SMITH",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 12,
+            "Balls": 13,
+            "RunText": "12 (13)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "L FERGUSON",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 26,
+            "Wickets": 4,
+            "WicketText": "4/26 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S NETRAVALKAR",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.4",
+            "RunsGiven": 18,
+            "Wickets": 3,
+            "WicketText": "3/18 (3.4)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M JANSEN",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 28,
+            "Wickets": 1,
+            "WicketText": "1/28 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "I HOLLAND",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 34,
+            "Wickets": 1,
+            "WicketText": "1/34 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "N BURGER",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 27,
+            "Wickets": 2,
+            "WicketText": "2/27 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HARMEET S",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 15,
+            "Wickets": 1,
+            "WicketText": "1/15 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C GANNON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "3.0",
+            "RunsGiven": 27,
+            "Wickets": 1,
+            "WicketText": "1/27 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "I WASIM",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 31,
+            "Wickets": 1,
+            "WicketText": "1/31 (4.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 16,
+            "BallNumber": 6,
+            "OverValue": 15.6,
+            "TeamMilestone": "Washington Freedom: 102/5 IN 16.0 OVERS (96 BALLS), EXTRAS 5",
+            "CommentryText": "Cameron Gannon to Obus Pienaar, FOUR  "
+        },
+        {
+            "OverNumber": 7,
+            "BallNumber": 1,
+            "OverValue": 6.1,
+            "TeamMilestone": "Washington Freedom: 51/3 IN 6.1 OVERS (37 BALLS), EXTRAS 2",
+            "CommentryText": "Nandre Burger to Mukhtar Ahmed, FOUR 140 KPH  "
+        },
+        {
+            "OverNumber": 15,
+            "BallNumber": 2,
+            "OverValue": 14.2,
+            "TeamMilestone": "Seattle Orcas: 102/4 IN 14.2 OVERS (86 BALLS), EXTRAS 7",
+            "CommentryText": "Marco Jansen to Heinrich Klaasen, FOUR  "
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 5,
+            "OverValue": 8.5,
+            "TeamMilestone": "Seattle Orcas: 50/3 IN 8.5 OVERS (53 BALLS), EXTRAS 6",
+            "CommentryText": "Marco Jansen to Shubham Ranjane, 1 Run 133 KPH  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 15,
+            "BallNumber": 2,
+            "OverValue": 14.2,
+            "PlayerMilestone": "H KLAASEN: 51 OFF 29 BALLS (4X 4) (3X 6)",
+            "CommentryText": "Marco Jansen to Heinrich Klaasen, FOUR  "
+        }
+    ]
+}

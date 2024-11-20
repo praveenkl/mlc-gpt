@@ -1,0 +1,215 @@
+{
+    "MatchResult": {
+        "TeamAName": "Texas Super Kings",
+        "TeamBName": "MI New York",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "Texas Super Kings - OPTED TO FIELD",
+        "WinTeamName": "Texas Super Kings",
+        "MatchResult": "TEXAS SUPER KINGS - WON BY 9 WICKETS",
+        "ManOfTheMatch": "FAF DU PLESSIS",
+        "MOMBattingScore": "72/47",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "163/8(20.0 Ov)",
+        "InningsTwoSummary": "167/1(18.3 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "R KHAN",
+            "PlayerTeamName": "MI New York",
+            "Runs": 55,
+            "Balls": 30,
+            "RunText": "55 (30)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M PATEL",
+            "PlayerTeamName": "MI New York",
+            "Runs": 48,
+            "Balls": 41,
+            "RunText": "48 (41)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S JAHANGIR",
+            "PlayerTeamName": "MI New York",
+            "Runs": 26,
+            "Balls": 23,
+            "RunText": "26 (23)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "N POORAN",
+            "PlayerTeamName": "MI New York",
+            "Runs": 8,
+            "Balls": 9,
+            "RunText": "8 (9)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "FAF DU PLESSIS",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 72,
+            "Balls": 47,
+            "RunText": "72 (47)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "D CONWAY",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 51,
+            "Balls": 43,
+            "RunText": "51 (43)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A HARDIE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 40,
+            "Balls": 22,
+            "RunText": "40 (22)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "M STONIS",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 18,
+            "Wickets": 2,
+            "WicketText": "2/18 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "A HARDIE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "1.3",
+            "RunsGiven": 22,
+            "Wickets": 2,
+            "WicketText": "2/22 (1.3)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "D BRAVO",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "1.3",
+            "RunsGiven": 21,
+            "Wickets": 1,
+            "WicketText": "1/21 (1.3)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ZIA-UL-HAQ",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 27,
+            "Wickets": 1,
+            "WicketText": "1/27 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "N KENJIGE",
+            "PlayerTeamName": "MI New York",
+            "Overs": "3.0",
+            "RunsGiven": 24,
+            "Wickets": 1,
+            "WicketText": "1/24 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R UGARKAR",
+            "PlayerTeamName": "MI New York",
+            "Overs": "2.3",
+            "RunsGiven": 19,
+            "Wickets": 0,
+            "WicketText": "0/19 (2.3)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R KHAN",
+            "PlayerTeamName": "MI New York",
+            "Overs": "4.0",
+            "RunsGiven": 22,
+            "Wickets": 0,
+            "WicketText": "0/22 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R SHEPHERD",
+            "PlayerTeamName": "MI New York",
+            "Overs": "3.0",
+            "RunsGiven": 26,
+            "Wickets": 0,
+            "WicketText": "0/26 (3.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 18,
+            "BallNumber": 3,
+            "OverValue": 17.3,
+            "TeamMilestone": "Texas Super Kings: 150/1 IN 17.3 OVERS (106 BALLS), EXTRAS 4",
+            "CommentryText": "T BOULT OUTSIDE OFF STUMP,GOOD LENGTH, TO A HARDIE, LOFTED OVER COVER SHOT, DEEP EXTRA COVER (SWEEPER) for !!! SIX !!!"
+        },
+        {
+            "OverNumber": 13,
+            "BallNumber": 1,
+            "OverValue": 12.1,
+            "TeamMilestone": "Texas Super Kings: 100/0 IN 12.1 OVERS (74 BALLS), EXTRAS 4",
+            "CommentryText": "N KENJIGE OUTSIDE OFF STUMP,GOOD LENGTH, TO FAF DU PLESSIS, LOFTED ON SHOT, WIDE LONG ON for 1 Run(s) "
+        },
+        {
+            "OverNumber": 7,
+            "BallNumber": 1,
+            "OverValue": 6.1,
+            "TeamMilestone": "Texas Super Kings: 50/0 IN 6.1 OVERS (37 BALLS), EXTRAS 3",
+            "CommentryText": "R KHAN OUTSIDE LEG STUMP,GOOD LENGTH, TO D CONWAY, WORKED SHOT, DEEP BACKWARD SQUARE LEG for 1 Run(s) "
+        },
+        {
+            "OverNumber": 18,
+            "BallNumber": 5,
+            "OverValue": 17.5,
+            "TeamMilestone": "MI New York: 150/4 IN 17.5 OVERS (107 BALLS), EXTRAS 12",
+            "CommentryText": "N AHMAD LEG STUMP,GOOD LENGTH, TO R KHAN, SWEEP SHOT SHOT, DEEP BACKWARD SQUARE LEG for !!! FOUR !!!"
+        },
+        {
+            "OverNumber": 14,
+            "BallNumber": 2,
+            "OverValue": 13.2,
+            "TeamMilestone": "MI New York: 101/3 IN 13.2 OVERS (80 BALLS), EXTRAS 8",
+            "CommentryText": "M MOHSIN OUTSIDE LEG STUMP,SHORT LENGTH, TO M PATEL, PULL SHOT, DEEP SQUARE LEG for !!! FOUR !!!"
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 2,
+            "OverValue": 7.2,
+            "TeamMilestone": "MI New York: 54/2 IN 7.2 OVERS (44 BALLS), EXTRAS 8",
+            "CommentryText": "M MOHSIN WISE OUTSIDE OFF STUMP,FULL LENGTH, TO S JAHANGIR, LOFTED OVER COVER SHOT, DEEP COVER for !!! SIX !!!"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 18,
+            "BallNumber": 2,
+            "OverValue": 17.2,
+            "PlayerMilestone": "D CONWAY: 50 OFF 42 BALLS (3X 4) (1X 6)",
+            "CommentryText": "T BOULT MIDDLE STUMP,YORKER, TO D CONWAY, WORKED SHOT, LONG ON for 1 Run(s) "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 3,
+            "OverValue": 9.3,
+            "PlayerMilestone": "FAF DU PLESSIS: 50 OFF 35 BALLS (4X 4) (2X 6)",
+            "CommentryText": "K POLLARD OUTSIDE OFF STUMP,GOOD LENGTH, TO FAF DU PLESSIS, GLIDE SHOT, SHORT THIRD MAN for 1 Run(s) "
+        },
+        {
+            "OverNumber": 18,
+            "BallNumber": 5,
+            "OverValue": 17.5,
+            "PlayerMilestone": "R KHAN: 50 OFF 25 BALLS (4X 4) (4X 6)",
+            "CommentryText": "N AHMAD LEG STUMP,GOOD LENGTH, TO R KHAN, SWEEP SHOT SHOT, DEEP BACKWARD SQUARE LEG for !!! FOUR !!!"
+        }
+    ]
+}

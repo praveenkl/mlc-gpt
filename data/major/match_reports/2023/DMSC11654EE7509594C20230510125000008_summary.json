@@ -1,0 +1,202 @@
+{
+    "MatchResult": {
+        "TeamAName": "TSK",
+        "TeamBName": "MI NY",
+        "Venue": "GRAND PRAIRIE STADIUM, GRAND PRAIRIE, TX",
+        "City": "DALLAS",
+        "TossInfo": "TSK - OPTED TO BAT",
+        "WinTeamName": "TSK",
+        "MatchResult": "TSK - WON BY 17 RUNS",
+        "ManOfTheMatch": "DEVON CONWAY",
+        "MOMBattingScore": "74/55",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "154/7(20.0 OV)",
+        "InningsTwoSummary": "137/8(20.0 OV)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "SHAYAN JAHANGIR",
+            "PlayerTeamName": "MI NY",
+            "Runs": 41,
+            "Balls": 38,
+            "RunText": "41 (38)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "TIM DAVID",
+            "PlayerTeamName": "MI NY",
+            "Runs": 24,
+            "Balls": 19,
+            "RunText": "24 (19)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "NICHOLAS POORAN",
+            "PlayerTeamName": "MI NY",
+            "Runs": 19,
+            "Balls": 15,
+            "RunText": "19 (15)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "STEVEN TAYLOR",
+            "PlayerTeamName": "MI NY",
+            "Runs": 15,
+            "Balls": 21,
+            "RunText": "15 (21)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DEVON CONWAY",
+            "PlayerTeamName": "TSK",
+            "Runs": 74,
+            "Balls": 55,
+            "RunText": "74 (55)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MITCHELL SANTNER",
+            "PlayerTeamName": "TSK",
+            "Runs": 27,
+            "Balls": 13,
+            "RunText": "27 (13)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "DAVID MILLER",
+            "PlayerTeamName": "TSK",
+            "Runs": 17,
+            "Balls": 15,
+            "RunText": "17 (15)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "CODY CHETTY",
+            "PlayerTeamName": "TSK",
+            "Runs": 12,
+            "Balls": 18,
+            "RunText": "12 (18)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "DANIEL SAMS",
+            "PlayerTeamName": "TSK",
+            "Overs": "4.0",
+            "RunsGiven": 15,
+            "Wickets": 2,
+            "WicketText": "2/15 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MOHAMMAD MOHSIN",
+            "PlayerTeamName": "TSK",
+            "Overs": "4.0",
+            "RunsGiven": 36,
+            "Wickets": 2,
+            "WicketText": "2/36 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "2073",
+            "PlayerTeamName": "TSK",
+            "Overs": "3.0",
+            "RunsGiven": 15,
+            "Wickets": 1,
+            "WicketText": "1/15 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "RUSTY THERON",
+            "PlayerTeamName": "TSK",
+            "Overs": "3.0",
+            "RunsGiven": 18,
+            "Wickets": 1,
+            "WicketText": "1/18 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "TRENT BOULT",
+            "PlayerTeamName": "MI NY",
+            "Overs": "4.0",
+            "RunsGiven": 29,
+            "Wickets": 2,
+            "WicketText": "2/29 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "KAGISO RABADA",
+            "PlayerTeamName": "MI NY",
+            "Overs": "4.0",
+            "RunsGiven": 30,
+            "Wickets": 2,
+            "WicketText": "2/30 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "KIERON POLLARD",
+            "PlayerTeamName": "MI NY",
+            "Overs": "3.0",
+            "RunsGiven": 17,
+            "Wickets": 1,
+            "WicketText": "1/17 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "RASHID KHAN",
+            "PlayerTeamName": "MI NY",
+            "Overs": "4.0",
+            "RunsGiven": 32,
+            "Wickets": 1,
+            "WicketText": "1/32 (4.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 16,
+            "BallNumber": 2,
+            "OverValue": 15.2,
+            "TeamMilestone": "MI NY: 102/5 IN 15.2 OVERS (92 BALLS), EXTRAS 9",
+            "CommentryText": "Mohammad Mohsin to Hammad Azam, FOUR  Leg Spin Delivery Short Length Pitched on Wider Lines Played the Cut on the Back Foot Goes to Third Man - Deep"
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 6,
+            "OverValue": 8.6,
+            "TeamMilestone": "MI NY: 50/2 IN 9.0 OVERS (54 BALLS), EXTRAS 7",
+            "CommentryText": "Zia Ul-Haq to Shayan Jahangir, Leg Byes,2 Runs 131 KPH  Straight Ball Fuller Length Pitched on Down Outside the Leg stump Flicked on the  Front FootUncomfortable Shot To  Wicket Keeper Z ULHAQ"
+        },
+        {
+            "OverNumber": 20,
+            "BallNumber": 1,
+            "OverValue": 19.1,
+            "TeamMilestone": "TSK: 150/5 IN 19.1 OVERS (115 BALLS), EXTRAS 9",
+            "CommentryText": "Trent Boult to Daniel Sams, Leg Byes,1 Run 134 KPH  Angling In Length Ball Pitched on Stump line Slog Shot on the  Front FootUncomfortable Shot To  Wicket Keeper"
+        },
+        {
+            "OverNumber": 15,
+            "BallNumber": 2,
+            "OverValue": 14.2,
+            "TeamMilestone": "TSK: 100/2 IN 14.2 OVERS (86 BALLS), EXTRAS 8",
+            "CommentryText": "Rashid Khan to David Miller, 1 Run 95 KPH  Googly Length Ball Pitched on Down Outside the Leg stump Pushed on the  Front Foot Goes to Mid Wicket"
+        },
+        {
+            "OverNumber": 7,
+            "BallNumber": 5,
+            "OverValue": 6.5,
+            "TeamMilestone": "TSK: 50/1 IN 6.5 OVERS (41 BALLS), EXTRAS 3",
+            "CommentryText": "Kieron Pollard to Devon Conway, 1 Run 109 KPH  Angling In Length Ball Pitched on Outside off stump Pushed on the  Front Foot Goes to Square Leg"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 14,
+            "BallNumber": 2,
+            "OverValue": 13.2,
+            "PlayerMilestone": "DEVON CONWAY: 50 OFF 42 BALLS (6X 4) (0X 6)",
+            "CommentryText": "Kieron Pollard to Devon Conway, 1 Run  Nipping Away Short Length Pitched on Outside off stump Pulled on the Back Foot Goes to Long On"
+        }
+    ]
+}
