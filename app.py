@@ -275,12 +275,13 @@ if __name__ == '__main__':
             ],
             cache_examples=False,
             allow_flagging="never",
+            theme=my_theme,
         )
 
 
     # Define "Read Reports" block
     def create_read_reports_block():
-        with gr.Blocks() as read_reports:
+        with gr.Blocks(theme=my_theme) as read_reports:
             match_info = get_completed_matches()
             for id, details in match_info.items():
                 [match_num, teams, date, ground, result] = details
@@ -314,18 +315,22 @@ if __name__ == '__main__':
     league_one_tabs = gr.TabbedInterface(
         [create_ask_questions_block(), create_read_reports_block()],
         tab_names=["Ask Questions", "Read Reports"],
+        theme=my_theme,
     )
 
     # Create League Two Tabs (New Instances)
     league_two_tabs = gr.TabbedInterface(
         [create_ask_questions_block(), create_read_reports_block()],
         tab_names=["Ask Questions", "Read Reports"],
+        theme=my_theme,
     )
 
     # Combine into Top-Level Tabbed Interface
     top_level_interface = gr.TabbedInterface(
         [league_one_tabs, league_two_tabs],
-        tab_names=["League One", "League Two"],
+        tab_names=["Major League", "Minor League"],
+        theme=my_theme,
+        title="Cricket Guru"
     )
 
     # Launch the App
@@ -334,4 +339,3 @@ if __name__ == '__main__':
         top_level_interface.launch(share=False, server_name="0.0.0.0", server_port=port)
     else:
         top_level_interface.launch(share=False)
-
