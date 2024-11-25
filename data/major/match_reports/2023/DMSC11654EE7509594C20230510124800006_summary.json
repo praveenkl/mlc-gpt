@@ -1,0 +1,216 @@
+{
+    "MatchResult": {
+        "TeamAName": "TSK",
+        "TeamBName": "WSH",
+        "Venue": "GRAND PRAIRIE STADIUM, GRAND PRAIRIE, TX",
+        "City": "DALLAS",
+        "TossInfo": "WSH - OPTED TO BAT",
+        "WinTeamName": "WSH",
+        "MatchResult": "WSH - WON BY 6 RUNS",
+        "ManOfTheMatch": "MATTHEW SHORT",
+        "MOMBattingScore": "80/50",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "163/5(20.0 OV)",
+        "InningsTwoSummary": "157/7(20.0 OV)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "DWAYNE BRAVO *",
+            "PlayerTeamName": "TSK",
+            "Runs": 76,
+            "Balls": 39,
+            "RunText": "76 (39)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MITCHELL SANTNER",
+            "PlayerTeamName": "TSK",
+            "Runs": 22,
+            "Balls": 19,
+            "RunText": "22 (19)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "LAHIRU MILANTHA",
+            "PlayerTeamName": "TSK",
+            "Runs": 15,
+            "Balls": 20,
+            "RunText": "15 (20)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DAVID MILLER",
+            "PlayerTeamName": "TSK",
+            "Runs": 14,
+            "Balls": 11,
+            "RunText": "14 (11)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MATTHEW SHORT",
+            "PlayerTeamName": "WSH",
+            "Runs": 80,
+            "Balls": 50,
+            "RunText": "80 (50)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MOISES HENRIQUES",
+            "PlayerTeamName": "WSH",
+            "Runs": 21,
+            "Balls": 24,
+            "RunText": "21 (24)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MUKHTAR AHMED",
+            "PlayerTeamName": "WSH",
+            "Runs": 20,
+            "Balls": 20,
+            "RunText": "20 (20)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "OBUS PIENAAR *",
+            "PlayerTeamName": "WSH",
+            "Runs": 18,
+            "Balls": 11,
+            "RunText": "18 (11)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "AKEAL HOSEIN",
+            "PlayerTeamName": "WSH",
+            "Overs": "4.0",
+            "RunsGiven": 25,
+            "Wickets": 2,
+            "WicketText": "2/25 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MARCO JANSEN",
+            "PlayerTeamName": "WSH",
+            "Overs": "4.0",
+            "RunsGiven": 31,
+            "Wickets": 2,
+            "WicketText": "2/31 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MOISES HENRIQUES",
+            "PlayerTeamName": "WSH",
+            "Overs": "1.0",
+            "RunsGiven": 5,
+            "Wickets": 1,
+            "WicketText": "1/5 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "SAURABH NETRAVALKAR",
+            "PlayerTeamName": "WSH",
+            "Overs": "3.0",
+            "RunsGiven": 17,
+            "Wickets": 1,
+            "WicketText": "1/17 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "GERALD COETZEE",
+            "PlayerTeamName": "TSK",
+            "Overs": "4.0",
+            "RunsGiven": 26,
+            "Wickets": 2,
+            "WicketText": "2/26 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MOHAMMAD MOHSIN",
+            "PlayerTeamName": "TSK",
+            "Overs": "4.0",
+            "RunsGiven": 28,
+            "Wickets": 1,
+            "WicketText": "1/28 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "DWAYNE BRAVO",
+            "PlayerTeamName": "TSK",
+            "Overs": "4.0",
+            "RunsGiven": 28,
+            "Wickets": 1,
+            "WicketText": "1/28 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MITCHELL SANTNER",
+            "PlayerTeamName": "TSK",
+            "Overs": "4.0",
+            "RunsGiven": 32,
+            "Wickets": 1,
+            "WicketText": "1/32 (4.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 20,
+            "BallNumber": 5,
+            "OverValue": 19.5,
+            "TeamMilestone": "TSK: 151/8 IN 19.5 OVERS (119 BALLS), EXTRAS 5",
+            "CommentryText": "Anrich Nortje to Dwayne Bravo, FOUR 143 KPH  Straight Ball Length Ball Pitched on Stump line Lofted Straight by Creating Room Goes to Straight"
+        },
+        {
+            "OverNumber": 17,
+            "BallNumber": 2,
+            "OverValue": 16.2,
+            "TeamMilestone": "TSK: 104/6 IN 16.2 OVERS (98 BALLS), EXTRAS 4",
+            "CommentryText": "Akeal Hosein to Dwayne Bravo, SIX 85 KPH  Orthodox Delivery Fuller Length Pitched on Outside off stump Lofted by Stepping Down Goes to Long Off"
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 3,
+            "OverValue": 8.3,
+            "TeamMilestone": "TSK: 50/4 IN 8.3 OVERS (51 BALLS), EXTRAS 3",
+            "CommentryText": "Akeal Hosein to Mitchell Santner, 1 Run 90 KPH  Arm Ball Length Ball Pitched on Stump line  on the Back Foot Goes to Long Off"
+        },
+        {
+            "OverNumber": 18,
+            "BallNumber": 5,
+            "OverValue": 17.5,
+            "TeamMilestone": "WSH: 151/4 IN 17.5 OVERS (108 BALLS), EXTRAS 7",
+            "CommentryText": "Gerald Coetzee to Obus Pienaar, SIX 138 KPH  Cross Seam Fuller Length Pitched on Outside off stump Lofted on the  Front Foot Goes to Extra Cover"
+        },
+        {
+            "OverNumber": 13,
+            "BallNumber": 1,
+            "OverValue": 12.1,
+            "TeamMilestone": "WSH: 104/3 IN 12.1 OVERS (74 BALLS), EXTRAS 4",
+            "CommentryText": "Rusty Theron to Matthew Short, SIX 132 KPH  Straight Ball Short Length Pitched on Outside off stump Pulled on the Back Foot Goes to Deep Mid Wicket"
+        },
+        {
+            "OverNumber": 7,
+            "BallNumber": 1,
+            "OverValue": 6.1,
+            "TeamMilestone": "WSH: 53/1 IN 6.1 OVERS (37 BALLS), EXTRAS 1",
+            "CommentryText": "Calvin Savage to Matthew Short, SIX  Straight Ball Length Ball Pitched on Stump line Slog Shot on the  Front Foot Goes to Deep Mid Wicket"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 19,
+            "BallNumber": 4,
+            "OverValue": 18.4,
+            "PlayerMilestone": "DWAYNE BRAVO: 51 OFF 31 BALLS (3X 4) (4X 6)",
+            "CommentryText": "Marco Jansen to Dwayne Bravo, 2 Runs 123 KPH  Off Cutter   Lofted on the  Front Foot Goes to Covers"
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 5,
+            "OverValue": 9.5,
+            "PlayerMilestone": "MATTHEW SHORT: 50 OFF 30 BALLS (7X 4) (2X 6)",
+            "CommentryText": "Mohammad Mohsin to Matthew Short, 1 Run 91 KPH  Leg Spin Delivery Length Ball Pitched on Wider Lines Lofted on the Back Foot Goes to Covers"
+        }
+    ]
+}

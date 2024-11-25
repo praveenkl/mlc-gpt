@@ -1,0 +1,202 @@
+{
+    "MatchResult": {
+        "TeamAName": "Seattle Orcas",
+        "TeamBName": "Los Angeles Knight Riders",
+        "Venue": "Church Street Park",
+        "City": "",
+        "TossInfo": "Seattle Orcas - OPTED TO BAT",
+        "WinTeamName": "Los Angeles Knight Riders",
+        "MatchResult": "LOS ANGELES KNIGHT RIDERS - WON BY 4 WICKETS",
+        "ManOfTheMatch": "R RICKELTON",
+        "MOMBattingScore": "89/52",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "142/6(20.0 Ov)",
+        "InningsTwoSummary": "143/6(19.1 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "U CHAND",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 62,
+            "Balls": 47,
+            "RunText": "62 (47)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "JASON ROY",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 27,
+            "Balls": 24,
+            "RunText": "27 (24)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S BADAR",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 18,
+            "Balls": 16,
+            "RunText": "18 (16)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "N KUMAR",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 12,
+            "Balls": 9,
+            "RunText": "12 (9)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R RICKELTON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 89,
+            "Balls": 52,
+            "RunText": "89 (52)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "H KLAASEN",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 23,
+            "Balls": 23,
+            "RunText": "23 (23)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "A JONES",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 9,
+            "Balls": 14,
+            "RunText": "9 (14)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M BRACEWELL",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 5,
+            "Balls": 7,
+            "RunText": "5 (7)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "HARMEET S",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 27,
+            "Wickets": 2,
+            "WicketText": "2/27 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C GANNON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 35,
+            "Wickets": 2,
+            "WicketText": "2/35 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "L NGIDI",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "3.1",
+            "RunsGiven": 24,
+            "Wickets": 1,
+            "WicketText": "1/24 (3.1)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "K PAUL",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 25,
+            "Wickets": 1,
+            "WicketText": "1/25 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "CORNE DRY",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "2.0",
+            "RunsGiven": 8,
+            "Wickets": 1,
+            "WicketText": "1/8 (2.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "A RUSSELL",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "4.0",
+            "RunsGiven": 15,
+            "Wickets": 1,
+            "WicketText": "1/15 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S NARINE",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "4.0",
+            "RunsGiven": 21,
+            "Wickets": 1,
+            "WicketText": "1/21 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S JOHNSON",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "4.0",
+            "RunsGiven": 43,
+            "Wickets": 1,
+            "WicketText": "1/43 (4.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 14,
+            "BallNumber": 4,
+            "OverValue": 13.4,
+            "TeamMilestone": "Los Angeles Knight Riders: 105/3 IN 13.4 OVERS (82 BALLS), EXTRAS 1",
+            "CommentryText": "Cameron Gannon to Nitish Kumar, SIX 117 KPH  "
+        },
+        {
+            "OverNumber": 7,
+            "BallNumber": 5,
+            "OverValue": 6.5,
+            "TeamMilestone": "Los Angeles Knight Riders: 51/1 IN 6.5 OVERS (41 BALLS), EXTRAS 0",
+            "CommentryText": "Harmeet Singh to Unmukt Chand, 2 Runs  "
+        },
+        {
+            "OverNumber": 13,
+            "BallNumber": 6,
+            "OverValue": 12.6,
+            "TeamMilestone": "Seattle Orcas: 101/3 IN 13.0 OVERS (78 BALLS), EXTRAS 4",
+            "CommentryText": "Spencer Johnson to Ryan Rickelton, FOUR  "
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 2,
+            "OverValue": 8.2,
+            "TeamMilestone": "Seattle Orcas: 55/2 IN 8.2 OVERS (50 BALLS), EXTRAS 4",
+            "CommentryText": "Waqar Salamkheil to Ryan Rickelton, SIX 86 KPH  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 13,
+            "BallNumber": 6,
+            "OverValue": 12.6,
+            "PlayerMilestone": "U CHAND: 54 OFF 38 BALLS (3X 4) (3X 6)",
+            "CommentryText": "Ali Sheikh to Unmukt Chand, SIX 98 KPH  "
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 4,
+            "OverValue": 8.4,
+            "PlayerMilestone": "R RICKELTON: 51 OFF 28 BALLS (3X 4) (5X 6)",
+            "CommentryText": "Waqar Salamkheil to Ryan Rickelton, FOUR  "
+        }
+    ]
+}

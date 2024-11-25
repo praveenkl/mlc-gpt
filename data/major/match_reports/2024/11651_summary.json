@@ -1,0 +1,216 @@
+{
+    "MatchResult": {
+        "TeamAName": "San Francisco Unicorns",
+        "TeamBName": "Los Angeles Knight Riders",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "San Francisco Unicorns - OPTED TO FIELD",
+        "WinTeamName": "San Francisco Unicorns",
+        "MatchResult": "SAN FRANCISCO UNICORNS - WON BY 6 WICKETS",
+        "ManOfTheMatch": "F ALLEN",
+        "MOMBattingScore": "63/37",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "165/6(20.0 Ov)",
+        "InningsTwoSummary": "166/4(15.2 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "A RUSSELL",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 40,
+            "Balls": 25,
+            "RunText": "40 (25)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S HASAN",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 35,
+            "Balls": 26,
+            "RunText": "35 (26)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "JASON ROY",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 26,
+            "Balls": 18,
+            "RunText": "26 (18)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "D MILLER",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Runs": 24,
+            "Balls": 18,
+            "RunText": "24 (18)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "F ALLEN",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 63,
+            "Balls": 37,
+            "RunText": "63 (37)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "M SHORT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 58,
+            "Balls": 26,
+            "RunText": "58 (26)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J INGLIS",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 15,
+            "Balls": 11,
+            "RunText": "15 (11)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 11,
+            "Balls": 9,
+            "RunText": "11 (9)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "B COUCH",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 24,
+            "Wickets": 2,
+            "WicketText": "2/24 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "H RAUF",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 38,
+            "Wickets": 2,
+            "WicketText": "2/38 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "L PLUNKETT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 29,
+            "Wickets": 1,
+            "WicketText": "1/29 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ABRAR A",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 33,
+            "Wickets": 1,
+            "WicketText": "1/33 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S JOHNSON",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "4.0",
+            "RunsGiven": 36,
+            "Wickets": 3,
+            "WicketText": "3/36 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S NARINE",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "4.0",
+            "RunsGiven": 39,
+            "Wickets": 1,
+            "WicketText": "1/39 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A RUSSELL",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "1.0",
+            "RunsGiven": 17,
+            "Wickets": 0,
+            "WicketText": "0/17 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "CORNE DRY",
+            "PlayerTeamName": "Los Angeles Knight Riders",
+            "Overs": "2.0",
+            "RunsGiven": 19,
+            "Wickets": 0,
+            "WicketText": "0/19 (2.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 14,
+            "BallNumber": 4,
+            "OverValue": 13.4,
+            "TeamMilestone": "San Francisco Unicorns: 151/3 IN 13.4 OVERS (83 BALLS), EXTRAS 6",
+            "CommentryText": "Sunil Narine to Josh Inglis, NO BALL,1 Run  "
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 4,
+            "OverValue": 8.4,
+            "TeamMilestone": "San Francisco Unicorns: 103/1 IN 8.4 OVERS (52 BALLS), EXTRAS 1",
+            "CommentryText": "Ali Khan to Matthew Short, FOUR  "
+        },
+        {
+            "OverNumber": 6,
+            "BallNumber": 2,
+            "OverValue": 5.2,
+            "TeamMilestone": "San Francisco Unicorns: 55/1 IN 5.2 OVERS (32 BALLS), EXTRAS 0",
+            "CommentryText": "Shakib Al Hasan to Finn Allen, SIX 88.5 KPH  "
+        },
+        {
+            "OverNumber": 19,
+            "BallNumber": 5,
+            "OverValue": 18.5,
+            "TeamMilestone": "Los Angeles Knight Riders: 150/6 IN 18.5 OVERS (114 BALLS), EXTRAS 7",
+            "CommentryText": "B COUCH OUTSIDE OFF STUMP,YORKER, TO A RUSSELL, SLOG SHOT SHOT, LONG ON for 1 Run(s) "
+        },
+        {
+            "OverNumber": 14,
+            "BallNumber": 3,
+            "OverValue": 13.3,
+            "TeamMilestone": "Los Angeles Knight Riders: 102/5 IN 13.3 OVERS (82 BALLS), EXTRAS 4",
+            "CommentryText": "ABRAR A  TO D MILLER, !!! FOUR !!!"
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 3,
+            "OverValue": 7.3,
+            "TeamMilestone": "Los Angeles Knight Riders: 52/3 IN 7.3 OVERS (45 BALLS), EXTRAS 1",
+            "CommentryText": "M SHORT  TO S HASAN, !!! FOUR !!!"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 11,
+            "BallNumber": 4,
+            "OverValue": 10.4,
+            "PlayerMilestone": "M SHORT: 53 OFF 23 BALLS (2X 4) (5X 6)",
+            "CommentryText": "Ali Khan to Matthew Short, SIX  "
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 2,
+            "OverValue": 7.2,
+            "PlayerMilestone": "F ALLEN: 53 OFF 25 BALLS (4X 4) (5X 6)",
+            "CommentryText": "Sunil Narine to Finn Allen, FOUR  "
+        }
+    ]
+}

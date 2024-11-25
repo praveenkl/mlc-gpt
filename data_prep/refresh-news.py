@@ -120,7 +120,7 @@ def crawl_articles(new_article_urls):
     print(f'Total articles crawled: {len(articles)}')
 
     if len(new_article_urls) > 0:
-        with open('raw/article_list.txt', 'a') as f:
+        with open('mlc_raw/article_list.txt', 'a') as f:
             f.write('\n'.join(new_article_urls) + '\n')
         print('Article list updated')
     return articles
@@ -216,7 +216,7 @@ if __name__ == '__main__':
     new_article_urls = []
     existing_article_urls = []
     try:
-        with open('raw/article_list.txt') as f:
+        with open('mlc_raw/article_list.txt') as f:
             print('Aricle list found. Checking for new articles.')
             existing_article_urls = [line.rstrip() for line in f.readlines()]
             seen_urls = set(existing_article_urls)
@@ -229,9 +229,9 @@ if __name__ == '__main__':
         sys.exit(1)
     
     # Check to see if lsh_unique.pickle and minhashes_unique.pickle exist in the current directory and load them
-    if os.path.exists('raw/lsh_unique.pickle'):
+    if os.path.exists('mlc_raw/lsh_unique.pickle'):
         print('Loading MinHashLSH index from disk')
-        with open('raw/lsh_unique.pickle', 'rb') as f:
+        with open('mlc_raw/lsh_unique.pickle', 'rb') as f:
             lsh_unique = pickle.load(f)
     else:
         print('Creating new MinHashLSH index')
@@ -241,7 +241,7 @@ if __name__ == '__main__':
     try:
         articles = crawl_articles(new_article_urls)
         if len(new_article_urls) > 0:
-          with open('raw/article_list.txt', 'a') as f:
+          with open('mlc_raw/article_list.txt', 'a') as f:
                 f.write('\n'.join(new_article_urls) + '\n')
         print('Article list updated')
         index_articles(articles)
@@ -249,13 +249,13 @@ if __name__ == '__main__':
             timestamp = time.strftime('%Y%m%d%H%M%S')
             year = time.strftime('%Y')
             month = time.strftime('%m')
-            output_folder = f'raw/articles/{year}/{month}'
+            output_folder = f'mlc_raw/articles/{year}/{month}'
             os.makedirs(output_folder, exist_ok=True)
             article_output_filename = f'{output_folder}/articles_{timestamp}.json'
             with open(article_output_filename, 'w') as f:
                 json.dump(articles, f, ensure_ascii=False, indent=4)
         # Save the MinHashLSH index to disk
-        with open('raw/lsh_unique.pickle', 'wb') as f:
+        with open('mlc_raw/lsh_unique.pickle', 'wb') as f:
             print('Saving MinHashLSH index to disk')
             pickle.dump(lsh_unique, f)
     except Exception as e:

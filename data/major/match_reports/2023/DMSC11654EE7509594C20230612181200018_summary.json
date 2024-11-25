@@ -1,0 +1,187 @@
+{
+    "MatchResult": {
+        "TeamAName": "SEA",
+        "TeamBName": "TSK",
+        "Venue": "GRAND PRAIRIE STADIUM, GRAND PRAIRIE, TX",
+        "City": "DALLAS",
+        "TossInfo": "TSK - OPTED TO BAT",
+        "WinTeamName": "SEA",
+        "MatchResult": "SEA - WON BY 9 WICKETS",
+        "ManOfTheMatch": "QUINTON DE KOCK",
+        "MOMBattingScore": "88/50",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "126/9(20.0 OV)",
+        "InningsTwoSummary": "127/1(15.0 OV)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "QUINTON DE KOCK *",
+            "PlayerTeamName": "SEA",
+            "Runs": 88,
+            "Balls": 50,
+            "RunText": "88 (50)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "SHEHAN JAYASURIYA *",
+            "PlayerTeamName": "SEA",
+            "Runs": 31,
+            "Balls": 34,
+            "RunText": "31 (34)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "NAUMAN ANWAR",
+            "PlayerTeamName": "SEA",
+            "Runs": 2,
+            "Balls": 6,
+            "RunText": "2 (6)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DANIEL SAMS *",
+            "PlayerTeamName": "TSK",
+            "Runs": 26,
+            "Balls": 25,
+            "RunText": "26 (25)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "DEVON CONWAY",
+            "PlayerTeamName": "TSK",
+            "Runs": 24,
+            "Balls": 19,
+            "RunText": "24 (19)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "CODY CHETTY",
+            "PlayerTeamName": "TSK",
+            "Runs": 24,
+            "Balls": 21,
+            "RunText": "24 (21)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "DAVID MILLER",
+            "PlayerTeamName": "TSK",
+            "Runs": 16,
+            "Balls": 17,
+            "RunText": "16 (17)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "RUSTY THERON",
+            "PlayerTeamName": "TSK",
+            "Overs": "3.0",
+            "RunsGiven": 20,
+            "Wickets": 1,
+            "WicketText": "1/20 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MITCHELL SANTNER",
+            "PlayerTeamName": "TSK",
+            "Overs": "1.0",
+            "RunsGiven": 9,
+            "Wickets": 0,
+            "WicketText": "0/9 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MILIND KUMAR",
+            "PlayerTeamName": "TSK",
+            "Overs": "1.0",
+            "RunsGiven": 12,
+            "Wickets": 0,
+            "WicketText": "0/12 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "DANIEL SAMS",
+            "PlayerTeamName": "TSK",
+            "Overs": "2.0",
+            "RunsGiven": 16,
+            "Wickets": 0,
+            "WicketText": "0/16 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "ANDREW TYE",
+            "PlayerTeamName": "SEA",
+            "Overs": "4.0",
+            "RunsGiven": 32,
+            "Wickets": 3,
+            "WicketText": "3/32 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "IMAD WASIM",
+            "PlayerTeamName": "SEA",
+            "Overs": "4.0",
+            "RunsGiven": 23,
+            "Wickets": 2,
+            "WicketText": "2/23 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "HARMEET SINGH",
+            "PlayerTeamName": "SEA",
+            "Overs": "4.0",
+            "RunsGiven": 16,
+            "Wickets": 1,
+            "WicketText": "1/16 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "CAMERON GANNON",
+            "PlayerTeamName": "SEA",
+            "Overs": "2.0",
+            "RunsGiven": 19,
+            "Wickets": 1,
+            "WicketText": "1/19 (2.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 13,
+            "BallNumber": 4,
+            "OverValue": 12.4,
+            "TeamMilestone": "SEA: 102/1 IN 12.4 OVERS (76 BALLS), EXTRAS 4",
+            "CommentryText": "Calvin Savage to Shehan Jayasuriya, FOUR 132 KPH  Nipping Away Short Length Pitched on Stump line Defended on the Back FootUncomfortable Shot To Third Man - Deep"
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 2,
+            "OverValue": 7.2,
+            "TeamMilestone": "SEA: 51/1 IN 7.2 OVERS (44 BALLS), EXTRAS 2",
+            "CommentryText": "Mohammad Mohsin to Shehan Jayasuriya, FOUR 95 KPH  Googly Length Ball Pitched on Stump line Glided on the  Front Foot Goes to Third Man - Deep"
+        },
+        {
+            "OverNumber": 17,
+            "BallNumber": 6,
+            "OverValue": 16.6,
+            "TeamMilestone": "TSK: 100/6 IN 17.0 OVERS (102 BALLS), EXTRAS 4",
+            "CommentryText": "Harmeet Singh to Calvin Savage, 1 Run 83 KPH  Orthodox Delivery Length Ball Pitched on Wider Lines Swept on the  Front Foot Goes to Long On"
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 1,
+            "OverValue": 8.1,
+            "TeamMilestone": "TSK: 50/2 IN 8.1 OVERS (49 BALLS), EXTRAS 2",
+            "CommentryText": "Harmeet Singh to Cody Chetty, 1 Run 93 KPH  Arm Ball Length Ball Pitched on Outside off stump Played the Cut by Stepping Down Goes to Third Man"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 11,
+            "BallNumber": 1,
+            "OverValue": 10.1,
+            "PlayerMilestone": "QUINTON DE KOCK: 51 OFF 31 BALLS (4X 4) (3X 6)",
+            "CommentryText": "Gerald Coetzee to Quinton De Kock, SIX  Nipping Away Short Length Pitched on Down Outside the Leg stump Hooked on the Back Foot Goes to Deep Fine Leg"
+        }
+    ]
+}

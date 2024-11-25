@@ -1,0 +1,216 @@
+{
+    "MatchResult": {
+        "TeamAName": "LAKR",
+        "TeamBName": "SF",
+        "Venue": "GRAND PRAIRIE STADIUM, GRAND PRAIRIE, TX",
+        "City": "DALLAS",
+        "TossInfo": "SF - OPTED TO BAT",
+        "WinTeamName": "SF",
+        "MatchResult": "SF - WON BY 21 RUNS",
+        "ManOfTheMatch": "MATTHEW WADE",
+        "MOMBattingScore": "78/41",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "212/7(20.0 OV)",
+        "InningsTwoSummary": "191/5(20.0 OV)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "JASON ROY",
+            "PlayerTeamName": "LAKR",
+            "Runs": 45,
+            "Balls": 21,
+            "RunText": "45 (21)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "ANDRE RUSSELL *",
+            "PlayerTeamName": "LAKR",
+            "Runs": 42,
+            "Balls": 26,
+            "RunText": "42 (26)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "NITISH KUMAR",
+            "PlayerTeamName": "LAKR",
+            "Runs": 31,
+            "Balls": 23,
+            "RunText": "31 (23)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "SUNIL NARINE *",
+            "PlayerTeamName": "LAKR",
+            "Runs": 28,
+            "Balls": 17,
+            "RunText": "28 (17)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "MATTHEW WADE",
+            "PlayerTeamName": "SF",
+            "Runs": 78,
+            "Balls": 41,
+            "RunText": "78 (41)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "COREY ANDERSON",
+            "PlayerTeamName": "SF",
+            "Runs": 39,
+            "Balls": 20,
+            "RunText": "39 (20)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "MARCUS STOINIS",
+            "PlayerTeamName": "SF",
+            "Runs": 37,
+            "Balls": 18,
+            "RunText": "37 (18)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "FINN ALLEN",
+            "PlayerTeamName": "SF",
+            "Runs": 20,
+            "Balls": 19,
+            "RunText": "20 (19)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "SHADAB KHAN",
+            "PlayerTeamName": "SF",
+            "Overs": "4.0",
+            "RunsGiven": 26,
+            "Wickets": 2,
+            "WicketText": "2/26 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "CHAITANYA BISHNOI",
+            "PlayerTeamName": "SF",
+            "Overs": "1.0",
+            "RunsGiven": 4,
+            "Wickets": 1,
+            "WicketText": "1/4 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "COREY ANDERSON",
+            "PlayerTeamName": "SF",
+            "Overs": "1.0",
+            "RunsGiven": 18,
+            "Wickets": 1,
+            "WicketText": "1/18 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HARIS RAUF",
+            "PlayerTeamName": "SF",
+            "Overs": "4.0",
+            "RunsGiven": 40,
+            "Wickets": 1,
+            "WicketText": "1/40 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "ADAM ZAMPA",
+            "PlayerTeamName": "LAKR",
+            "Overs": "4.0",
+            "RunsGiven": 41,
+            "Wickets": 3,
+            "WicketText": "3/41 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ANDRE RUSSELL",
+            "PlayerTeamName": "LAKR",
+            "Overs": "3.2",
+            "RunsGiven": 32,
+            "Wickets": 1,
+            "WicketText": "1/32 (3.2)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "SUNIL NARINE",
+            "PlayerTeamName": "LAKR",
+            "Overs": "4.0",
+            "RunsGiven": 34,
+            "Wickets": 1,
+            "WicketText": "1/34 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ALI KHAN",
+            "PlayerTeamName": "LAKR",
+            "Overs": "3.4",
+            "RunsGiven": 61,
+            "Wickets": 1,
+            "WicketText": "1/61 (3.4)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 17,
+            "BallNumber": 6,
+            "OverValue": 16.6,
+            "TeamMilestone": "LAKR: 153/5 IN 17.0 OVERS (102 BALLS), EXTRAS 9",
+            "CommentryText": "Liam Plunkett to Andre Russell, FOUR 122 KPH  Slower Bouncer Short Length Pitched on Outside off stump Pulled on the Back Foot Goes to  Wicket Keeper"
+        },
+        {
+            "OverNumber": 11,
+            "BallNumber": 3,
+            "OverValue": 10.3,
+            "TeamMilestone": "LAKR: 101/2 IN 10.3 OVERS (63 BALLS), EXTRAS 3",
+            "CommentryText": "Corey Anderson to Nitish Kumar, FOUR  Off Cutter Fuller Length Pitched on Wider Lines  on the  Front Foot Goes to Third Man - Deep.Catch Dropped !! By MATTHEW WADE"
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 3,
+            "OverValue": 4.3,
+            "TeamMilestone": "LAKR: 51/0 IN 4.3 OVERS (27 BALLS), EXTRAS 2",
+            "CommentryText": "Haris Rauf to Jason Roy, SIX 129 KPH  Off Cutter Fuller Length Pitched on Outside off stump Lofted on the  Front Foot Goes to Long On"
+        },
+        {
+            "OverNumber": 19,
+            "BallNumber": 3,
+            "OverValue": 18.3,
+            "TeamMilestone": "SF: 200/4 IN 18.3 OVERS (112 BALLS), EXTRAS 16",
+            "CommentryText": "Adam Zampa to Corey Anderson, 1 Run 94 KPH  Leg Spin Delivery Short Length Pitched on Stump line Pulled on the Back FootUncomfortable Shot To Mid Wicket"
+        },
+        {
+            "OverNumber": 14,
+            "BallNumber": 5,
+            "OverValue": 13.5,
+            "TeamMilestone": "SF: 153/3 IN 13.5 OVERS (83 BALLS), EXTRAS 14",
+            "CommentryText": "Ali Khan to Shadab Khan, WIDE,5 Runs 139 KPH  Angling In Length Ball Pitched on Down Outside the Leg stump Played the Leg Glance on the  Front Foot Goes to  Wicket Keeper"
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 4,
+            "OverValue": 8.4,
+            "TeamMilestone": "SF: 101/1 IN 8.4 OVERS (53 BALLS), EXTRAS 2",
+            "CommentryText": "Adam Zampa to Marcus Stoinis, FOUR  Full Toss on Wider Lines Driven on the  Front Foot Goes to Extra Cover"
+        },
+        {
+            "OverNumber": 6,
+            "BallNumber": 1,
+            "OverValue": 5.1,
+            "TeamMilestone": "SF: 52/0 IN 5.1 OVERS (31 BALLS), EXTRAS 1",
+            "CommentryText": "Ali Khan to Matthew Wade, SIX 137 KPH  Straight Ball Length Ball Pitched on Outside off stump Slog Shot on the  Front Foot Goes to Mid Wicket"
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 6,
+            "BallNumber": 3,
+            "OverValue": 5.3,
+            "PlayerMilestone": "MATTHEW WADE: 50 OFF 21 BALLS (4X 4) (4X 6)",
+            "CommentryText": "Ali Khan to Matthew Wade, FOUR 136 KPH  Full Toss on Wider Lines Lofted on the  Front Foot Goes to Extra Cover"
+        }
+    ]
+}

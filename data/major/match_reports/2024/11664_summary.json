@@ -1,0 +1,230 @@
+{
+    "MatchResult": {
+        "TeamAName": "Texas Super Kings",
+        "TeamBName": "Washington Freedom",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "Texas Super Kings - OPTED TO FIELD",
+        "WinTeamName": "Washington Freedom",
+        "MatchResult": "WASHINGTON FREEDOM - WON BY 42 RUNS",
+        "ManOfTheMatch": "J SINGH",
+        "MOMBattingScore": "",
+        "MOMBowlingScore": "25/3",
+        "InningsOneSummary": "206/5(20.0 Ov)",
+        "InningsTwoSummary": "164/10(19.5 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "FAF DU PLESSIS",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 55,
+            "Balls": 32,
+            "RunText": "55 (32)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C SAVAGE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 35,
+            "Balls": 23,
+            "RunText": "35 (23)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A HARDIE",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 19,
+            "Balls": 13,
+            "RunText": "19 (13)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "D CONWAY",
+            "PlayerTeamName": "Texas Super Kings",
+            "Runs": 16,
+            "Balls": 10,
+            "RunText": "16 (10)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S SMITH",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 57,
+            "Balls": 40,
+            "RunText": "57 (40)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "T HEAD",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 53,
+            "Balls": 22,
+            "RunText": "53 (22)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "G MAXWELL",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 34,
+            "Balls": 23,
+            "RunText": "34 (23)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "J PIENAAR",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 33,
+            "Balls": 21,
+            "RunText": "33 (21)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "R RAVINDRA",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.5",
+            "RunsGiven": 16,
+            "Wickets": 4,
+            "WicketText": "4/16 (3.5)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J SINGH",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 25,
+            "Wickets": 3,
+            "WicketText": "3/25 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "G MAXWELL",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 42,
+            "Wickets": 3,
+            "WicketText": "3/42 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A APONSO",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "1.0",
+            "RunsGiven": 22,
+            "Wickets": 0,
+            "WicketText": "0/22 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "N AHMAD",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 38,
+            "Wickets": 3,
+            "WicketText": "3/38 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "D BRAVO",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 40,
+            "Wickets": 2,
+            "WicketText": "2/40 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M MOHSIN",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 31,
+            "Wickets": 0,
+            "WicketText": "0/31 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "ZIA-UL-HAQ",
+            "PlayerTeamName": "Texas Super Kings",
+            "Overs": "4.0",
+            "RunsGiven": 41,
+            "Wickets": 0,
+            "WicketText": "0/41 (4.0)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 17,
+            "BallNumber": 6,
+            "OverValue": 16.6,
+            "TeamMilestone": "Texas Super Kings: 150/7 IN 17.0 OVERS (102 BALLS), EXTRAS 8",
+            "CommentryText": "Lockie Ferguson to Calvin Savage, 1 Run 145 KPH  "
+        },
+        {
+            "OverNumber": 12,
+            "BallNumber": 2,
+            "OverValue": 11.2,
+            "TeamMilestone": "Texas Super Kings: 100/4 IN 11.2 OVERS (68 BALLS), EXTRAS 5",
+            "CommentryText": "Rachin Ravindra to Milind Kumar, 1 Run 90 KPH  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 3,
+            "OverValue": 4.3,
+            "TeamMilestone": "Texas Super Kings: 51/1 IN 4.3 OVERS (27 BALLS), EXTRAS 2",
+            "CommentryText": "Amila Aponso to Faf Du Plessis, SIX  "
+        },
+        {
+            "OverNumber": 20,
+            "BallNumber": 4,
+            "OverValue": 19.4,
+            "TeamMilestone": "Washington Freedom: 204/5 IN 19.4 OVERS (118 BALLS), EXTRAS 7",
+            "CommentryText": "Marcus Stoinis to Obus Pienaar, SIX 109 KPH  "
+        },
+        {
+            "OverNumber": 16,
+            "BallNumber": 2,
+            "OverValue": 15.2,
+            "TeamMilestone": "Washington Freedom: 150/4 IN 15.2 OVERS (92 BALLS), EXTRAS 3",
+            "CommentryText": "Mohammad Mohsin to Obus Pienaar, 1 Run 89 KPH  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 4,
+            "OverValue": 9.4,
+            "TeamMilestone": "Washington Freedom: 100/3 IN 9.4 OVERS (58 BALLS), EXTRAS 2",
+            "CommentryText": "Mohammad Mohsin to Steven Smith, 1 Run 88 KPH,  "
+        },
+        {
+            "OverNumber": 4,
+            "BallNumber": 4,
+            "OverValue": 3.4,
+            "TeamMilestone": "Washington Freedom: 50/0 IN 3.4 OVERS (22 BALLS), EXTRAS 2",
+            "CommentryText": "Marcus Stoinis to Travis Head, 2 Runs  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 7,
+            "BallNumber": 3,
+            "OverValue": 6.3,
+            "PlayerMilestone": "FAF DU PLESSIS: 51 OFF 19 BALLS (5X 4) (5X 6)",
+            "CommentryText": "Lockie Ferguson to Faf Du Plessis, FOUR  "
+        },
+        {
+            "OverNumber": 18,
+            "BallNumber": 6,
+            "OverValue": 17.6,
+            "PlayerMilestone": "S SMITH: 51 OFF 37 BALLS (2X 4) (2X 6)",
+            "CommentryText": "Marcus Stoinis to Steven Smith, FOUR  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 1,
+            "OverValue": 4.1,
+            "PlayerMilestone": "T HEAD: 53 OFF 20 BALLS (8X 4) (2X 6)",
+            "CommentryText": "Noor Ahmad to Travis Head, FOUR  "
+        }
+    ]
+}

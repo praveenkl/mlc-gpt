@@ -1,0 +1,209 @@
+{
+    "MatchResult": {
+        "TeamAName": "Washington Freedom",
+        "TeamBName": "San Francisco Unicorns",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "Washington Freedom - OPTED TO FIELD",
+        "WinTeamName": "Washington Freedom",
+        "MatchResult": "WASHINGTON FREEDOM - WON BY 7 WICKETS",
+        "ManOfTheMatch": "T HEAD",
+        "MOMBattingScore": "77/44",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "145/10(19.0 Ov)",
+        "InningsTwoSummary": "149/3(15.3 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 57,
+            "Balls": 36,
+            "RunText": "57 (36)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 26,
+            "Balls": 19,
+            "RunText": "26 (19)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S KRISHNAMURTHI",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 19,
+            "Balls": 19,
+            "RunText": "19 (19)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "J MCGURK",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 11,
+            "Balls": 11,
+            "RunText": "11 (11)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "T HEAD",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 77,
+            "Balls": 44,
+            "RunText": "77 (44)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "G MAXWELL",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 54,
+            "Balls": 23,
+            "RunText": "54 (23)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "A GOUS",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 9,
+            "Balls": 14,
+            "RunText": "9 (14)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "R RAVINDRA",
+            "PlayerTeamName": "Washington Freedom",
+            "Runs": 3,
+            "Balls": 9,
+            "RunText": "3 (9)",
+            "InningsNo": 2
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "R RAVINDRA",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "2.4",
+            "RunsGiven": 11,
+            "Wickets": 4,
+            "WicketText": "4/11 (2.4)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "M JANSEN",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 46,
+            "Wickets": 3,
+            "WicketText": "3/46 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S NETRAVALKAR",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "4.0",
+            "RunsGiven": 23,
+            "Wickets": 2,
+            "WicketText": "2/23 (4.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "L FERGUSON",
+            "PlayerTeamName": "Washington Freedom",
+            "Overs": "3.2",
+            "RunsGiven": 24,
+            "Wickets": 1,
+            "WicketText": "1/24 (3.2)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "4.0",
+            "RunsGiven": 32,
+            "Wickets": 2,
+            "WicketText": "2/32 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "P CUMMINS",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "3.0",
+            "RunsGiven": 19,
+            "Wickets": 1,
+            "WicketText": "1/19 (3.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "1.0",
+            "RunsGiven": 15,
+            "Wickets": 0,
+            "WicketText": "0/15 (1.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J DRYSDALE",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 18,
+            "Wickets": 0,
+            "WicketText": "0/18 (2.0)",
+            "InningsNo": 2
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 13,
+            "BallNumber": 4,
+            "OverValue": 12.4,
+            "TeamMilestone": "Washington Freedom: 101/3 IN 12.4 OVERS (76 BALLS), EXTRAS 4",
+            "CommentryText": "Pat Cummins to Glenn Maxwell, 2 Runs 119 KPH  "
+        },
+        {
+            "OverNumber": 6,
+            "BallNumber": 6,
+            "OverValue": 5.6,
+            "TeamMilestone": "Washington Freedom: 52/1 IN 6.0 OVERS (36 BALLS), EXTRAS 1",
+            "CommentryText": "Haris Rauf to Andries Gous, FOUR 143 KPH  "
+        },
+        {
+            "OverNumber": 14,
+            "BallNumber": 5,
+            "OverValue": 13.5,
+            "TeamMilestone": "San Francisco Unicorns: 101/5 IN 13.5 OVERS (85 BALLS), EXTRAS 6",
+            "CommentryText": "Glenn Maxwell to Hassan Khan, SIX 94 KPH  "
+        },
+        {
+            "OverNumber": 8,
+            "BallNumber": 2,
+            "OverValue": 7.2,
+            "TeamMilestone": "San Francisco Unicorns: 50/4 IN 7.2 OVERS (46 BALLS), EXTRAS 5",
+            "CommentryText": "Glenn Maxwell to Sherfane Rutherford, 1 Run 92 KPH  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 16,
+            "BallNumber": 2,
+            "OverValue": 15.2,
+            "PlayerMilestone": "G MAXWELL: 50 OFF 22 BALLS (3X 4) (5X 6)",
+            "CommentryText": "Haris Rauf to Glenn Maxwell, SIX  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 1,
+            "OverValue": 9.1,
+            "PlayerMilestone": "T HEAD: 50 OFF 28 BALLS (5X 4) (3X 6)",
+            "CommentryText": "Haris Rauf to Travis Head, 1 Run  "
+        },
+        {
+            "OverNumber": 19,
+            "BallNumber": 1,
+            "OverValue": 18.1,
+            "PlayerMilestone": "HASSAN K: 50 OFF 34 BALLS (0X 4) (5X 6)",
+            "CommentryText": "Saurabh Netravalkar to Hassan Khan, 1 Run  "
+        }
+    ]
+}

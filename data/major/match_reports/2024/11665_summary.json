@@ -1,0 +1,216 @@
+{
+    "MatchResult": {
+        "TeamAName": "San Francisco Unicorns",
+        "TeamBName": "Seattle Orcas",
+        "Venue": "Grand Prairie Stadium",
+        "City": "",
+        "TossInfo": "San Francisco Unicorns - OPTED TO FIELD",
+        "WinTeamName": "San Francisco Unicorns",
+        "MatchResult": "SAN FRANCISCO UNICORNS - WON BY 6 WICKETS",
+        "ManOfTheMatch": "F ALLEN",
+        "MOMBattingScore": "77/30",
+        "MOMBowlingScore": "",
+        "InningsOneSummary": "152/7(20.0 Ov)",
+        "InningsTwoSummary": "156/4(14.2 Ov)"
+    },
+    "BattingHighlights": [
+        {
+            "PlayerName": "F ALLEN",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 77,
+            "Balls": 30,
+            "RunText": "77 (30)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "J INGLIS",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 24,
+            "Balls": 17,
+            "RunText": "24 (17)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "M SHORT",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 19,
+            "Balls": 14,
+            "RunText": "19 (14)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "S RUTHERFORD",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Runs": 17,
+            "Balls": 8,
+            "RunText": "17 (8)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "Q DE KOCK",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 62,
+            "Balls": 33,
+            "RunText": "62 (33)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S JAYASURIYA",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 31,
+            "Balls": 33,
+            "RunText": "31 (33)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "S RANJANE",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 26,
+            "Balls": 25,
+            "RunText": "26 (25)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "I WASIM",
+            "PlayerTeamName": "Seattle Orcas",
+            "Runs": 17,
+            "Balls": 11,
+            "RunText": "17 (11)",
+            "InningsNo": 1
+        }
+    ],
+    "BowlingHighlights": [
+        {
+            "PlayerName": "HARMEET S",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "3.2",
+            "RunsGiven": 39,
+            "Wickets": 2,
+            "WicketText": "2/39 (3.2)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "I WASIM",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "4.0",
+            "RunsGiven": 20,
+            "Wickets": 1,
+            "WicketText": "1/20 (4.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "C GANNON",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "2.0",
+            "RunsGiven": 29,
+            "Wickets": 1,
+            "WicketText": "1/29 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "L NGIDI",
+            "PlayerTeamName": "Seattle Orcas",
+            "Overs": "2.0",
+            "RunsGiven": 32,
+            "Wickets": 0,
+            "WicketText": "0/32 (2.0)",
+            "InningsNo": 2
+        },
+        {
+            "PlayerName": "HASSAN K",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "2.0",
+            "RunsGiven": 5,
+            "Wickets": 3,
+            "WicketText": "3/5 (2.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "C ROUX",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "3.0",
+            "RunsGiven": 14,
+            "Wickets": 2,
+            "WicketText": "2/14 (3.0)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "C ANDERSON",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "1.4",
+            "RunsGiven": 11,
+            "Wickets": 1,
+            "WicketText": "1/11 (1.4)",
+            "InningsNo": 1
+        },
+        {
+            "PlayerName": "B COUCH",
+            "PlayerTeamName": "San Francisco Unicorns",
+            "Overs": "1.2",
+            "RunsGiven": 21,
+            "Wickets": 1,
+            "WicketText": "1/21 (1.2)",
+            "InningsNo": 1
+        }
+    ],
+    "TeamMilestones": [
+        {
+            "OverNumber": 15,
+            "BallNumber": 1,
+            "OverValue": 14.1,
+            "TeamMilestone": "San Francisco Unicorns: 150/4 IN 14.1 OVERS (85 BALLS), EXTRAS 5",
+            "CommentryText": "Harmeet Singh to Josh Inglis, 2 Runs  "
+        },
+        {
+            "OverNumber": 9,
+            "BallNumber": 4,
+            "OverValue": 8.4,
+            "TeamMilestone": "San Francisco Unicorns: 100/2 IN 8.4 OVERS (52 BALLS), EXTRAS 1",
+            "CommentryText": "Imad Wasim to Josh Inglis, 1 Run 96 KPH  "
+        },
+        {
+            "OverNumber": 5,
+            "BallNumber": 3,
+            "OverValue": 4.3,
+            "TeamMilestone": "San Francisco Unicorns: 51/0 IN 4.3 OVERS (27 BALLS), EXTRAS 1",
+            "CommentryText": "Lungi Ngidi to Finn Allen, 2 Runs 133 KPH  "
+        },
+        {
+            "OverNumber": 20,
+            "BallNumber": 6,
+            "OverValue": 19.6,
+            "TeamMilestone": "Seattle Orcas: 152/7 IN 20.0 OVERS (120 BALLS), EXTRAS 5",
+            "CommentryText": "Pat Cummins to Imad Wasim, FOUR 115 KPH,  "
+        },
+        {
+            "OverNumber": 12,
+            "BallNumber": 5,
+            "OverValue": 11.5,
+            "TeamMilestone": "Seattle Orcas: 100/4 IN 11.5 OVERS (71 BALLS), EXTRAS 5",
+            "CommentryText": "Corey Anderson to Shubham Ranjane, 1 Run 118 KPH,  "
+        },
+        {
+            "OverNumber": 7,
+            "BallNumber": 4,
+            "OverValue": 6.4,
+            "TeamMilestone": "Seattle Orcas: 50/2 IN 6.4 OVERS (40 BALLS), EXTRAS 5",
+            "CommentryText": "Haris Rauf to Quinton De Kock, 1 Run 123 KPH  "
+        }
+    ],
+    "PlayerMilestones": [
+        {
+            "OverNumber": 6,
+            "BallNumber": 4,
+            "OverValue": 5.4,
+            "PlayerMilestone": "F ALLEN: 54 OFF 21 BALLS (6X 4) (4X 6)",
+            "CommentryText": "Keemo Paul to Finn Allen, SIX  "
+        },
+        {
+            "OverNumber": 10,
+            "BallNumber": 4,
+            "OverValue": 9.4,
+            "PlayerMilestone": "Q DE KOCK: 50 OFF 28 BALLS (7X 4) (2X 6)",
+            "CommentryText": "Matthew Short to Quinton De Kock, 1 Run  "
+        }
+    ]
+}
