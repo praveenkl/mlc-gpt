@@ -262,11 +262,14 @@ if __name__ == '__main__':
         except IndexError as e:
             print(e)
             response = "The provided context does not contain enough information to answer the question."
+        except KeyError as e:
+            print(e)
+            response = "Sorry, an error occured while selecting the appropriate query engine. Please try again later."
         except Exception as e: # pylint: disable=broad-exception-caught
             print(e)
             response = "Sorry, an error ocurred while answering the query. Please try again later."
         print(f"Answer: {response}")
-        return response
+        return response, league
 
     def handle_click(l, b):
         if b == "Show Report":
@@ -284,10 +287,10 @@ if __name__ == '__main__':
             fn=handle_query,
             inputs=[
                 gr.Textbox(lines=2, placeholder="Enter query here...", show_label=False),
-                gr.Label(value=league, visible=False),
+                gr.State(value=league),
                 # gr.Radio(choices=["stats", "news", "dynamic"], value="dynamic", show_label=False, container=True),
             ],
-            outputs=gr.Textbox(show_label=False),
+            outputs=[gr.Textbox(show_label=False), gr.State()],
             examples=[
                 ["Who is the owner of the league and how much does it cost to run it?"],
                 ["What's different about this years edition of the league?"],
