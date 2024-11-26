@@ -1,6 +1,7 @@
 import os, sys
 import json
 import logging
+import re
 import gradio as gr
 
 __import__('pysqlite3')
@@ -16,6 +17,7 @@ from llama_index.core.vector_stores import VectorStoreInfo
 from llama_index.core.retrievers import VectorIndexAutoRetriever, VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine, RouterQueryEngine
 from llama_index.core.query_engine import SQLAutoVectorQueryEngine
+from llama_index.core.schema import QueryBundle
 from llama_index.llms.openai import OpenAI
 from sqlalchemy import create_engine, MetaData
 from llama_index.core.vector_stores.types import VectorStoreQueryMode
@@ -27,7 +29,7 @@ import openai
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 openai.api_key = os.environ["OPENAI_API_KEY"]
-Settings.llm = OpenAI(model="gpt-4-turbo")
+Settings.llm = OpenAI(model="gpt-4o")
 Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-large")
 
 def get_table_names(engine):
@@ -38,6 +40,24 @@ def get_table_names(engine):
     for table in metadata.tables.values():
         table_names.append(table.name)
     return table_names
+
+class CustomSQLParser():
+    """Custom SQL Parser."""
+
+    def parse_response_to_sql(self, response: str, query_bundle: QueryBundle) -> str:
+        """Parse response to SQL."""
+        sql_query_start = response.find("SQLQuery:")
+        if sql_query_start != -1:
+            response = response[sql_query_start:]
+            if response.startswith("SQLQuery:"):
+                response = response[len("SQLQuery:") :]
+        sql_result_start = response.find("SQLResult:")
+        if sql_result_start != -1:
+            response = response[:sql_result_start]
+        response = response.replace("```sql", "").replace("```", "").strip()
+        newline_split = re.split(r'\n+', response, maxsplit=1)
+        response = newline_split[0].strip()
+        return response
 
 def get_sql_query_engine(year, league="major"):
     engine = create_engine(f'sqlite:///data/{league}/stats/stats_{year}.db')
@@ -58,8 +78,10 @@ def get_sql_query_engine(year, league="major"):
     )
     # Disable handling of SQL errors to prevent asking the LLM to fix them
     sql_query_engine._sql_retriever._handle_sql_errors = False
-
     sql_query_engine._sql_retriever._verbose = True
+
+    # Add custom SQL parser to workaround a bug in LlamaIndex's default parser
+    sql_query_engine._sql_retriever._sql_parser = CustomSQLParser()
 
     # Add year context to the default text-to-SQL prompt
     prompts = sql_query_engine.get_prompts()
@@ -299,7 +321,7 @@ if __name__ == '__main__':
                 ["How many batsmen scored centuries and what are their names?"],
             ],
             cache_examples=False,
-            allow_flagging="never",
+            flagging_mode="never",
             theme=my_theme,
         )
 
@@ -314,7 +336,7 @@ if __name__ == '__main__':
                 report = ""
                 if len(result) > 0:
                     report = get_match_report(id, league)
-                with gr.Row(variant="compact"):
+                with gr.Row(variant="compact", equal_height=True):
                     l = gr.Label(value=teams, label=f"Match {match_num} | {date} | {city}", container=True, scale=16)
                     b = gr.Button(value="Show Report", scale=1, size="sm")
                 t = gr.Textbox(
@@ -331,7 +353,7 @@ if __name__ == '__main__':
             for id, details in match_info.items():
                 [match_num, teams, date, ground, result] = details
                 city = get_city(ground)
-                with gr.Row(variant="compact"):
+                with gr.Row(variant="compact", equal_height=True):
                     gr.Label(value=teams, label=f"Match {match_num} | {date} | {city}", container=True)
         return read_reports
 
