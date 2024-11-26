@@ -36,8 +36,8 @@ openai.api_key = os.environ["OPENAI_API_KEY"]
 Settings.llm = OpenAI(model="gpt-4o")
 Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-large")
 
-db = chromadb.PersistentClient(path="../data/news/chroma_db")
-index_storage_dir = "../data/news/storage"
+db = chromadb.PersistentClient(path="../data/major/news/chroma_db")
+index_storage_dir = "../data/major/news/storage"
 
 def get_shingles(text, k=5):
     tokens = word_tokenize(text.lower())
