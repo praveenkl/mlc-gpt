@@ -254,10 +254,6 @@ if __name__ == '__main__':
         with open('mlc_raw/lsh_unique.pickle', 'wb') as f:
             print('Saving MinHashLSH index to disk')
             pickle.dump(lsh_unique, f)
-        if len(new_article_urls) > 0:
-          with open('mlc_raw/article_list.txt', 'a') as f:
-                f.write('\n'.join(new_article_urls) + '\n')
-        print('Article list updated')
     except Exception as e:
         print(f'Error: {e}')
    
