@@ -87,7 +87,7 @@ def get_sql_query_engine(year, league="major"):
     prompts = sql_query_engine.get_prompts()
     current_text_to_sql_prompt = prompts["sql_retriever:text_to_sql_prompt"]
     current_text_to_sql_prompt_str = current_text_to_sql_prompt.get_template()
-    prompt_prefix = f'Current year is 2025.\n\n'
+    prompt_prefix = f'Current year is 2024.\n\n'
     new_text_to_sql_prompt_str = prompt_prefix + current_text_to_sql_prompt_str
     new_text_to_sql_prompt = PromptTemplate(new_text_to_sql_prompt_str)
     sql_query_engine.update_prompts({"sql_retriever:text_to_sql_prompt": new_text_to_sql_prompt})
