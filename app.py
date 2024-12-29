@@ -87,7 +87,7 @@ def get_sql_query_engine(year, league="major"):
     prompts = sql_query_engine.get_prompts()
     current_text_to_sql_prompt = prompts["sql_retriever:text_to_sql_prompt"]
     current_text_to_sql_prompt_str = current_text_to_sql_prompt.get_template()
-    prompt_prefix = f'Current year is 2024.\n\n'
+    prompt_prefix = f'Current year is 2025.\n\n'
     new_text_to_sql_prompt_str = prompt_prefix + current_text_to_sql_prompt_str
     new_text_to_sql_prompt = PromptTemplate(new_text_to_sql_prompt_str)
     sql_query_engine.update_prompts({"sql_retriever:text_to_sql_prompt": new_text_to_sql_prompt})
@@ -187,28 +187,34 @@ def get_query_engine(type, league):
     if type == "dynamic":
         tool_2023 = get_dynamic_query_engine_tool(2023, league)
         tool_2024 = get_dynamic_query_engine_tool(2024, league)
+        tool_2025 = get_dynamic_query_engine_tool(2024, league)
         query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
             query_engine_tools=[
                 tool_2023,
                 tool_2024,
+                tool_2025,
             ],
         )
     elif type == "stats":
         tool_2023 = get_sql_tool(2023, include_year_context=True, league=league)
         tool_2024 = get_sql_tool(2024, include_year_context=True, league=league)
+        tool_2025 = get_sql_tool(2024, include_year_context=True, league=league)
         query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
             query_engine_tools=[
                 tool_2023,
                 tool_2024,
+                tool_2025,
             ],
         )
     else:
         tool_2023 = get_vector_tool(2023, auto_retriever=False, include_year_context=True, league=league)
         tool_2024 = get_vector_tool(2024, auto_retriever=False, include_year_context=True, league=league)
+        tool_2025 = get_vector_tool(2024, auto_retriever=False, include_year_context=True, league=league)
         query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
             query_engine_tools=[
                 tool_2023,
                 tool_2024,
+                tool_2025,
             ],
         )
     return query_engine

@@ -176,6 +176,7 @@ def add_to_year_index(year, documents):
 def index_articles(articles):
     documents_2023 = []
     documents_2024 = []
+    documents_2025 = []
     num_empty_articles = 0
     for article in articles:
         id = article['uri']
@@ -203,13 +204,16 @@ def index_articles(articles):
                 documents_2023.append(d)
             elif year == 2024:
                 documents_2024.append(d)
+            elif year == 2025:
+                documents_2025.append(d)
         else:
             num_empty_articles += 1
     print(f"Number of empty or skipped articles: {num_empty_articles}")
 
     add_to_year_index(2023, documents_2023)
     add_to_year_index(2024, documents_2024)
-    print(f"Number of documents indexed: {len(documents_2023) + len(documents_2024)}")
+    add_to_year_index(2025, documents_2025)
+    print(f"Number of documents indexed: {len(documents_2023) + len(documents_2024)} + {len(documents_2025)}")
     return articles
 
 if __name__ == '__main__':
