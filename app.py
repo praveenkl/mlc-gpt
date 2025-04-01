@@ -120,7 +120,10 @@ def get_index(year, league="major"):
     if league == "major":
         coll_name = f"mlc_articles_{year}"
     else:
-        coll_name = f"milc_articles_{year}"
+        if year == 2025:
+            coll_name = f"milc_articles_2024"
+        else:
+           coll_name = f"milc_articles_{year}"
     try:
         chroma_collection = db.get_collection(coll_name)
     except ValueError:
@@ -187,7 +190,7 @@ def get_query_engine(type, league):
     if type == "dynamic":
         tool_2023 = get_dynamic_query_engine_tool(2023, league)
         tool_2024 = get_dynamic_query_engine_tool(2024, league)
-        tool_2025 = get_dynamic_query_engine_tool(2024, league)
+        tool_2025 = get_dynamic_query_engine_tool(2025, league)
         query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
             query_engine_tools=[
                 tool_2023,
@@ -198,7 +201,7 @@ def get_query_engine(type, league):
     elif type == "stats":
         tool_2023 = get_sql_tool(2023, include_year_context=True, league=league)
         tool_2024 = get_sql_tool(2024, include_year_context=True, league=league)
-        tool_2025 = get_sql_tool(2024, include_year_context=True, league=league)
+        tool_2025 = get_sql_tool(2025, include_year_context=True, league=league)
         query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
             query_engine_tools=[
                 tool_2023,
@@ -209,7 +212,7 @@ def get_query_engine(type, league):
     else:
         tool_2023 = get_vector_tool(2023, auto_retriever=False, include_year_context=True, league=league)
         tool_2024 = get_vector_tool(2024, auto_retriever=False, include_year_context=True, league=league)
-        tool_2025 = get_vector_tool(2024, auto_retriever=False, include_year_context=True, league=league)
+        tool_2025 = get_vector_tool(2025, auto_retriever=False, include_year_context=True, league=league)
         query_engine = RouterQueryEngine(selector=LLMSingleSelector.from_defaults(),
             query_engine_tools=[
                 tool_2023,
@@ -221,8 +224,8 @@ def get_query_engine(type, league):
 
 def get_year_context(year, league="major"):
     """Get the year context for the query engine tool."""
-    qe_description = f'Current year is 2024. Useful for answering questions about the {year} edition of the {league} League Cricket tournament.'
-    if year == 2024:
+    qe_description = f'Current year is 2025. Useful for answering questions about the {year} edition of the {league} League Cricket tournament.'
+    if year == 2025:
         qe_description += f' Also useful for answering questions about {league} League Cricket when the year cannot be determined from the question.'
     return qe_description
 
