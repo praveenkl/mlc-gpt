@@ -393,7 +393,7 @@ if __name__ == '__main__':
         [league_one_tabs, league_two_tabs],
         tab_names=["Major League", "Minor League"],
         theme=my_theme,
-        title="Cricket Guru"
+        title="MLC Guru"
     )
 
     # Launch the App
