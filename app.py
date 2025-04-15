@@ -324,7 +324,7 @@ if __name__ == '__main__':
             ],
             outputs=[gr.Textbox(show_label=False), gr.State()],
             examples=[
-                ["Who is the owner of the league and how much does it cost to run it?"],
+                ["What are the teams? Who owns them?"],
                 ["What's different about this years edition of the league?"],
                 ["How many total sixes were scored by the batsmen in the tournament and which team scored the most?"],
                 ["How many batsmen scored centuries and what are their names?"],
